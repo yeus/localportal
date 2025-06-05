@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professor's Resource Hub</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary: 210 70% 45%; /* #2563eb */
+            --primary-dark: 210 70% 35%; /* #1d4ed8 */
+            --background: 210 11% 98%; /* #f8fafc */
+            --surface: 0 0% 100%; /* #ffffff */
+            --text: 210 11% 15%; /* #1e293b */
+            --text-muted: 210 11% 45%; /* #64748b */
+            --border: 210 11% 85%; /* #e2e8f0 */
+            --success: 142 76% 36%; /* #16a34a */
+            --error: 0 84% 60%; /* #ef4444 */
+            --warning: 45 93% 47%; /* #eab308 */
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: hsl(var(--background));
+            color: hsl(var(--text));
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem 0;
+            border-bottom: 2px solid hsl(var(--border));
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: hsl(var(--primary));
+            margin-bottom: 0.5rem;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            color: hsl(var(--text-muted));
+        }
+
+        .section {
+            background: hsl(var(--surface));
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            border: 1px solid hsl(var(--border));
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: hsl(var(--primary));
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+
+        .link-card {
+            border: 1px solid hsl(var(--border));
+            border-radius: 8px;
+            padding: 1rem;
+            transition: all 0.2s ease;
+            background: hsl(var(--background));
+        }
+
+        .link-card:hover {
+            border-color: hsl(var(--primary));
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .link-card a {
+            color: hsl(var(--primary));
+            text-decoration: none;
+            font-weight: 500;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .link-card a:hover {
+            color: hsl(var(--primary-dark));
+            text-decoration: underline;
+        }
+
+        .link-description {
+            color: hsl(var(--text-muted));
+            font-size: 0.9rem;
+        }
+
+        .password-section {
+            margin-bottom: 2rem;
+        }
+
+        .password-input-group {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            align-items: center;
+        }
+
+        .password-input {
+            flex: 1;
+            padding: 0.75rem;
+            border: 1px solid hsl(var(--border));
+            border-radius: 6px;
+            font-size: 1rem;
+        }
+
+        .password-input:focus {
+            outline: none;
+            border-color: hsl(var(--primary));
+            box-shadow: 0 0 0 2px hsla(var(--primary), 0.1);
+        }
+
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .btn-primary {
+            background: hsl(var(--primary));
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: hsl(var(--primary-dark));
+        }
+
+        .btn-secondary {
+            background: hsl(var(--border));
+            color: hsl(var(--text));
+        }
+
+        .btn-secondary:hover {
+            background: hsl(var(--text-muted));
+            color: white;
+        }
+
+        .admin-tools {
+            background: hsl(var(--background));
+        }
+
+        .tool-section {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            border: 1px solid hsl(var(--border));
+            border-radius: 8px;
+            background: hsl(var(--surface));
+        }
+
+        .tool-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: hsl(var(--text));
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: hsl(var(--text));
+        }
+
+        .form-input, .form-textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid hsl(var(--border));
+            border-radius: 6px;
+            font-size: 1rem;
+            font-family: inherit;
+        }
+
+        .form-textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .form-input:focus, .form-textarea:focus {
+            outline: none;
+            border-color: hsl(var(--primary));
+            box-shadow: 0 0 0 2px hsla(var(--primary), 0.1);
+        }
+
+        .status-message {
+            padding: 1rem;
+            border-radius: 6px;
+            margin: 1rem 0;
+            font-weight: 500;
+        }
+
+        .status-success {
+            background: hsla(var(--success), 0.1);
+            color: hsl(var(--success));
+            border: 1px solid hsla(var(--success), 0.3);
+        }
+
+        .status-error {
+            background: hsla(var(--error), 0.1);
+            color: hsl(var(--error));
+            border: 1px solid hsla(var(--error), 0.3);
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .loading {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .section {
+                padding: 1.5rem;
+            }
+
+            .password-input-group {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .links-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .toggle-admin {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: hsl(var(--primary));
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            font-size: 1.5rem;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            transition: all 0.2s ease;
+        }
+
+        .toggle-admin:hover {
+            background: hsl(var(--primary-dark));
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1><i class="fas fa-graduation-cap"></i> Professor's Resource Hub</h1>
+            <p>Access course materials, assignments, and additional resources</p>
+        </header>
+
+        <!-- Public Links Section -->
+        <section class="section">
+            <h2 class="section-title">
+                <i class="fas fa-globe"></i>
+                Public Resources
+            </h2>
+            <div class="links-grid" id="publicLinks">
+                <div class="link-card">
+                    <a href="https://canvas.instructure.com" target="_blank">Canvas LMS</a>
+                    <p class="link-description">Access your course materials and assignments</p>
+                </div>
+                <div class="link-card">
+                    <a href="https://scholar.google.com" target="_blank">Google Scholar</a>
+                    <p class="link-description">Search for academic papers and citations</p>
+                </div>
+                <div class="link-card">
+                    <a href="https://www.jstor.org" target="_blank">JSTOR</a>
+                    <p class="link-description">Academic journals and research materials</p>
+                </div>
+                <div class="link-card">
+                    <a href="https://library.university.edu" target="_blank">University Library</a>
+                    <p class="link-description">Access digital library resources</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Password Protected Section -->
+        <section class="section">
+            <h2 class="section-title">
+                <i class="fas fa-lock"></i>
+                Restricted Resources
+            </h2>
+            
+            <div class="password-section">
+                <div class="password-input-group">
+                    <input type="password" id="passwordInput" class="password-input" 
+                           placeholder="Enter password to access restricted resources">
+                    <button onclick="decryptLinks()" class="btn btn-primary">
+                        <i class="fas fa-unlock"></i>
+                        Unlock
+                    </button>
+                    <button onclick="clearPassword()" class="btn btn-secondary">
+                        <i class="fas fa-times"></i>
+                        Clear
+                    </button>
+                </div>
+                <div id="passwordStatus" class="status-message hidden"></div>
+            </div>
+
+            <div class="links-grid" id="encryptedLinks">
+                <div class="link-card">
+                    <p class="link-description">
+                        <i class="fas fa-info-circle"></i>
+                        Enter the password above to access restricted resources
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Admin Tools Section (Hidden by default) -->
+        <section class="section admin-tools hidden" id="adminSection">
+            <h2 class="section-title">
+                <i class="fas fa-tools"></i>
+                Admin Tools
+            </h2>
+
+            <div class="tool-section">
+                <h3 class="tool-title">Link Encryption Tool</h3>
+                <div class="form-group">
+                    <label class="form-label">Link URL:</label>
+                    <input type="url" id="linkUrl" class="form-input" 
+                           placeholder="https://example.com">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Link Title:</label>
+                    <input type="text" id="linkTitle" class="form-input" 
+                           placeholder="Link Title">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Description:</label>
+                    <input type="text" id="linkDescription" class="form-input" 
+                           placeholder="Brief description of the link">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Encryption Password:</label>
+                    <input type="password" id="encryptPassword" class="form-input" 
+                           placeholder="Password for encryption">
+                </div>
+                <button onclick="encryptLink()" class="btn btn-primary">
+                    <i class="fas fa-lock"></i>
+                    Encrypt Link
+                </button>
+                <div id="encryptStatus" class="status-message hidden"></div>
+                <div class="form-group">
+                    <label class="form-label">Encrypted Output (Copy this to encrypted_links.txt):</label>
+                    <textarea id="encryptedOutput" class="form-textarea" readonly 
+                              placeholder="Encrypted link will appear here..."></textarea>
+                </div>
+            </div>
+
+            <div class="tool-section">
+                <h3 class="tool-title">Bulk Text Encryption</h3>
+                <div class="form-group">
+                    <label class="form-label">Text to Encrypt:</label>
+                    <textarea id="bulkText" class="form-textarea" 
+                              placeholder="Paste your text content here..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Encryption Password:</label>
+                    <input type="password" id="bulkPassword" class="form-input" 
+                           placeholder="Password for encryption">
+                </div>
+                <button onclick="encryptBulkText()" class="btn btn-primary">
+                    <i class="fas fa-shield-alt"></i>
+                    Encrypt Text
+                </button>
+                <div id="bulkStatus" class="status-message hidden"></div>
+                <div class="form-group">
+                    <label class="form-label">Encrypted Output:</label>
+                    <textarea id="bulkEncryptedOutput" class="form-textarea" readonly 
+                              placeholder="Encrypted text will appear here..."></textarea>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Admin Toggle Button -->
+    <button class="toggle-admin" onclick="toggleAdmin()" title="Toggle Admin Tools">
+        <i class="fas fa-cog"></i>
+    </button>
+
+    <script>
+        // Global variables
+        let encryptedData = null;
+        let currentPassword = '';
+
+        // Initialize the application
+        document.addEventListener('DOMContentLoaded', function() {
+            loadEncryptedFile();
+            
+            // Allow Enter key to decrypt
+            document.getElementById('passwordInput').addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    decryptLinks();
+                }
+            });
+        });
+
+        // Load encrypted links from file
+        async function loadEncryptedFile() {
+            try {
+                const response = await fetch('encrypted_links.txt');
+                if (response.ok) {
+                    encryptedData = await response.text();
+                    if (!encryptedData.trim()) {
+                        showStatus('passwordStatus', 'No encrypted data found. Use admin tools to create encrypted links.', 'error');
+                    }
+                } else {
+                    showStatus('passwordStatus', 'encrypted_links.txt file not found. Use admin tools to create it.', 'error');
+                }
+            } catch (error) {
+                console.error('Error loading encrypted file:', error);
+                showStatus('passwordStatus', 'Error loading encrypted file: ' + error.message, 'error');
+            }
+        }
+
+        // Decrypt and display links
+        function decryptLinks() {
+            const password = document.getElementById('passwordInput').value;
+            
+            if (!password) {
+                showStatus('passwordStatus', 'Please enter a password', 'error');
+                return;
+            }
+
+            if (!encryptedData || !encryptedData.trim()) {
+                showStatus('passwordStatus', 'No encrypted data available to decrypt', 'error');
+                return;
+            }
+
+            try {
+                // Show loading state
+                document.getElementById('encryptedLinks').classList.add('loading');
+                
+                // Attempt to decrypt
+                const decryptedBytes = CryptoJS.AES.decrypt(encryptedData.trim(), password);
+                const decryptedText = decryptedBytes.toString(CryptoJS.enc.Utf8);
+                
+                if (!decryptedText) {
+                    throw new Error('Invalid password or corrupted data');
+                }
+
+                // Parse the decrypted JSON
+                const links = JSON.parse(decryptedText);
+                
+                // Store current password for future use
+                currentPassword = password;
+                
+                // Display the links
+                displayEncryptedLinks(links);
+                showStatus('passwordStatus', 'Links successfully decrypted!', 'success');
+                
+            } catch (error) {
+                console.error('Decryption error:', error);
+                showStatus('passwordStatus', 'Failed to decrypt: Invalid password or corrupted data', 'error');
+                clearEncryptedLinks();
+            } finally {
+                // Remove loading state
+                document.getElementById('encryptedLinks').classList.remove('loading');
+            }
+        }
+
+        // Display decrypted links
+        function displayEncryptedLinks(links) {
+            const container = document.getElementById('encryptedLinks');
+            container.innerHTML = '';
+
+            if (!Array.isArray(links) || links.length === 0) {
+                container.innerHTML = `
+                    <div class="link-card">
+                        <p class="link-description">
+                            <i class="fas fa-info-circle"></i>
+                            No encrypted links found
+                        </p>
+                    </div>
+                `;
+                return;
+            }
+
+            links.forEach(link => {
+                const linkCard = document.createElement('div');
+                linkCard.className = 'link-card';
+                linkCard.innerHTML = `
+                    <a href="${escapeHtml(link.url)}" target="_blank">${escapeHtml(link.title)}</a>
+                    <p class="link-description">${escapeHtml(link.description || '')}</p>
+                `;
+                container.appendChild(linkCard);
+            });
+        }
+
+        // Clear encrypted links display
+        function clearEncryptedLinks() {
+            const container = document.getElementById('encryptedLinks');
+            container.innerHTML = `
+                <div class="link-card">
+                    <p class="link-description">
+                        <i class="fas fa-info-circle"></i>
+                        Enter the password above to access restricted resources
+                    </p>
+                </div>
+            `;
+        }
+
+        // Clear password and links
+        function clearPassword() {
+            document.getElementById('passwordInput').value = '';
+            currentPassword = '';
+            clearEncryptedLinks();
+            hideStatus('passwordStatus');
+        }
+
+        // Toggle admin section
+        function toggleAdmin() {
+            const adminSection = document.getElementById('adminSection');
+            adminSection.classList.toggle('hidden');
+        }
+
+        // Encrypt a single link
+        function encryptLink() {
+            const url = document.getElementById('linkUrl').value.trim();
+            const title = document.getElementById('linkTitle').value.trim();
+            const description = document.getElementById('linkDescription').value.trim();
+            const password = document.getElementById('encryptPassword').value;
+
+            if (!url || !title || !password) {
+                showStatus('encryptStatus', 'Please fill in URL, title, and password fields', 'error');
+                return;
+            }
+
+            try {
+                const linkData = {
+                    url: url,
+                    title: title,
+                    description: description
+                };
+
+                const encrypted = CryptoJS.AES.encrypt(JSON.stringify([linkData]), password).toString();
+                document.getElementById('encryptedOutput').value = encrypted;
+                
+                showStatus('encryptStatus', 'Link encrypted successfully! Copy the output to your encrypted_links.txt file.', 'success');
+                
+                // Clear input fields
+                document.getElementById('linkUrl').value = '';
+                document.getElementById('linkTitle').value = '';
+                document.getElementById('linkDescription').value = '';
+                document.getElementById('encryptPassword').value = '';
+                
+            } catch (error) {
+                console.error('Encryption error:', error);
+                showStatus('encryptStatus', 'Encryption failed: ' + error.message, 'error');
+            }
+        }
+
+        // Encrypt bulk text
+        function encryptBulkText() {
+            const text = document.getElementById('bulkText').value.trim();
+            const password = document.getElementById('bulkPassword').value;
+
+            if (!text || !password) {
+                showStatus('bulkStatus', 'Please provide both text and password', 'error');
+                return;
+            }
+
+            try {
+                const encrypted = CryptoJS.AES.encrypt(text, password).toString();
+                document.getElementById('bulkEncryptedOutput').value = encrypted;
+                
+                showStatus('bulkStatus', 'Text encrypted successfully!', 'success');
+                
+            } catch (error) {
+                console.error('Encryption error:', error);
+                showStatus('bulkStatus', 'Encryption failed: ' + error.message, 'error');
+            }
+        }
+
+        // Utility functions
+        function showStatus(elementId, message, type) {
+            const element = document.getElementById(elementId);
+            element.textContent = message;
+            element.className = `status-message status-${type}`;
+            element.classList.remove('hidden');
+
+            // Auto-hide success messages after 5 seconds
+            if (type === 'success') {
+                setTimeout(() => hideStatus(elementId), 5000);
+            }
+        }
+
+        function hideStatus(elementId) {
+            const element = document.getElementById(elementId);
+            element.classList.add('hidden');
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Add some keyboard shortcuts
+        document.addEventListener('keydown', function(e) {
+            // Ctrl/Cmd + Shift + A to toggle admin
+            if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key === 'A') {
+                e.preventDefault();
+                toggleAdmin();
+            }
+        });
+    </script>
+</body>
+</html>
