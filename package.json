@@ -1,10 +1,13 @@
 {
   "scripts": {
     "build": "node build.js",
-    "test": "yarn run build && yarn serve public"
+    "serve": "serve public",
+    "watch": "chokidar 'content/**/*' index.html style.css -c 'yarn build'",
+    "dev": "yarn build && concurrently -k -n watch,serve -c yellow,cyan \"yarn watch\" \"yarn serve\""
   },
-  "type": "module",
   "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "concurrently": "^8.2.0",
     "marked": "^15.0.12",
     "serve": "^14.2.4"
   }

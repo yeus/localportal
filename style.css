@@ -1,109 +1,366 @@
-/* Password‑prompt in middle of content area */
-.prompt {
-  display: none; /* shown via JS */
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 60vh;
-  gap: 1rem;
-  background: rgba(255, 255, 255, 0.9);
-  border-radius: 0.5rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  margin: auto;
-  max-width: 320px;
-  padding: 2rem;
+:root {
+  --primary: #667eea; /* $primary */
+  --secondary: #764ba2; /* $secondary */
+  --primary-light: #a3bffa;
+  --primary-dark: #4953a6;
+  --secondary-light: #a084ca;
+  --secondary-dark: #4b2e5a;
+  --sidebar-bg: linear-gradient(
+    135deg,
+    var(--primary) 0%,
+    var(--secondary) 100%
+  );
+  --sidebar-shadow: 2px 0 16px rgba(76, 70, 109, 0.1);
+  --sidebar-link: rgba(255, 255, 255, 0.92);
+  --sidebar-link-hover: #fff;
+  --sidebar-link-active-bg: rgba(255, 255, 255, 0.18);
+  --sidebar-link-active-border: #fff;
+  --content-bg: #f8f9fa;
+  --lecture-bg: #fff;
+  --lecture-shadow: 0 4px 16px rgba(76, 70, 109, 0.07);
+  --border-radius: 0.75rem;
+  --transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --font-main: "Inter", "Segoe UI", "Helvetica Neue", Arial, "Liberation Sans",
+    system-ui, sans-serif;
 }
 
-.prompt input {
-  width: 100%;
-  padding: 0.75rem;
-  border: 1px solid #ccc;
-  border-radius: 0.25rem;
-  font-size: 1rem;
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-main);
+  background: var(--content-bg);
+  color: #222;
+  box-sizing: border-box;
 }
 
-.prompt button {
-  padding: 0.75rem 1.5rem;
-  border: none;
-  border-radius: 0.25rem;
-  background: #667eea;
-  color: white;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background 0.2s ease;
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
-.prompt button:hover {
-  background: #5563c1;
-}
-
-/* Container layout */
 .container {
   display: flex;
   min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
-/* Sidebar styles */
+/* Sidebar */
 #sidebar {
   width: 300px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: var(--sidebar-bg);
+  color: #fff;
   position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
   height: 100vh;
   overflow-y: auto;
-  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
-  padding-top: 1rem;
+  box-shadow: var(--sidebar-shadow);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  z-index: 10;
+  border-top-right-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
 }
 
-/* Make all links block‐level and styled */
+#sidebar .sidebar-intro {
+  font-size: 1.1rem;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  padding: 1.2rem 1.5rem;
+  border-radius: var(--border-radius);
+  margin: 0 1rem 1rem 1rem;
+  box-shadow: 0 2px 8px rgba(76, 70, 109, 0.07);
+  letter-spacing: 0.01em;
+  text-align: center;
+  border-left: 4px solid var(--primary-light);
+  border-right: 4px solid var(--secondary-light);
+}
+
+#sidebar .sidebar-note {
+  font-size: 1rem;
+  color: var(--primary-light);
+  background: rgba(255, 255, 255, 0.08);
+  padding: 1rem 1.5rem;
+  border-radius: var(--border-radius);
+  margin: 0 1rem 1rem 1rem;
+  text-align: center;
+}
+
+#sidebar .sidebar-logout {
+  display: block;
+  width: calc(100% - 2rem);
+  margin: 0 1rem 1.5rem 1rem;
+  padding: 0.6rem;
+  background: none;
+  border: 1.5px solid var(--primary-light);
+  border-radius: 0.5rem;
+  color: var(--primary-light);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background var(--transition), color var(--transition),
+    border var(--transition);
+}
+#sidebar .sidebar-logout:hover {
+  background: var(--primary-light);
+  color: var(--secondary-dark);
+  border-color: var(--secondary-light);
+}
+
+/* Sidebar links */
 #sidebar a {
   display: block;
-  padding: 1rem 1.5rem;
-  color: rgba(255, 255, 255, 0.9);
+  padding: 1rem 2rem;
+  color: var(--sidebar-link);
   text-decoration: none;
   border-left: 4px solid transparent;
-  transition: all 0.3s ease;
+  border-radius: 0 2rem 2rem 0;
+  font-size: 1.05rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  transition: all var(--transition);
 }
 #sidebar a:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--sidebar-link-hover);
+  border-left-color: var(--primary-light);
 }
 #sidebar a.active {
-  background-color: rgba(255, 255, 255, 0.15);
-  border-left-color: #fff;
-  color: white;
-  font-weight: 500;
+  background: var(--sidebar-link-active-bg);
+  border-left-color: var(--sidebar-link-active-border);
+  color: #fff;
+  font-weight: 600;
 }
 
-/* Main content styles */
+/* Main content */
 #content {
   flex: 1;
-  margin-left: 300px; /* make room for fixed sidebar */
-  padding: 2rem;
-  background-color: #f8f9fa;
+  margin-left: 300px;
+  padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+  background: var(--content-bg);
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
 }
 
-/* Lecture content styling (unchanged) */
+/* Password prompt */
+#pw-prompt {
+  display: none;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  max-width: 340px;
+  margin: 0 auto;
+  padding: 2rem 2rem 1.5rem 2rem;
+  gap: 1.2rem;
+  background: #fff;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 24px rgba(76, 70, 109, 0.1);
+  position: relative;
+  top: 12vh;
+  min-height: unset;
+}
+
+#pw-prompt .intro {
+  text-align: center;
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--primary-dark);
+  background: linear-gradient(
+    90deg,
+    var(--primary-light) 0%,
+    var(--secondary-light) 100%
+  );
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.2rem;
+  box-shadow: 0 2px 8px rgba(76, 70, 109, 0.06);
+  letter-spacing: 0.01em;
+}
+
+#pw-prompt input[type="password"] {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border: 1.5px solid var(--primary-light);
+  border-radius: 0.4rem;
+  font-size: 1.08rem;
+  background: #f7f8fc;
+  color: var(--secondary-dark);
+  transition: border var(--transition), box-shadow var(--transition);
+  box-shadow: 0 1px 4px rgba(76, 70, 109, 0.04);
+}
+#pw-prompt input[type="password"]:focus {
+  border-color: var(--primary);
+  outline: none;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.1);
+}
+
+#pw-prompt button {
+  padding: 0.85rem 1.5rem;
+  border: none;
+  border-radius: 0.4rem;
+  background: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%);
+  color: #fff;
+  font-size: 1.08rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(76, 70, 109, 0.08);
+  transition: background var(--transition), box-shadow var(--transition);
+  margin-top: 0.2rem;
+  letter-spacing: 0.01em;
+}
+#pw-prompt button:hover {
+  background: linear-gradient(
+    90deg,
+    var(--primary-dark) 0%,
+    var(--secondary-dark) 100%
+  );
+  box-shadow: 0 4px 16px rgba(102, 126, 234, 0.1);
+}
+
+/* Lecture wrapper/content */
+#lecture-wrapper {
+  display: none;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+  min-height: 60vh;
+  box-sizing: border-box;
+}
+
 .lecture-content {
-  background: white;
-  padding: 2.5rem;
-  border-radius: 0.75rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  background: var(--lecture-bg);
+  padding: 2.5rem 2.5rem 2rem 2.5rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--lecture-shadow);
   line-height: 1.8;
+  font-size: 1.08rem;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  color: #222;
 }
 
-/* (…and all your existing .lecture-content h1, p, pre, table, etc. rules…) */
+.lecture-content h1,
+.lecture-content h2,
+.lecture-content h3 {
+  font-family: var(--font-main);
+  color: var(--primary-dark);
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+.lecture-content h1 {
+  font-size: 2.2rem;
+  border-bottom: 2px solid var(--primary-light);
+  padding-bottom: 0.4rem;
+}
+.lecture-content h2 {
+  font-size: 1.5rem;
+  border-bottom: 1px solid var(--primary-light);
+  padding-bottom: 0.2rem;
+}
+.lecture-content h3 {
+  font-size: 1.2rem;
+  color: var(--secondary-dark);
+}
 
-/* Responsive tweaks */
+.lecture-content p {
+  margin: 1.2em 0;
+}
+
+.lecture-content pre,
+.lecture-content code {
+  font-family: "Fira Mono", "Consolas", "Menlo", monospace;
+  background: #f7f8fc;
+  color: var(--secondary-dark);
+  border-radius: 0.3rem;
+  padding: 0.2em 0.5em;
+  font-size: 0.98em;
+}
+
+.lecture-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  background: #fafaff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(76, 70, 109, 0.04);
+}
+.lecture-content th,
+.lecture-content td {
+  padding: 0.7em 1em;
+  border-bottom: 1px solid var(--primary-light);
+}
+.lecture-content th {
+  background: var(--primary-light);
+  color: var(--secondary-dark);
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  #content {
+    padding: 1.2rem;
+  }
+  .lecture-content {
+    padding: 1.2rem 0.7rem;
+  }
+  #sidebar {
+    width: 220px;
+    padding-top: 1rem;
+  }
+  #content {
+    margin-left: 220px;
+  }
+}
+
 @media (max-width: 768px) {
   #sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 90vw;
+    max-width: 320px;
     transform: translateX(-100%);
-    transition: transform 0.3s ease;
+    transition: transform var(--transition);
     z-index: 1000;
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+    box-shadow: 2px 0 16px rgba(76, 70, 109, 0.13);
+  }
+  #sidebar.open {
+    transform: translateX(0);
   }
   #content {
     margin-left: 0;
     width: 100%;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #pw-prompt {
+    max-width: 98vw;
+    padding: 1.2rem 0.5rem;
+    top: 4vh;
+  }
+  .lecture-content {
+    padding: 0.7rem 0.2rem;
   }
 }
 
@@ -114,9 +371,11 @@
   }
   #content {
     margin-left: 0;
+    padding: 0;
   }
   .lecture-content {
     padding: 0;
     box-shadow: none;
+    background: #fff;
   }
 }
