@@ -1,40 +1,53 @@
 // build.js
-import fs from 'fs/promises';
+import { promises as fs } from 'fs';
 import { marked } from 'marked';
-import { execSync } from 'child_process';
-import globby from 'globby';
+import { webcrypto } from 'crypto';     // Node.js v18+ WebCrypto
+const { subtle, getRandomValues } = webcrypto;
 
-const SRC = 'lectures';
-const OUT = 'dist/lectures';
+const CONTENT_DIR = './content';
+const OUT_DIR     = './public/lectures';
+const MANIFEST    = [];
 
-async function renderMarkdown() {
-  await fs.mkdir(OUT, { recursive: true });
-  const files = await globby(`${SRC}/*.md`);
-  await Promise.all(files.map(async mdPath => {
-    const name = mdPath.split('/').pop().replace(/\.md$/, '');
-    const md = await fs.readFile(mdPath, 'utf8');
-    const html = marked(md);
-    await fs.writeFile(`${OUT}/${name}.html`, html);
-  }));
-}
-
-async function copyAssets() {
-  await fs.cp('index.html', 'dist/index.html');
-  await fs.cp('style.css', 'dist/style.css');
-}
-
-async function encryptSite() {
-  // expects PAGECRYPT_PW in env
-  execSync(
-    `pagecrypt encrypt --input dist --output encrypted --password "${process.env.PAGECRYPT_PW}"`,
-    { stdio: 'inherit' }
+async function deriveKey(password, salt) {
+  const pwUtf8 = new TextEncoder().encode(password);
+  const keyMaterial = await subtle.importKey(
+    'raw', pwUtf8, 'PBKDF2', false, ['deriveKey']
   );
+  return subtle.deriveKey({
+    name: 'PBKDF2',
+    salt,
+    iterations: 250_000,
+    hash: 'SHA-256'
+  }, keyMaterial, { name: 'AES-GCM', length: 256 }, false, ['encrypt']);
 }
 
-async function main() {
-  await renderMarkdown();
-  await copyAssets();
-  await encryptSite();
+async function encryptHtml(html, password) {
+  const iv = getRandomValues(new Uint8Array(12));
+  const salt = getRandomValues(new Uint8Array(16));
+  const key = await deriveKey(password, salt);
+  const pt = new TextEncoder().encode(html);
+  const ct = await subtle.encrypt({ name:'AES-GCM', iv }, key, pt);
+  // package salt+iv+ciphertext in a single Uint8Array
+  return Buffer.concat([Buffer.from(salt), Buffer.from(iv), Buffer.from(ct)]);
 }
 
-main().catch(err => { console.error(err); process.exit(1); });
+async function build() {
+  await fs.rm(OUT_DIR, { recursive:true, force:true });
+  await fs.mkdir(OUT_DIR, { recursive:true });
+  const files = await fs.readdir(CONTENT_DIR);
+
+  const password = process.env.LECTURE_PW;
+  if (!password) throw new Error('Set LECTURE_PW env var');
+
+  for (let fname of files.filter(f => f.endsWith('.md'))) {
+    const id = fname.replace(/\.md$/, '');
+    const md  = await fs.readFile(`${CONTENT_DIR}/${fname}`, 'utf8');
+    const html = marked(md);
+    const blob = await encryptHtml(html, password);
+    await fs.writeFile(`${OUT_DIR}/${id}.enc`, blob);
+    MANIFEST.push({ id, title: id.replace(/-/g,' '), file: `lectures/${id}.enc` });
+  }
+  await fs.writeFile('./public/manifest.json', JSON.stringify(MANIFEST, null,2));
+}
+
+build().catch(err => { console.error(err); process.exit(1); });
