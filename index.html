@@ -4,12 +4,17 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <input type="password" id="pw" placeholder="Enter password" />
-    <button id="unlock">Unlock</button>
-
     <div class="container">
       <nav id="sidebar"></nav>
-      <main id="content">Please unlock lectures.</main>
+      <main id="content">
+        <div id="pw‐prompt" class="prompt">
+          <input type="password" id="pw" placeholder="Enter password" />
+          <button id="unlock">Unlock</button>
+        </div>
+        <div id="lecture‐wrapper" style="display: none">
+          Please unlock lectures.
+        </div>
+      </main>
     </div>
 
     <script>
@@ -57,37 +62,48 @@
       };
 
       window.addEventListener("DOMContentLoaded", async () => {
-        const pw = localStorage.getItem("lecturePW");
-        if (!pw) return;
+        const promptEl = document.getElementById("pw‐prompt");
+        const wrapper = document.getElementById("lecture‐wrapper");
+        const pwInput = document.getElementById("pw");
 
-        const manifest = await fetch("manifest.json").then((r) => r.json());
-        const sidebar = document.getElementById("sidebar");
-        sidebar.innerHTML = manifest
-          .map(
-            (m) => `
-      <a href="#" data-id="${m.id}">${m.title}</a>
-    `
-          )
-          .join("");
+        async function tryLoad() {
+          const pw = localStorage.getItem("lecturePW");
+          if (!pw) {
+            showPrompt();
+            return;
+          }
+          try {
+            // test decrypt first lecture manifestId[0] or simple fetch
+            const manifest = await fetch("manifest.json").then((r) => r.json());
+            const blob = await fetch(`lectures/${manifest[0].id}.enc`).then(
+              (r) => r.blob()
+            );
+            await decryptBlob(blob, pw); // throws if wrong
+            onUnlock(pw);
+          } catch (err) {
+            localStorage.removeItem("lecturePW");
+            showPrompt();
+          }
+        }
 
-        sidebar.querySelectorAll("a").forEach((a) => {
-          a.onclick = async (e) => {
-            e.preventDefault();
-            const id = e.currentTarget.dataset.id;
-            try {
-              const blob = await fetch(`lectures/${id}.enc`).then((r) =>
-                r.blob()
-              );
-              const html = await decryptBlob(blob, pw);
-              document.getElementById("content").innerHTML = html;
-            } catch (err) {
-              alert("Decryption failed: " + err.message);
-            }
-          };
-        });
+        function showPrompt() {
+          promptEl.style.display = "flex";
+          wrapper.style.display = "none";
+        }
 
-        // auto‐load first lecture
-        sidebar.querySelector("a").click();
+        function onUnlock(pw) {
+          promptEl.style.display = "none";
+          wrapper.style.display = "";
+          loadSidebarAndLectures(pw);
+        }
+
+        document.getElementById("unlock").onclick = async () => {
+          const pw = pwInput.value;
+          localStorage.setItem("lecturePW", pw);
+          await tryLoad();
+        };
+
+        await tryLoad();
       });
     </script>
   </body>
