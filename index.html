@@ -141,14 +141,8 @@
                 contentElement.style.display = 'none';
 
                 try {
-                    const response = await fetch(`lectures/${lectureId}.md`);
-                    
-                    if (!response.ok) {
-                        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-                    }
-
-                    const markdownContent = await response.text();
-                    const htmlContent = marked.parse(markdownContent);
+                    const response = await fetch(`lectures/${lectureId}.html`);
+                    const htmlContent = await response.text();
 
                     // Update content
                     contentElement.innerHTML = htmlContent;

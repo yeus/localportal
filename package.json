@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "marked": "^5.0.0",
+    "globby": "^13.0.0",
+    "pagecrypt": "latest"
+  },
+  "scripts": {
+    "build": "node build.js"
+  }
+}

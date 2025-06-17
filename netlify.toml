@@ -1,3 +1,6 @@
 [build]
-  command   = "bash build.sh"
-  publish   = "public"
+  command = "npm ci && npm run build"
+  publish = "encrypted"
+
+[context.production.environment]
+  PAGECRYPT_PW = "$PAGECRYPT_PW"   # set this in Netlify UI → Site Settings → Build & deploy → Environment
