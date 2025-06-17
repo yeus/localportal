@@ -22,6 +22,7 @@
           <div class="intro">
             <p>🔒 Welcome! Please enter the password to unlock the lectures.</p>
           </div>
+          <div id="pw-error" class="pw-error" style="display: none"></div>
           <input type="password" id="pw" placeholder="Enter password" />
           <button id="unlock">Unlock</button>
         </div>
@@ -94,6 +95,26 @@
         const unlockBtn = document.getElementById("unlock");
         const sidebar = document.getElementById("sidebar");
 
+        function showPwError(msg) {
+          const errEl = document.getElementById("pw-error");
+          errEl.textContent = msg;
+          errEl.style.display = "block";
+          errEl.classList.remove("hide");
+          // Hide after 3 seconds
+          setTimeout(() => {
+            errEl.classList.add("hide");
+            setTimeout(() => {
+              errEl.style.display = "none";
+            }, 500);
+          }, 3000);
+        }
+
+        pwInput.addEventListener("input", () => {
+          const errEl = document.getElementById("pw-error");
+          errEl.style.display = "none";
+          errEl.classList.remove("hide");
+        });
+
         async function tryLoad() {
           console.log("[tryLoad] checking stored pw...");
           const pw = localStorage.getItem("lecturePW");
@@ -118,6 +139,7 @@
             console.error("[tryLoad] error:", err);
             localStorage.removeItem("lecturePW");
             showPrompt();
+            showPwError("❌ Incorrect password. Please try again.");
           }
         }
 
@@ -145,6 +167,12 @@
           localStorage.setItem("lecturePW", pwInput.value);
           await tryLoad();
         };
+
+        pwInput.addEventListener("keydown", async (e) => {
+          if (e.key === "Enter") {
+            unlockBtn.click();
+          }
+        });
 
         async function loadSidebarAndLectures(pw) {
           console.log("[loadSidebarAndLectures] start");

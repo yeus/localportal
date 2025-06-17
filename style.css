@@ -193,6 +193,22 @@ body {
   box-shadow: 0 1px 4px rgba(76, 70, 109, 0.04);
 }
 
+.pw-error {
+  color: #fff;
+  background: #e74c3c;
+  border-radius: 6px;
+  padding: 0.5em 1em;
+  margin: 1em 0 0 0;
+  font-size: 1em;
+  box-shadow: 0 2px 8px rgba(231,76,60,0.15);
+  transition: opacity 0.3s;
+  opacity: 1;
+}
+.pw-error.hide {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
 #pw-prompt input[type="password"],
 #pw-prompt button {
   width: 100%;
