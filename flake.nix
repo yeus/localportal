@@ -26,6 +26,7 @@
         packages = with pkgs; [
             hugo
             publii
+            python3
         ];
       in {
         devShells.default = pkgs.mkShell rec {
