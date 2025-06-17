@@ -6,11 +6,13 @@ import { webcrypto } from 'crypto';
 
 const { subtle } = webcrypto;
 
-const CONTENT_DIR = './content';
-const PUBLIC_DIR  = './public';
+const CONTENT_DIR  = './content';
+const PUBLIC_DIR   = './public';
 const LECTURES_DIR = `${PUBLIC_DIR}/lectures`;
-const INDEX_SRC   = './index.html';
-const INDEX_DEST  = `${PUBLIC_DIR}/index.html`;
+const INDEX_SRC    = './index.html';
+const INDEX_DEST   = `${PUBLIC_DIR}/index.html`;
+const STYLE_SRC    = './style.css';
+const STYLE_DEST   = `${PUBLIC_DIR}/style.css`;
 
 async function deriveKey(password, salt) {
   const pwUtf8 = new TextEncoder().encode(password);
@@ -50,8 +52,9 @@ async function build() {
   await fs.rm(PUBLIC_DIR, { recursive: true, force: true });
   await fs.mkdir(LECTURES_DIR, { recursive: true });
 
-  // Copy index.html into public
+  // Copy index.html and style.css into public
   await fs.copyFile(INDEX_SRC, INDEX_DEST);
+  await fs.copyFile(STYLE_SRC, STYLE_DEST);
 
   // Read content files
   const files = await fs.readdir(CONTENT_DIR);
@@ -78,7 +81,7 @@ async function build() {
 
   // Write manifest.json to public/
   await fs.writeFile(`${PUBLIC_DIR}/manifest.json`, JSON.stringify(manifest, null, 2));
-  console.log('Build complete: index.html copied, lectures encrypted, manifest.json created.');
+  console.log('Build complete: index.html & style.css copied, lectures encrypted, manifest.json created.');
 }
 
 build().catch(err => {
