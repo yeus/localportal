@@ -1,66 +1,94 @@
-<!DOCTYPE html><html>
+<!DOCTYPE html>
+<html>
   <head>
-  <link rel="stylesheet" href="style.css" />
-</head><body>
-  <input type="password" id="pw" placeholder="Enter password" />
-  <button id="unlock">Unlock</button>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <input type="password" id="pw" placeholder="Enter password" />
+    <button id="unlock">Unlock</button>
 
-  <div class="container">
-    <nav id="sidebar"></nav>
-    <main id="content">Please unlock lectures.</main>
-  </div>
+    <div class="container">
+      <nav id="sidebar"></nav>
+      <main id="content">Please unlock lectures.</main>
+    </div>
 
-  <script>
-  async function deriveKey(pw, salt) {
-    const mat = await crypto.subtle.importKey(
-      'raw', new TextEncoder().encode(pw), 'PBKDF2', false, ['deriveKey']
-    );
-    return crypto.subtle.deriveKey({
-      name:'PBKDF2', salt, iterations:250000, hash:'SHA-256'
-    }, mat, { name:'AES-GCM', length:256 }, false, ['decrypt']);
-  }
+    <script>
+      async function deriveKey(pw, salt) {
+        const mat = await crypto.subtle.importKey(
+          "raw",
+          new TextEncoder().encode(pw),
+          "PBKDF2",
+          false,
+          ["deriveKey"]
+        );
+        return crypto.subtle.deriveKey(
+          {
+            name: "PBKDF2",
+            salt,
+            iterations: 250000,
+            hash: "SHA-256",
+          },
+          mat,
+          { name: "AES-GCM", length: 256 },
+          false,
+          ["decrypt"]
+        );
+      }
 
-  async function decryptBlob(blob, pw) {
-    const buf = await blob.arrayBuffer();
-    const arr = new Uint8Array(buf);
-    const salt = arr.slice(0,16), iv = arr.slice(16,28), ct = arr.slice(28);
-    const key = await deriveKey(pw, salt);
-    const pt = await crypto.subtle.decrypt({ name:'AES-GCM', iv }, key, ct);
-    return new TextDecoder().decode(pt);
-  }
+      async function decryptBlob(blob, pw) {
+        const buf = await blob.arrayBuffer();
+        const arr = new Uint8Array(buf);
+        const salt = arr.slice(0, 16),
+          iv = arr.slice(16, 28),
+          ct = arr.slice(28);
+        const key = await deriveKey(pw, salt);
+        const pt = await crypto.subtle.decrypt(
+          { name: "AES-GCM", iv },
+          key,
+          ct
+        );
+        return new TextDecoder().decode(pt);
+      }
 
-  document.getElementById('unlock').onclick = async () => {
-    const pw = document.getElementById('pw').value;
-    localStorage.setItem('lecturePW', pw);
-    window.location.reload();
-  };
-
-  window.addEventListener('DOMContentLoaded', async () => {
-    const pw = localStorage.getItem('lecturePW');
-    if (!pw) return;
-
-    const manifest = await fetch('manifest.json').then(r=>r.json());
-    const sidebar = document.getElementById('sidebar');
-    sidebar.innerHTML = manifest.map(m=>`
-      <a href="#" data-id="${m.id}">${m.title}</a>
-    `).join('');
-
-    sidebar.querySelectorAll('a').forEach(a => {
-      a.onclick = async e => {
-        e.preventDefault();
-        const id = e.currentTarget.dataset.id;
-        try {
-          const blob = await fetch(`lectures/${id}.enc`).then(r=>r.blob());
-          const html = await decryptBlob(blob, pw);
-          document.getElementById('content').innerHTML = html;
-        } catch (err) {
-          alert('Decryption failed: '+err.message);
-        }
+      document.getElementById("unlock").onclick = async () => {
+        const pw = document.getElementById("pw").value;
+        localStorage.setItem("lecturePW", pw);
+        window.location.reload();
       };
-    });
 
-    // auto‐load first lecture
-    sidebar.querySelector('a').click();
-  });
-  </script>
-</body></html>
+      window.addEventListener("DOMContentLoaded", async () => {
+        const pw = localStorage.getItem("lecturePW");
+        if (!pw) return;
+
+        const manifest = await fetch("manifest.json").then((r) => r.json());
+        const sidebar = document.getElementById("sidebar");
+        sidebar.innerHTML = manifest
+          .map(
+            (m) => `
+      <a href="#" data-id="${m.id}">${m.title}</a>
+    `
+          )
+          .join("");
+
+        sidebar.querySelectorAll("a").forEach((a) => {
+          a.onclick = async (e) => {
+            e.preventDefault();
+            const id = e.currentTarget.dataset.id;
+            try {
+              const blob = await fetch(`lectures/${id}.enc`).then((r) =>
+                r.blob()
+              );
+              const html = await decryptBlob(blob, pw);
+              document.getElementById("content").innerHTML = html;
+            } catch (err) {
+              alert("Decryption failed: " + err.message);
+            }
+          };
+        });
+
+        // auto‐load first lecture
+        sidebar.querySelector("a").click();
+      });
+    </script>
+  </body>
+</html>
