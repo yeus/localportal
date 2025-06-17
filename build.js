@@ -45,8 +45,18 @@ async function build() {
     const html = marked(md);
     const blob = await encryptHtml(html, password);
     await fs.writeFile(`${OUT_DIR}/${id}.enc`, blob);
-    MANIFEST.push({ id, title: id.replace(/-/g,' '), file: `lectures/${id}.enc` });
+
+    // ← NEW: extract title from first “# Heading” in the MD
+    const titleMatch = md.match(/^#\s+(.+)$/m);
+    const title = titleMatch ? titleMatch[1].trim() : id.replace(/-/g, ' ');
+
+    MANIFEST.push({
+      id,
+      title,
+      file: `lectures/${id}.enc`
+    });
   }
+
   await fs.writeFile('./public/manifest.json', JSON.stringify(MANIFEST, null,2));
 }
 
