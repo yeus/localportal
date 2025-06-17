@@ -1,7 +1,8 @@
 [build]
-  command   = "npm ci && npm run build"
-  publish   = "public"
+  command = "yarn build"
+  publish = "public"
+
 
 [context.production.environment]
   # define your passphrase as an env var in Netlify UI
-  PAGECRYPT_PASSWORD = "$PAGECRYPT_PASSWORD"
+  LECTURE_PW = "$LECTURE_PW"
