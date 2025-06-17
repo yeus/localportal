@@ -81,8 +81,6 @@ body {
   box-shadow: 0 2px 8px rgba(76, 70, 109, 0.07);
   letter-spacing: 0.01em;
   text-align: center;
-  border-left: 4px solid var(--primary-light);
-  border-right: 4px solid var(--secondary-light);
 }
 
 #sidebar .sidebar-note {
@@ -178,15 +176,8 @@ body {
   font-size: 1.15rem;
   font-weight: 500;
   color: var(--primary-dark);
-  background: linear-gradient(
-    90deg,
-    var(--primary-light) 0%,
-    var(--secondary-light) 100%
-  );
   padding: 0.8rem 1rem;
-  border-radius: 0.5rem;
   margin-bottom: 0.2rem;
-  box-shadow: 0 2px 8px rgba(76, 70, 109, 0.06);
   letter-spacing: 0.01em;
 }
 
@@ -201,6 +192,15 @@ body {
   transition: border var(--transition), box-shadow var(--transition);
   box-shadow: 0 1px 4px rgba(76, 70, 109, 0.04);
 }
+
+#pw-prompt input[type="password"],
+#pw-prompt button {
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+
+
 #pw-prompt input[type="password"]:focus {
   border-color: var(--primary);
   outline: none;
@@ -232,7 +232,6 @@ body {
 
 /* Lecture wrapper/content */
 #lecture-wrapper {
-  display: none;
   padding: 0;
   margin: 0 auto;
   width: 100%;
