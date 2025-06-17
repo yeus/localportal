@@ -1,7 +1,11 @@
 {
   "scripts": {
     "build": "node build.js",
-    "test":  "npm run build && npx serve public"
+    "test": "yarn run build && yarn serve public"
   },
-  "dependencies": { "marked":"^5.0.0" }
+  "type": "module",
+  "devDependencies": {
+    "marked": "^15.0.12",
+    "serve": "^14.2.4"
+  }
 }
