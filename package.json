@@ -1,10 +1,13 @@
 {
   "devDependencies": {
-    "marked": "^5.0.0",
     "globby": "^13.0.0",
-    "pagecrypt": "latest"
+    "marked": "^5.0.0",
+    "pagecrypt": "^7.0.0"
   },
   "scripts": {
-    "build": "node build.js"
+    "build:hugo": "hugo --minify",
+    "encrypt": "bash scripts/encrypt.sh",
+    "build": "yarn build:hugo && yarn encrypt",
+    "start": "hugo server -D"
   }
 }

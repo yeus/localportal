@@ -1,6 +1,7 @@
 [build]
-  command = "npm ci && npm run build"
-  publish = "encrypted"
+  command   = "npm ci && npm run build"
+  publish   = "public"
 
 [context.production.environment]
-  PAGECRYPT_PW = "$PAGECRYPT_PW"   # set this in Netlify UI → Site Settings → Build & deploy → Environment
+  # define your passphrase as an env var in Netlify UI
+  PAGECRYPT_PASSWORD = "$PAGECRYPT_PASSWORD"

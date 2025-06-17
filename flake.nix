@@ -25,7 +25,7 @@
         ];
         packages = with pkgs; [
             hugo
-            publii
+            #publii
             python
 
             nodejs_24
