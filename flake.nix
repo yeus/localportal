@@ -25,6 +25,7 @@
         ];
         packages = with pkgs; [
             hugo
+            publii
         ];
       in {
         devShells.default = pkgs.mkShell rec {
