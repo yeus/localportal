@@ -1,110 +1,177 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <nav id="sidebar"></nav>
-      <main id="content">
-        <div id="pw‐prompt" class="prompt">
-          <input type="password" id="pw" placeholder="Enter password" />
-          <button id="unlock">Unlock</button>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Encrypted Lectures</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <nav id="sidebar"></nav>
+    <main id="content">
+      <div id="pw-prompt" class="prompt" style="display: none; flex-direction: column; align-items: center;">
+        <div class="intro">
+          <p>🔒 Welcome! Please enter the password to unlock the lectures.</p>
         </div>
-        <div id="lecture‐wrapper" style="display: none">
-          Please unlock lectures.
-        </div>
-      </main>
-    </div>
+        <input type="password" id="pw" placeholder="Enter password" />
+        <button id="unlock">Unlock</button>
+      </div>
+      <div id="lecture-wrapper" style="display: none;">
+        Please unlock lectures.
+      </div>
+    </main>
+  </div>
 
-    <script>
-      async function deriveKey(pw, salt) {
-        const mat = await crypto.subtle.importKey(
-          "raw",
-          new TextEncoder().encode(pw),
-          "PBKDF2",
-          false,
-          ["deriveKey"]
-        );
-        return crypto.subtle.deriveKey(
-          {
-            name: "PBKDF2",
-            salt,
-            iterations: 250000,
-            hash: "SHA-256",
-          },
-          mat,
-          { name: "AES-GCM", length: 256 },
-          false,
-          ["decrypt"]
-        );
+  <script>
+    console.log('[startup] script loaded');
+
+    async function deriveKey(pw, salt) {
+      console.log('[deriveKey] pw:', pw, 'salt:', new Uint8Array(salt));
+      const mat = await crypto.subtle.importKey(
+        "raw",
+        new TextEncoder().encode(pw),
+        "PBKDF2",
+        false,
+        ["deriveKey"]
+      );
+      return crypto.subtle.deriveKey(
+        {
+          name: "PBKDF2",
+          salt,
+          iterations: 250000,
+          hash: "SHA-256",
+        },
+        mat,
+        { name: "AES-GCM", length: 256 },
+        false,
+        ["decrypt"]
+      );
+    }
+
+    async function decryptBlob(blob, pw) {
+      console.log('[decryptBlob] start');
+      const buf = await blob.arrayBuffer();
+      const arr = new Uint8Array(buf);
+      const salt = arr.slice(0, 16),
+            iv = arr.slice(16, 28),
+            ct = arr.slice(28);
+      console.log('[decryptBlob] salt, iv, ct lengths:', salt.length, iv.length, ct.length);
+      const key = await deriveKey(pw, salt);
+      const pt = await crypto.subtle.decrypt(
+        { name: "AES-GCM", iv },
+        key,
+        ct
+      );
+      const text = new TextDecoder().decode(pt);
+      console.log('[decryptBlob] success, plaintext length:', text.length);
+      return text;
+    }
+
+    window.addEventListener("DOMContentLoaded", async () => {
+      console.log('[DOMContentLoaded] start');
+      const promptEl = document.getElementById("pw-prompt");
+      const wrapper = document.getElementById("lecture-wrapper");
+      const pwInput = document.getElementById("pw");
+      const unlockBtn = document.getElementById("unlock");
+
+      async function tryLoad() {
+        console.log('[tryLoad] checking stored pw...');
+        const pw = localStorage.getItem("lecturePW");
+        console.log('[tryLoad] got pw from storage:', pw ? '***' : null);
+        if (!pw) {
+          console.log('[tryLoad] no pw, showing prompt');
+          showPrompt();
+          return;
+        }
+        try {
+          console.log('[tryLoad] fetching manifest.json');
+          const manifest = await fetch("manifest.json").then(r => r.json());
+          console.log('[tryLoad] manifest:', manifest);
+          const blob = await fetch(`lectures/${manifest[0].id}.enc`).then(r => r.blob());
+          console.log('[tryLoad] fetched blob for', manifest[0].id);
+          await decryptBlob(blob, pw);
+          console.log('[tryLoad] pw OK, unlocking');
+          onUnlock(pw);
+        } catch (err) {
+          console.error('[tryLoad] error:', err);
+          localStorage.removeItem("lecturePW");
+          showPrompt();
+        }
       }
 
-      async function decryptBlob(blob, pw) {
-        const buf = await blob.arrayBuffer();
-        const arr = new Uint8Array(buf);
-        const salt = arr.slice(0, 16),
-          iv = arr.slice(16, 28),
-          ct = arr.slice(28);
-        const key = await deriveKey(pw, salt);
-        const pt = await crypto.subtle.decrypt(
-          { name: "AES-GCM", iv },
-          key,
-          ct
-        );
-        return new TextDecoder().decode(pt);
+      function showPrompt() {
+        console.log('[showPrompt] display prompt');
+        promptEl.style.display = "flex";
+        wrapper.style.display = "none";
       }
 
-      document.getElementById("unlock").onclick = async () => {
-        const pw = document.getElementById("pw").value;
-        localStorage.setItem("lecturePW", pw);
-        window.location.reload();
+      function onUnlock(pw) {
+        console.log('[onUnlock] hiding prompt, showing wrapper');
+        promptEl.style.display = "none";
+        wrapper.style.display = "";
+        loadSidebarAndLectures(pw);
+      }
+
+      unlockBtn.onclick = async () => {
+        console.log('[unlockBtn.onclick] clicked, pw=', pwInput.value);
+        localStorage.setItem("lecturePW", pwInput.value);
+        await tryLoad();
       };
 
-      window.addEventListener("DOMContentLoaded", async () => {
-        const promptEl = document.getElementById("pw‐prompt");
-        const wrapper = document.getElementById("lecture‐wrapper");
-        const pwInput = document.getElementById("pw");
+      async function loadSidebarAndLectures(pw) {
+        console.log('[loadSidebarAndLectures] start');
+        const nav = document.getElementById("sidebar");
+        nav.innerHTML = "";
 
-        async function tryLoad() {
-          const pw = localStorage.getItem("lecturePW");
-          if (!pw) {
-            showPrompt();
+        const welcome = document.createElement("div");
+        welcome.className = "sidebar-intro";
+        welcome.textContent = "👋 Hi there! Select a lecture below.";
+        nav.appendChild(welcome);
+        console.log('[loadSidebarAndLectures] added welcome message');
+
+        try {
+          const manifest = await fetch("manifest.json").then(r => r.json());
+          console.log('[loadSidebarAndLectures] manifest:', manifest);
+
+          if (!manifest.length) {
+            console.log('[loadSidebarAndLectures] no lectures in manifest');
+            const note = document.createElement("div");
+            note.className = "sidebar-note";
+            note.textContent = "🔐 Unlock to see available lectures.";
+            nav.appendChild(note);
             return;
           }
-          try {
-            // test decrypt first lecture manifestId[0] or simple fetch
-            const manifest = await fetch("manifest.json").then((r) => r.json());
-            const blob = await fetch(`lectures/${manifest[0].id}.enc`).then(
-              (r) => r.blob()
-            );
-            await decryptBlob(blob, pw); // throws if wrong
-            onUnlock(pw);
-          } catch (err) {
-            localStorage.removeItem("lecturePW");
-            showPrompt();
-          }
+
+          manifest.forEach(item => {
+            console.log('[loadSidebarAndLectures] adding link for', item.id);
+            const a = document.createElement("a");
+            a.href = "#";
+            a.textContent = item.title || item.id;
+            a.onclick = () => {
+              console.log('[lecture link clicked]', item.id);
+              loadLecture(item.id, pw);
+            };
+            nav.appendChild(a);
+          });
+        } catch (err) {
+          console.error('[loadSidebarAndLectures] error fetching manifest:', err);
         }
+      }
 
-        function showPrompt() {
-          promptEl.style.display = "flex";
-          wrapper.style.display = "none";
+      async function loadLecture(id, pw) {
+        console.log('[loadLecture] loading', id);
+        try {
+          const blob = await fetch(`lectures/${id}.enc`).then(r => r.blob());
+          const html = await decryptBlob(blob, pw);
+          document.getElementById("lecture-wrapper").innerHTML = html;
+          console.log('[loadLecture] rendered lecture', id);
+        } catch (err) {
+          console.error('[loadLecture] failed to load lecture', id, err);
         }
+      }
 
-        function onUnlock(pw) {
-          promptEl.style.display = "none";
-          wrapper.style.display = "";
-          loadSidebarAndLectures(pw);
-        }
-
-        document.getElementById("unlock").onclick = async () => {
-          const pw = pwInput.value;
-          localStorage.setItem("lecturePW", pw);
-          await tryLoad();
-        };
-
-        await tryLoad();
-      });
-    </script>
-  </body>
+      await tryLoad();
+    });
+  </script>
+</body>
 </html>
