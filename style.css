@@ -200,7 +200,7 @@ body {
   padding: 0.5em 1em;
   margin: 1em 0 0 0;
   font-size: 1em;
-  box-shadow: 0 2px 8px rgba(231,76,60,0.15);
+  box-shadow: 0 2px 8px rgba(231, 76, 60, 0.15);
   transition: opacity 0.3s;
   opacity: 1;
 }
@@ -215,7 +215,6 @@ body {
   box-sizing: border-box;
   display: block;
 }
-
 
 #pw-prompt input[type="password"]:focus {
   border-color: var(--primary);
@@ -392,5 +391,105 @@ body {
     padding: 0;
     box-shadow: none;
     background: #fff;
+  }
+}
+
+/* Sidebar toggle button (hamburger) */
+#sidebar-toggle {
+  display: none;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1100;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(76, 70, 109, 0.13);
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+#sidebar-toggle:focus {
+  outline: 2px solid var(--primary);
+}
+#sidebar-toggle svg {
+  display: block;
+  margin: auto;
+}
+
+/* Sidebar backdrop overlay */
+#sidebar-backdrop {
+  display: none;
+  position: fixed;
+  z-index: 1050;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(40, 30, 60, 0.25);
+  transition: opacity 0.2s;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Show toggle and overlay on mobile */
+@media (max-width: 768px) {
+  #sidebar-toggle {
+    display: flex;
+  }
+  #sidebar.open ~ #sidebar-backdrop,
+  #sidebar-backdrop.open {
+    display: block;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  #sidebar-backdrop {
+    display: block;
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+/* Remove left margin and reduce padding on mobile */
+@media (max-width: 900px) {
+  #content {
+    margin-left: 0;
+    padding: 1.2rem 0.5rem;
+  }
+}
+@media (max-width: 768px) {
+  #content {
+    margin-left: 0;
+    width: 100%;
+    padding: 1rem 0.2rem;
+  }
+  .lecture-content {
+    padding: 1.2rem 0.2rem;
+    margin: 0.5rem 0 1.5rem 0;
+  }
+  .container {
+    flex-direction: column;
+  }
+}
+
+/* Sidebar slide-in/out on mobile */
+@media (max-width: 768px) {
+  #sidebar {
+    left: 0;
+    top: 0;
+    width: 90vw;
+    max-width: 320px;
+    transform: translateX(-100%);
+    transition: transform var(--transition);
+    z-index: 1200;
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+    box-shadow: 2px 0 16px rgba(76, 70, 109, 0.13);
+    position: fixed;
+    height: 100vh;
+  }
+  #sidebar.open {
+    transform: translateX(0);
   }
 }

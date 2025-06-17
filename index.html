@@ -15,6 +15,15 @@
     data-owner="Professor Meschede"
     data-welcome="👋 Welcome to your encrypted lectures!"
   >
+    <div id="sidebar-toggle" aria-label="Open sidebar" tabindex="0">
+      <!-- Hamburger icon as SVG -->
+      <svg width="32" height="32" viewBox="0 0 32 32">
+        <rect y="7" width="24" height="3" rx="1.5" fill="#667eea" />
+        <rect y="14" width="24" height="3" rx="1.5" fill="#667eea" />
+        <rect y="21" width="24" height="3" rx="1.5" fill="#667eea" />
+      </svg>
+    </div>
+    <div id="sidebar-backdrop"></div>
     <div class="container">
       <nav id="sidebar"></nav>
       <main id="content">
@@ -84,6 +93,40 @@
 
       window.addEventListener("DOMContentLoaded", async () => {
         console.log("[DOMContentLoaded] start");
+        // Sidebar toggle logic
+        const sidebarToggle = document.getElementById("sidebar-toggle");
+        const sidebar = document.getElementById("sidebar");
+        const sidebarBackdrop = document.getElementById("sidebar-backdrop");
+
+        function openSidebar() {
+          sidebar.classList.add("open");
+          sidebarBackdrop.classList.add("open");
+          // Prevent body scroll when sidebar is open
+          document.body.style.overflow = "hidden";
+        }
+        function closeSidebar() {
+          sidebar.classList.remove("open");
+          sidebarBackdrop.classList.remove("open");
+          document.body.style.overflow = "";
+        }
+
+        sidebarToggle.addEventListener("click", openSidebar);
+        sidebarToggle.addEventListener("keydown", (e) => {
+          if (e.key === "Enter" || e.key === " ") openSidebar();
+        });
+        sidebarBackdrop.addEventListener("click", closeSidebar);
+
+        // Optional: close sidebar when a link is clicked (on mobile)
+        sidebar.addEventListener("click", (e) => {
+          if (window.innerWidth <= 768 && e.target.tagName === "A") {
+            closeSidebar();
+          }
+        });
+
+        // Optional: close sidebar on resize if desktop
+        window.addEventListener("resize", () => {
+          if (window.innerWidth > 768) closeSidebar();
+        });
 
         // customization vars
         const owner = document.body.dataset.owner;
@@ -93,7 +136,6 @@
         const wrapper = document.getElementById("lecture-wrapper");
         const pwInput = document.getElementById("pw");
         const unlockBtn = document.getElementById("unlock");
-        const sidebar = document.getElementById("sidebar");
 
         function showPwError(msg) {
           const errEl = document.getElementById("pw-error");
