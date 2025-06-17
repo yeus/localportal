@@ -1,8 +1,3 @@
 [build]
   command = "yarn build"
   publish = "public"
-
-
-[context.production.environment]
-  # define your passphrase as an env var in Netlify UI
-  LECTURE_PW = "$LECTURE_PW"
