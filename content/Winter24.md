@@ -1,6 +1,6 @@
 # Archiv Winter 24-25
 
-## Vorlesungsplan
+### Vorlesungsplan
 <Link>
 
 ## Block 1: Elektrizität
