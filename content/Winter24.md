@@ -5,11 +5,10 @@
 
 ## Block 1: Elektrizität
 
-### Vorlesung 1
+### Vorlesung 1  Ladungen
 [Aufzeichnung](https://youtu.be/FV_QXjUucX4)
 
 Materialien:
-
 
 ### Vorlesung 2
 
