@@ -6,7 +6,7 @@
 ## Block 1: Elektrizität
 
 ### Vorlesung 1
-[Aufzeichnung](https://studio.youtube.com/video/FV_QXjUucX4/edit)
+[Aufzeichnung](https://youtu.be/FV_QXjUucX4)
 
 Materialien:
 
