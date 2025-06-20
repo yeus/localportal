@@ -11,7 +11,7 @@
 
 [Aufzeichnung](https://youtu.be/FV_QXjUucX4)   
 
-[Folien Vorlesung 1](https://uni-bonn.sciebo.de/s/Ni8Kzzor6dcEWG3) 
+[Folien Vorlesung 1,](https://uni-bonn.sciebo.de/s/Ni8Kzzor6dcEWG3) 
          [(kompakt)](https://uni-bonn.sciebo.de/s/jGPjzk3BjjjPyCq)
 
 <ins>Webseiten:</ins>
@@ -30,7 +30,7 @@
 
 [Aufzeichnung](https://youtu.be/cMsUGmbA19o)   
 
-[Folien Vorlesung 2](https://uni-bonn.sciebo.de/s/Ni8Kzzor6dcEWG3)
+[Folien Vorlesung 2,](https://uni-bonn.sciebo.de/s/Ni8Kzzor6dcEWG3)
          [(kompakt)](https://uni-bonn.sciebo.de/s/jGPjzk3BjjjPyCq)
 
 <ins>Artikel:</ins>
