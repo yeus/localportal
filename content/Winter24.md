@@ -57,7 +57,11 @@
 
 <img src="/Dateien/24/P4G24Icon2-4.jpg" alt="P4G Icon" width="110">
 
-[Aufzeichnung](https://youtu.be/35Yq57dSXxY)   
+[Aufzeichnung](https://youtu.be/35Yq57dSXxY)
+
+[Folien Vorlesung 4,](https://uni-bonn.sciebo.de/s/tNfdeGDFsygztxt)
+         [(kompakt)](https://uni-bonn.sciebo.de/s/inSbYLkEDkmxFez)
+         
 
 ### Vorlesung 5 Periodensystem, Kerne, teilchen
 
