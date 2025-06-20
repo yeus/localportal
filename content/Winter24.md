@@ -13,8 +13,8 @@
 
 [Aufzeichnung](https://youtu.be/FV_QXjUucX4)   
 
-[Folien Vorlesung 1](https://uni-bonn.sciebo.de/s/Ni8Kzzor6dcEWG3) 
-[  (kompakt)](https://uni-bonn.sciebo.de/s/jGPjzk3BjjjPyCq)
+<span style="white-space: pre;">[Folien Vorlesung 1](https://uni-bonn.sciebo.de/s/Ni8Kzzor6dcEWG3) 
+[  (kompakt)](https://uni-bonn.sciebo.de/s/jGPjzk3BjjjPyCq)</span>
 
 Materialien:
 
