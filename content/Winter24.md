@@ -3,7 +3,7 @@
 ### [Vorlesungsplan Winter 2024](https://uni-bonn.sciebo.de/s/jmCinMrkrJfoJQd)
 <Link>
 
-## Block 1: Elektrizität
+* * ## Block 1: Elektrizität * *
 
 ### Vorlesung 1  Ladungen
 
