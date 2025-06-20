@@ -55,7 +55,7 @@
 
 ### Vorlesung 4 In den Mikrokosmos schauen
 
-<img src="/Dateien/24/P4G24Icon2-4.jpg" alt="P4G Icon" width="140">
+<img src="/Dateien/24/P4G24Icon2-4.jpg" alt="P4G Icon" width="110">
 
 [Aufzeichnung](https://youtu.be/35Yq57dSXxY)   
 
