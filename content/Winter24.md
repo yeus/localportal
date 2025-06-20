@@ -22,7 +22,7 @@
 
 <ins>Artikel:</ins>
 + [Georg Simon Ohm in Köln](https://uni-bonn.sciebo.de/s/ASwne7qwoKj8BHd)
-+ [Elektrmobilität](https://uni-bonn.sciebo.de/s/22KxCPydFQXar48) (Physik Journal 2009)
++ [Elektromobilität](https://uni-bonn.sciebo.de/s/22KxCPydFQXar48) (Physik Journal 2009)
 
 ### Vorlesung 2 Elektrizität und Magnetismus
 
