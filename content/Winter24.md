@@ -16,9 +16,9 @@
 
 Materialien:
 
-
-
 ### Vorlesung 2
+
+<img src="/Dateien/24/P4G24Icon1-2.jpg" alt="P4G Icon" width="100">
 
 ### Vorlesung 3
 
