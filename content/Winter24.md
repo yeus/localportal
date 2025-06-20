@@ -17,6 +17,7 @@ Materialien:
 
 /Dateien/P4GIcon V1-1
 
+![P4G Icon](Dateien/P4GIcon V1-1.jpg)
 
 ### Vorlesung 2
 
