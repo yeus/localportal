@@ -13,7 +13,7 @@
 
 Materialien:
 
-![icon V1-1](https://uni-bonn.sciebo.de/s/ZHmCa6xbXtsq6kx)
+[icon V1-1](https://uni-bonn.sciebo.de/s/ZHmCa6xbXtsq6kx)
 
 
 ### Vorlesung 2
