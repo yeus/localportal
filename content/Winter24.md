@@ -48,7 +48,7 @@
          [(kompakt)](https://uni-bonn.sciebo.de/s/KLEsm8gSYBNWAG5)
          
 <ins>Artikel:</ins>
-+ [Auf Hertz Spuren](https://uni-bonn.sciebo.de/s/QtwDamr6re5ibWq)
++ [Auf Hertz Spuren](https://uni-bonn.sciebo.de/s/QtwDamr6re5ibWq) (Physik Journal 2018)
 + ...
 
 ## Block 2: Was die Welt zusammenhält -- Aufbau der Materie
