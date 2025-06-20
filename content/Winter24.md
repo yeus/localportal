@@ -15,7 +15,7 @@ Materialien:
 
 ![P4G Icon](/Dateien/P4G24Icon1-1.jpg)
 
-<img src="/Dateien/P4GIcon1-1.jpg" alt="P4G Icon" width="200">
+<img src="/Dateien/P4G24Icon1-1.jpg" alt="P4G Icon" width="200">
 
 
 ### Vorlesung 2
