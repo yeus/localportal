@@ -41,7 +41,7 @@ Die Aufzeichnung ist leider schief gegangen. Gepant: Videoclip zum Hertzschen Ve
 
 [Aufzeichnung](https://youtu.be/G6IEMBUtcLY)   
 
-### Weihnachtsvorlesung - 
+### Weihnachtsvorlesung - Beiträge aus dem Publikum
 
 [Aufzeichnung](https://youtu.be/cTIE6JKPeME)
 
