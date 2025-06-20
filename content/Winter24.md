@@ -5,6 +5,7 @@
 
 ## Block 1: Elektrizität
 
+<img src="/Dateien/P4G24Icon1-1.jpg" alt="P4G Icon" width="150">
 ### Vorlesung 1  Ladungen
 [Aufzeichnung](https://youtu.be/FV_QXjUucX4)   
 
@@ -13,9 +14,6 @@
 
 Materialien:
 
-![P4G Icon](/Dateien/P4G24Icon1-1.jpg)
-
-<img src="/Dateien/P4G24Icon1-1.jpg" alt="P4G Icon" width="200">
 
 
 ### Vorlesung 2
