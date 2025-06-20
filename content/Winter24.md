@@ -45,7 +45,7 @@ Die Aufzeichnung ist leider schief gegangen. Gepant: Videoclip zum Hertzschen Ve
 
 [Aufzeichnung](https://youtu.be/cTIE6JKPeME)
 
-[Ich seh was, was Du nicht siehst (Beitrag Herrmann)]((https://uni-bonn.sciebo.de/s/sEQ95o8QpcWjm3C)
+[Ich seh was, was Du nicht siehst (Beitrag Herrmann)](https://uni-bonn.sciebo.de/s/sEQ95o8QpcWjm3C)
 
 [Was unterscheidet Wissenschaft von Hokuspokus? (Beitrag Stöcker)](https://uni-bonn.sciebo.de/s/nGA8sEoJirrE7kg)
 
