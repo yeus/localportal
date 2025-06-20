@@ -14,8 +14,7 @@
 [Folien Vorlesung 1](https://uni-bonn.sciebo.de/s/Ni8Kzzor6dcEWG3) 
          [(kompakt)](https://uni-bonn.sciebo.de/s/jGPjzk3BjjjPyCq)
 
-_Materialien:_
-
+_Materialien:_\
 + Webseite LEIFI: [Elektrokardiogramm (EKG)](https://www.leifiphysik.de/elektrizitaetslehre/ladungen-elektrisches-feld/ausblick/elektrokardiogramm)
 + Webseite Javalab (englisch) [Polarität von Wassermolekülen](https://javalab.org/en/polarity_of_water_en/)
 
