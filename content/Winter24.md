@@ -7,6 +7,9 @@
 
 <span style="color:red">## Block 1: Elektrizität</span>
 
+<span style="color:#3498db">Dies ist blauer Text (#3498db).</span>
+
+
 
 ### Vorlesung 1  Ladungen
 
