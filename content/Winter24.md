@@ -40,13 +40,15 @@
 
 ### Vorlesung 3 Elektromagnetische Materialien und Wellen
 
-<img src="/Dateien/24/P4G24Icon1-3.jpg" alt="P4G Icon" width="100">
+<img src="/Dateien/24/P4G24Icon1-3.jpg" alt="P4G Icon" width="140">
 
 !! Die Aufzeichnung ist leider schief gegangen. Gepant: Videoclip zum Hertzschen Versuch zur Übertragung von elektromagnetiscxhen Wellen.
 
 [Folien Vorlesung 3,](https://uni-bonn.sciebo.de/s/EHMibkgcofdeSNy)
          [(kompakt)](https://uni-bonn.sciebo.de/s/KLEsm8gSYBNWAG5)
          
+<ins>Artikel:</ins>
+*[Auf Hertz Spuren](https://uni-bonn.sciebo.de/s/QtwDamr6re5ibWq)
 
 ## Block 2: Was die Welt zusammenhält -- Aufbau der Materie
 
