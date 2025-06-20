@@ -16,7 +16,8 @@
 
 Materialien:
 
-Webseite LEIFI: [Elektrokardiogramm (EKG)](https://www.leifiphysik.de/elektrizitaetslehre/ladungen-elektrisches-feld/ausblick/elektrokardiogramm)
++ Webseite LEIFI: [Elektrokardiogramm (EKG)](https://www.leifiphysik.de/elektrizitaetslehre/ladungen-elektrisches-feld/ausblick/elektrokardiogramm)
++ Webseite Javalab (englisch) [Polarität von Wassermolekülen](https://javalab.org/en/polarity_of_water_en/)
 
 ### Vorlesung 2 Elektrizität und Magnetismus
 
