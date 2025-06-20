@@ -34,9 +34,9 @@
          [(kompakt)](https://uni-bonn.sciebo.de/s/jGPjzk3BjjjPyCq)
 
 <ins>Artikel:</ins>
-+ [Lithium-Batterien: Chemie-Nobelpreis 2019](https://uni-bonn.sciebo.de/s/Gtx5baBeZjk8n39)
-+ [Wandel der Stromnetze 2014](https://uni-bonn.sciebo.de/s/cga5QzdYP6z9Td8)
-+ [Batterien wie Sand am Meer 2024](https://uni-bonn.sciebo.de/s/Gtx5baBeZjk8n39)
++ [Lithium-Batterien: Chemie-Nobelpreis 2019](https://uni-bonn.sciebo.de/s/Gtx5baBeZjk8n39) (Chemie in unserer Zeit 2019)
++ [Wandel der Stromnetze](https://uni-bonn.sciebo.de/s/cga5QzdYP6z9Td8) (Physik Journal 2014)
++ [Batterien wie Sand am Meer](https://uni-bonn.sciebo.de/s/Gtx5baBeZjk8n39) (Physik Journal 2024)
 
 ### Vorlesung 3 Elektromagnetische Materialien und Wellen
 
