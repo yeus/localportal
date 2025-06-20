@@ -51,7 +51,7 @@ Beitrag Stöcker: [Was unterscheidet Wissenschaft von Hokuspokus?](https://uni-b
 
 Beitrag Röttle: [Was hat uns Tschernobyl hinterlassen?](https://uni-bonn.sciebo.de/s/KSzaiW3bsKdTXPX)
 
-## Block 3 Quantenwelten -- 100 jahre sind erst der Anfang
+## Block 3 Quantenwelten -- 100 Jahre sind erst der Anfang
 
 ### Vorlesung 8  Materiewellen und Diskretheit
 
