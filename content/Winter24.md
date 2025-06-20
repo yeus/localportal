@@ -14,11 +14,13 @@
 [Folien Vorlesung 1](https://uni-bonn.sciebo.de/s/Ni8Kzzor6dcEWG3) 
          [(kompakt)](https://uni-bonn.sciebo.de/s/jGPjzk3BjjjPyCq)
 
-<ins>Materialien:</ins>
-+ Webseite LEIFI:\
+<ins>Webseiten:</ins>
++ LEIFI:\
          -  [Elektrokardiogramm (EKG)](https://www.leifiphysik.de/elektrizitaetslehre/ladungen-elektrisches-feld/ausblick/elektrokardiogramm)\
          -  [Gefahren durch Ströme](https://www.leifiphysik.de/elektrizitaetslehre/ohmsches-gesetz-kennlinien/grundwissen/gefahr-durch-strom-und-koerperwiderstand)
-+ Webseite Javalab (englisch) [Polarität von Wassermolekülen](https://javalab.org/en/polarity_of_water_en/)
++ Javalab (englisch) [Polarität von Wassermolekülen](https://javalab.org/en/polarity_of_water_en/)
+
+<ins>Artikel:</ins>
 
 ### Vorlesung 2 Elektrizität und Magnetismus
 
