@@ -16,6 +16,8 @@
 
 Materialien:
 
+Webseite LEIFI: [Elektrokardiogramm (EKG)](https://www.leifiphysik.de/elektrizitaetslehre/ladungen-elektrisches-feld/ausblick/elektrokardiogramm)
+
 ### Vorlesung 2 Elektrizität und Magnetismus
 
 <img src="/Dateien/24/P4G24Icon1-2.jpg" alt="P4G Icon" width="100">
