@@ -65,7 +65,7 @@
 
 [Aufzeichnung](https://youtu.be/G6IEMBUtcLY)   
 
-### Weihnachtsvorlesung (7) - Beiträge aus dem Publikum
+## Weihnachtsvorlesung (7) - Beiträge aus dem Publikum
 
 [Aufzeichnung](https://youtu.be/cTIE6JKPeME)
 
