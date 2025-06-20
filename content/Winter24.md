@@ -55,6 +55,8 @@
 
 ### Vorlesung 4 In den Mikrokosmos schauen
 
+<img src="/Dateien/24/P4G24Icon2-4.jpg" alt="P4G Icon" width="140">
+
 [Aufzeichnung](https://youtu.be/35Yq57dSXxY)   
 
 ### Vorlesung 5 Periodensystem, Kerne, teilchen
