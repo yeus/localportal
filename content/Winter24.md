@@ -20,7 +20,7 @@
          -  [Gefahren durch Ströme](https://www.leifiphysik.de/elektrizitaetslehre/ohmsches-gesetz-kennlinien/grundwissen/gefahr-durch-strom-und-koerperwiderstand)
 + Javalab (englisch) [Polarität von Wassermolekülen](https://javalab.org/en/polarity_of_water_en/)
 
-<ins>Artikel:</ins>
+<ins>Artikel:</ins>\
 + [Georg Simon Ohm in Köln](https://uni-bonn.sciebo.de/s/ASwne7qwoKj8BHd)
 + [Elektromobilität](https://uni-bonn.sciebo.de/s/22KxCPydFQXar48) (Physik Journal 2009)
 
@@ -33,7 +33,7 @@
 [Folien Vorlesung 2,](https://uni-bonn.sciebo.de/s/Ni8Kzzor6dcEWG3)
          [(kompakt)](https://uni-bonn.sciebo.de/s/jGPjzk3BjjjPyCq)
 
-<ins>Artikel:</ins>
+<ins>Artikel:</ins>\
 + [Lithium-Batterien: Chemie-Nobelpreis 2019](https://uni-bonn.sciebo.de/s/Gtx5baBeZjk8n39) (Chemie in unserer Zeit 2019)
 + [Wandel der Stromnetze](https://uni-bonn.sciebo.de/s/cga5QzdYP6z9Td8) (Physik Journal 2014)
 + [Batterien wie Sand am Meer](https://uni-bonn.sciebo.de/s/Gtx5baBeZjk8n39) (Physik Journal 2024)
