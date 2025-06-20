@@ -45,11 +45,11 @@ Die Aufzeichnung ist leider schief gegangen. Gepant: Videoclip zum Hertzschen Ve
 
 [Aufzeichnung](https://youtu.be/cTIE6JKPeME)
 
-Beitrag Herrmann: [Ich seh was, was Du nicht siehst](https://uni-bonn.sciebo.de/s/sEQ95o8QpcWjm3C)
+Beitrag Herrmann: [Ich seh was, was Du nicht siehst (Radioastronomie am Stockert)](https://uni-bonn.sciebo.de/s/sEQ95o8QpcWjm3C)
 
-[Was unterscheidet Wissenschaft von Hokuspokus? (Beitrag Stöcker)](https://uni-bonn.sciebo.de/s/nGA8sEoJirrE7kg)
+Beitrag Stöcker: [Was unterscheidet Wissenschaft von Hokuspokus?](https://uni-bonn.sciebo.de/s/nGA8sEoJirrE7kg)
 
-[Was hat uns Tschernobyl hinterlassen? (Beitrag Röttle)](https://uni-bonn.sciebo.de/s/KSzaiW3bsKdTXPX)
+Beitrag Röttle: [Was hat uns Tschernobyl hinterlassen?](https://uni-bonn.sciebo.de/s/KSzaiW3bsKdTXPX)
 
 ### Block 3 Quantenwelten -- 100 jahre sind erst der Anfang
 
