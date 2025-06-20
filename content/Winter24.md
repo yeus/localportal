@@ -23,7 +23,16 @@ Materialien:
 [Aufzeichnung](https://youtu.be/cMsUGmbA19o)   
 
 
-### Vorlesung 3
+### Vorlesung 3 Elektromagnetische Materialien und Wellen
+
+Die Aufzeichnung ist leider schief gegangen. Gepant: Videoclip zum Hertzschen Versuch zur Übertragung von elektromagnetiscxhen Wellen.
+
+## Block 2: Was die Welt zusammenhält -- Aufbau der Materie
+
+### Vorlesung 4 In den Mikrokosmos schauen
+
+[Aufzeichnung](https://youtu.be/35Yq57dSXxY)   
+
 
 
 
