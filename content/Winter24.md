@@ -8,7 +8,7 @@
 ### Vorlesung 1  Ladungen
 [Aufzeichnung](https://youtu.be/FV_QXjUucX4)
 
-[Folien der Vorlesung](https://uni-bonn.sciebo.de/f/3255214075)
+[Folien der Vorlesung](https://uni-bonn.sciebo.de/s/jmCinMrkrJfoJQd)
 
 Materialien:
 
