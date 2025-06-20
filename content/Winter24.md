@@ -44,7 +44,7 @@
 
 !! Die Aufzeichnung ist leider schief gegangen. Gepant: Videoclip zum Hertzschen Versuch zur Übertragung von elektromagnetiscxhen Wellen.
 
-[Folien Vorlesung 3,](https://uni-bonn.sciebo.de/s/EHMibkgcofdeSNy))
+[Folien Vorlesung 3,](https://uni-bonn.sciebo.de/s/EHMibkgcofdeSNy)
          [(kompakt)](https://uni-bonn.sciebo.de/s/KLEsm8gSYBNWAG5)
          
 
