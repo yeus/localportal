@@ -33,8 +33,13 @@ Die Aufzeichnung ist leider schief gegangen. Gepant: Videoclip zum Hertzschen Ve
 
 [Aufzeichnung](https://youtu.be/35Yq57dSXxY)   
 
+### Vorlesung 5 Periodensystem, Kerne, teilchen
 
+[Aufzeichnung](https://youtu.be/tLoZ87GPKNg)   
 
+### Vorlesung 6 Was die Welt im innersten zusammenhält?
+
+[Aufzeichnung](https://youtu.be/G6IEMBUtcLY)   
 
 
 
