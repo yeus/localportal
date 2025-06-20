@@ -1,6 +1,6 @@
 # Archiv Winter 24-25
 
-### Vorlesungsplan
+### [Vorlesungsplan Winter 2024](https://uni-bonn.sciebo.de/s/jmCinMrkrJfoJQd)
 <Link>
 
 ## Block 1: Elektrizität
