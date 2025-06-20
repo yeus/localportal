@@ -5,6 +5,7 @@
 
 ## Block 1: Elektrizität
 
+<span style="white-space: pre;">Text    mit    Abstand</span>
 
 ### Vorlesung 1  Ladungen
 
