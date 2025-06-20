@@ -41,5 +41,20 @@ Die Aufzeichnung ist leider schief gegangen. Gepant: Videoclip zum Hertzschen Ve
 
 [Aufzeichnung](https://youtu.be/G6IEMBUtcLY)   
 
+## Weihnachtsvorlesung
+
+[Aufzeichnung](https://youtu.be/cTIE6JKPeME)
+
+### Block 3 Quantenwelten -- 100 jahre sind erst der Anfang
+
+## Vorlesung 8  Materiewellen und Diskretheit
+
+
+
+
+
+
+
+
 
 
