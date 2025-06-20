@@ -13,7 +13,7 @@
 
 Materialien:
 
-![P4G Icon](Dateien/P4G24Icon.jpg)
+![P4G Icon](/Dateien/P4G24Icon1-1.jpg)
 
 ### Vorlesung 2
 
