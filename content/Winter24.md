@@ -16,9 +16,11 @@
 
 Materialien:
 
-### Vorlesung 2
+### Vorlesung 2 Elektrizität und Magnetismus
 
 <img src="/Dateien/24/P4G24Icon1-2.jpg" alt="P4G Icon" width="100">
+
+
 
 ### Vorlesung 3
 
