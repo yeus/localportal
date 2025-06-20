@@ -17,7 +17,7 @@
 <ins>Materialien:</ins>
 + Webseite LEIFI:\
          -  [Elektrokardiogramm (EKG)](https://www.leifiphysik.de/elektrizitaetslehre/ladungen-elektrisches-feld/ausblick/elektrokardiogramm)
-         -  [Gefahren durch Ströme][https://www.leifiphysik.de/elektrizitaetslehre/ohmsches-gesetz-kennlinien/grundwissen/gefahr-durch-strom-und-koerperwiderstand]
+         -  [Gefahren durch Ströme](https://www.leifiphysik.de/elektrizitaetslehre/ohmsches-gesetz-kennlinien/grundwissen/gefahr-durch-strom-und-koerperwiderstand)
 + Webseite Javalab (englisch) [Polarität von Wassermolekülen](https://javalab.org/en/polarity_of_water_en/)
 
 ### Vorlesung 2 Elektrizität und Magnetismus
