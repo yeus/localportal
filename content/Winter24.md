@@ -41,9 +41,15 @@ Die Aufzeichnung ist leider schief gegangen. Gepant: Videoclip zum Hertzschen Ve
 
 [Aufzeichnung](https://youtu.be/G6IEMBUtcLY)   
 
-## Weihnachtsvorlesung
+### Weihnachtsvorlesung - 
 
 [Aufzeichnung](https://youtu.be/cTIE6JKPeME)
+
+[Ich seh was, was Du nicht siehst (Beitrag Herrmann)]((https://uni-bonn.sciebo.de/s/sEQ95o8QpcWjm3C)
+
+[Was unterscheidet Wissenschaft von Hokuspokus? (Beitrag Stöcker)](https://uni-bonn.sciebo.de/s/nGA8sEoJirrE7kg)
+
+[Was hat uns Tschernobyl hinterlassen? (Beitrag Röttle)](https://uni-bonn.sciebo.de/s/KSzaiW3bsKdTXPX)
 
 ### Block 3 Quantenwelten -- 100 jahre sind erst der Anfang
 
