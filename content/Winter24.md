@@ -30,6 +30,13 @@
 
 [Aufzeichnung](https://youtu.be/cMsUGmbA19o)   
 
+[Folien Vorlesung 2](https://uni-bonn.sciebo.de/s/Ni8Kzzor6dcEWG3) 5
+         [(kompakt)](https://uni-bonn.sciebo.de/s/jGPjzk3BjjjPyCq)
+
+<ins>Artikel:</ins>
++ [Lithium-Batterien: Chemie-Nobelpreis 2019](https://uni-bonn.sciebo.de/s/Gtx5baBeZjk8n39)
++ [Wandel der Stromnetze 2014](https://uni-bonn.sciebo.de/s/cga5QzdYP6z9Td8)
++ [Batterien wie Sand am Meer 2024](https://uni-bonn.sciebo.de/s/Gtx5baBeZjk8n39)
 
 ### Vorlesung 3 Elektromagnetische Materialien und Wellen
 
