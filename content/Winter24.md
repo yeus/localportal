@@ -7,7 +7,7 @@
 
 ### Vorlesung 1  Ladungen
 
-<img src="/dateien/24/P4G24Icon1-1.jpg" alt="P4G Icon" width="100">
+<img src="./dateien/24/P4G24Icon1-1.jpg" alt="P4G Icon" width="100">
 
 [Aufzeichnung](https://youtu.be/FV_QXjUucX4)   
 
