@@ -30,7 +30,7 @@
 
 [Aufzeichnung](https://youtu.be/cMsUGmbA19o)   
 
-[Folien Vorlesung 2](https://uni-bonn.sciebo.de/s/Ni8Kzzor6dcEWG3) 5
+[Folien Vorlesung 2](https://uni-bonn.sciebo.de/s/Ni8Kzzor6dcEWG3)
          [(kompakt)](https://uni-bonn.sciebo.de/s/jGPjzk3BjjjPyCq)
 
 <ins>Artikel:</ins>
