@@ -65,9 +65,16 @@
 
 ### Vorlesung 5 Periodensystem, Kerne, teilchen
 
+<img src="/Dateien/24/P4G24Icon2-5.jpg" alt="P4G Icon" width="110">
+
 [Aufzeichnung](https://youtu.be/tLoZ87GPKNg)   
 
+[Folien Vorlesung 5,](https://uni-bonn.sciebo.de/s/kc4iQdZ8C2Rcifn)
+         [(kompakt)](https://uni-bonn.sciebo.de/s/EQd3aZPe6Q39t7x)
+         
 ### Vorlesung 6 Was die Welt im innersten zusammenhält?
+
+<img src="/Dateien/24/P4G24Icon2-6.jpg" alt="P4G Icon" width="110">
 
 [Aufzeichnung](https://youtu.be/G6IEMBUtcLY)   
 
