@@ -20,7 +20,7 @@
          -  [Gefahren durch Ströme](https://www.leifiphysik.de/elektrizitaetslehre/ohmsches-gesetz-kennlinien/grundwissen/gefahr-durch-strom-und-koerperwiderstand)
 + Javalab (englisch) [Polarität von Wassermolekülen](https://javalab.org/en/polarity_of_water_en/)
 
-<ins>Artikel:</ins>
+#### <ins>Artikel:</ins>
 + [Georg Simon Ohm in Köln](https://uni-bonn.sciebo.de/s/ASwne7qwoKj8BHd)
 + [Elektromobilität](https://uni-bonn.sciebo.de/s/22KxCPydFQXar48) (Physik Journal 2009)
 
