@@ -63,10 +63,10 @@
          [(kompakt)](https://uni-bonn.sciebo.de/s/inSbYLkEDkmxFez)
 
 <ins>Webseiten und Videoclips:</ins>
-+ Hörsall-Demonstrationen:\
++ Hörsaal-Demonstrationen:\
          -  [Strahlengang in Auge und Lupe](https://uni-bonn.sciebo.de/s/MKpYzsXwjCADC4J)\
          -  [Strahelngang im Mikroskop](https://uni-bonn.sciebo.de/s/mBrN5F7atzjgB4P)
-+ Reise in den Mikro- und Makroskosmos (englisch) [Powers of Ten](https://www.youtube.com/watch?v=MgCrtINSQcE)         
++ Reise in den Mikro- und Makroskosmos (mit deutscher Übersetzung) [Powers of Ten](https://www.youtube.com/watch?v=MgCrtINSQcE)         
          
 
 ### Vorlesung 5 Periodensystem, Kerne, teilchen
