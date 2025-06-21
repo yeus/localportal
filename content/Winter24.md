@@ -78,6 +78,9 @@
 
 [Aufzeichnung](https://youtu.be/G6IEMBUtcLY)   
 
+[Folien Vorlesung 6,](https://uni-bonn.sciebo.de/s/wfzdg4TziR2SSLn)
+         [(kompakt)](https://uni-bonn.sciebo.de/s/FdnordYfTAXqZn7)
+         
 ## Weihnachtsvorlesung (7) - Beiträge aus dem Publikum
 
 [Aufzeichnung](https://youtu.be/cTIE6JKPeME)
