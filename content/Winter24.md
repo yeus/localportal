@@ -62,13 +62,18 @@
 [Folien Vorlesung 4,](https://uni-bonn.sciebo.de/s/tNfdeGDFsygztxt)
          [(kompakt)](https://uni-bonn.sciebo.de/s/inSbYLkEDkmxFez)
 
-<ins>Webseiten und Videoclips:</ins>
+#### <ins>Webseiten und Videoclips:</ins>
 + Hörsaal-Demonstrationen:\
          -  [Strahlengang in Auge und Lupe](https://uni-bonn.sciebo.de/s/MKpYzsXwjCADC4J)\
          -  [Strahelngang im Mikroskop](https://uni-bonn.sciebo.de/s/mBrN5F7atzjgB4P)
 + Reise in den Mikro- und Makroskosmos (mit deutscher Übersetzung) [Powers of Ten](https://www.youtube.com/watch?v=MgCrtINSQcE)         
          
+#### <ins>Artikel:</ins>
++ [Geschichte der Mikroskopie](https://uni-bonn.sciebo.de/s/5ncroWWqwCrLtLc) (Forschunng & Lehre 2023)
++ [Ruskas später Nobelpreis für das Elektronenmikroskop](https://uni-bonn.sciebo.de/s/br2FQH2W9KMWPz7) (Physik Journal 2007)
++ [Nanoskopie - Nobelpreis 2014 für S. Hell](https://uni-bonn.sciebo.de/s/EkHwSkTxbzrSC5i) (Physik Journal 2014)
 
+  
 ### Vorlesung 5 Periodensystem, Kerne, teilchen
 
 <img src="/Dateien/24/P4G24Icon2-5.jpg" alt="P4G Icon" width="110">
