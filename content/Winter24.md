@@ -77,7 +77,7 @@
 + [Rutherfords Erbe](https://uni-bonn.sciebo.de/s/HxMsYf4L4GopNjx)(Physik Jorunal 2011)]
 
   
-### Vorlesung 5 Periodensystem, Kerne, teilchen
+### Vorlesung 5 Periodensystem, Kerne, Teilchen
 
 <img src="/Dateien/24/P4G24Icon2-5.jpg" alt="P4G Icon" width="110">
 
