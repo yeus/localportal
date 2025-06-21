@@ -73,8 +73,8 @@
 + [Grenzen der Mikroskop-Auflösung](https://uni-bonn.sciebo.de/s/ZQfSCxGdNQko3PG) (Physik Journal 2024)
 + [Ruskas später Nobelpreis für das Elektronenmikroskop](https://uni-bonn.sciebo.de/s/br2FQH2W9KMWPz7) (Physik Journal 2007)
 + [Nanoskopie - Nobelpreis 2014 für S. Hell](https://uni-bonn.sciebo.de/s/EkHwSkTxbzrSC5i) (Physik Journal 2014)
-+ [Mendeleev - Die Entdeckung der Elemente](https://uni-bonn.sciebo.de/s/33KwCWXk7KgMAZo)(Physik Journal 2019)
-+ [Rutherfords Erbe](https://uni-bonn.sciebo.de/s/HxMsYf4L4GopNjx)(Physik Jorunal 2011)]
++ [Mendeleev - Die Entdeckung der Elemente](https://uni-bonn.sciebo.de/s/33KwCWXk7KgMAZo) (Physik Journal 2019)
++ [Rutherfords Erbe](https://uni-bonn.sciebo.de/s/HxMsYf4L4GopNjx) (Physik Jorunal 2011)]
 
   
 ### Vorlesung 5 Periodensystem, Kerne, Teilchen
