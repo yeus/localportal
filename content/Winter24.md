@@ -85,6 +85,17 @@
 
 [Folien Vorlesung 5,](https://uni-bonn.sciebo.de/s/kc4iQdZ8C2Rcifn)
          [(kompakt)](https://uni-bonn.sciebo.de/s/EQd3aZPe6Q39t7x)
+
+#### <ins>Artikel:</ins>
++ [Der realistische Bohr](https://uni-bonn.sciebo.de/s/RySFpNm7bTPkypT) (Physik Jorjunal 2013)
++ [H - Das Atom der Erkenntnis](https://uni-bonn.sciebo.de/s/8Ay8G2kTLwxZqWt) (Physik Journal 2022)
++ [Hybridisierung](https://uni-bonn.sciebo.de/s/FgXZgwqJe9Zb9ef) (Spektrum - Lexikon der Chemie)
++ [Erinnerungen an Hans Geiger](https://uni-bonn.sciebo.de/s/ScPYzJ63E8YYK6R) (Physikalische Blätter 1982)
++ [Ursprung der Elemente](https://uni-bonn.sciebo.de/s/cW5bBnWo68sBarY) (Physik in unserer Zeit 2022)
++ [Geknickter Hoyle-Zustand](https://uni-bonn.sciebo.de/s/CCXa2DtwwGbzMwG) (Portal pro-physik 2012)
++ [Antimaterie im Labor](https://uni-bonn.sciebo.de/s/aLCkDKdQZ6wCQiH) (Physik Journal 2024)
++ [Experimente mit der Antiwelt](https://uni-bonn.sciebo.de/s/wzXxt8GW8xTq9wR) (Physik Journal 2024)
+
          
 ### Vorlesung 6 Was die Welt im innersten zusammenhält?
 
