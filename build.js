@@ -6,7 +6,9 @@ import { webcrypto } from "crypto";
 const { subtle } = webcrypto;
 
 const CONTENT_DIR = "./content";
+const DATEIEN_DIR = "./dateien";
 const PUBLIC_DIR = "./public";
+const DATEIEN_DEST = `${PUBLIC_DIR}/dateien`;
 const LECTURES_DIR = `${PUBLIC_DIR}/lectures`;
 const INDEX_SRC = "./index.html";
 const INDEX_DEST = `${PUBLIC_DIR}/index.html`;
@@ -49,19 +51,31 @@ async function encryptHtml(html, password) {
 async function build() {
   logStep("Starting build process...");
 
-  // Clean public folder, recreate structure
+  // Clean and recreate public/ and subdirs
   logStep(`Removing ${PUBLIC_DIR} (if exists)...`);
   await fs.rm(PUBLIC_DIR, { recursive: true, force: true });
   logStep(`Creating ${LECTURES_DIR}...`);
   await fs.mkdir(LECTURES_DIR, { recursive: true });
 
-  // Copy index.html and style.css into public
+  // Copy entire "dateien" folder into public/dateien/
+  logStep(`Copying ${DATEIEN_DIR} → ${DATEIEN_DEST} (if exists)...`);
+  try {
+    await fs.cp(DATEIEN_DIR, DATEIEN_DEST, { recursive: true, force: true });
+  } catch (err) {
+    if (err.code === "ENOENT") {
+      logStep(`${DATEIEN_DIR} not found – skipping.`);
+    } else {
+      throw err;
+    }
+  }
+
+  // Copy index.html and style.css
   logStep(`Copying ${INDEX_SRC} to ${INDEX_DEST}...`);
   await fs.copyFile(INDEX_SRC, INDEX_DEST);
   logStep(`Copying ${STYLE_SRC} to ${STYLE_DEST}...`);
   await fs.copyFile(STYLE_SRC, STYLE_DEST);
 
-  // Read content files
+  // Read and process markdown lectures
   logStep(`Reading content directory: ${CONTENT_DIR}...`);
   const files = await fs.readdir(CONTENT_DIR);
   logStep(`Found ${files.length} files in content.`);
@@ -72,9 +86,8 @@ async function build() {
     console.log("[BUILD][DEBUG] Environment variable names:");
     Object.keys(process.env).forEach((name) => console.log("  -", name));
     process.exit(1);
-  } else {
-    logStep(`LECTURE_PW is set (length: ${password.length} characters).`);
   }
+  logStep(`LECTURE_PW is set (length: ${password.length} characters).`);
 
   const manifest = [];
   for (const fname of files.filter((f) => f.endsWith(".md"))) {
@@ -82,6 +95,7 @@ async function build() {
     logStep(`Processing file: ${fname} (id: ${id})`);
     const md = await fs.readFile(`${CONTENT_DIR}/${fname}`, "utf8");
     const html = marked(md);
+
     logStep(`Encrypting HTML for ${id}...`);
     const blob = await encryptHtml(html, password);
     const encPath = `${LECTURES_DIR}/${id}.enc`;
@@ -95,13 +109,13 @@ async function build() {
     manifest.push({ id, title, file: `lectures/${id}.enc` });
   }
 
-  // Write manifest.json to public/
+  // Write manifest.json
   const manifestPath = `${PUBLIC_DIR}/manifest.json`;
   await fs.writeFile(manifestPath, JSON.stringify(manifest, null, 2));
   logStep(`Manifest written: ${manifestPath} (${manifest.length} entries)`);
 
   logStep(
-    "Build complete: index.html & style.css copied, lectures encrypted, manifest.json created."
+    "Build complete: index/style copied, dateien & lectures encrypted, manifest created."
   );
 }
 
