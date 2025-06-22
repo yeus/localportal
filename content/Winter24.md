@@ -7,7 +7,7 @@
 
 ### Vorlesung 1  Ladungen
 
-<img src="/Dateien/24/P4G24Icon1-1.jpg" alt="P4G Icon" width="100">
+<img src="/dateien/24/P4G24Icon1-1.jpg" alt="P4G Icon" width="100">
 
 [Aufzeichnung](https://youtu.be/FV_QXjUucX4)   
 
@@ -26,7 +26,7 @@
 
 ### Vorlesung 2 Elektrizität und Magnetismus
 
-<img src="/Dateien/24/P4G24Icon1-2.jpg" alt="P4G Icon" width="100">
+<img src="/dateien/24/P4G24Icon1-2.jpg" alt="P4G Icon" width="100">
 
 [Aufzeichnung](https://youtu.be/cMsUGmbA19o)   
 
@@ -40,7 +40,7 @@
 
 ### Vorlesung 3 Elektromagnetische Materialien und Wellen
 
-<img src="/Dateien/24/P4G24Icon1-3.jpg" alt="P4G Icon" width="140">
+<img src="/dateien/24/P4G24Icon1-3.jpg" alt="P4G Icon" width="140">
 
 !! Die Aufzeichnung ist leider schief gegangen. Gepant: Videoclip zum Hertzschen Versuch zur Übertragung von elektromagnetiscxhen Wellen.
 
@@ -55,7 +55,7 @@
 
 ### Vorlesung 4 In den Mikrokosmos schauen
 
-<img src="/Dateien/24/P4G24Icon2-4.jpg" alt="P4G Icon" width="110">
+<img src="/dateien/24/P4G24Icon2-4.jpg" alt="P4G Icon" width="110">
 
 [Aufzeichnung](https://youtu.be/35Yq57dSXxY)
 
@@ -79,7 +79,7 @@
   
 ### Vorlesung 5 Periodensystem, Kerne, Teilchen
 
-<img src="/Dateien/24/P4G24Icon2-5.jpg" alt="P4G Icon" width="110">
+<img src="/dateien/24/P4G24Icon2-5.jpg" alt="P4G Icon" width="110">
 
 [Aufzeichnung](https://youtu.be/tLoZ87GPKNg)   
 
@@ -99,7 +99,7 @@
          
 ### Vorlesung 6 Was die Welt im innersten zusammenhält?
 
-<img src="/Dateien/24/P4G24Icon2-6.jpg" alt="P4G Icon" width="110">
+<img src="/dateien/24/P4G24Icon2-6.jpg" alt="P4G Icon" width="110">
 
 [Aufzeichnung](https://youtu.be/G6IEMBUtcLY)   
 

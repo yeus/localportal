@@ -474,6 +474,10 @@ body {
   }
 }
 
+.sidebar-intro:hover {
+  cursor: pointer;
+}
+
 /* Sidebar slide-in/out on mobile */
 @media (max-width: 768px) {
   #sidebar {
