@@ -173,12 +173,16 @@
           wrapper.style.display = "none";
         }
 
+        // === ON UNLOCK ===
         function onUnlock(pw) {
           currentPassword = pw;
           promptEl.style.display = "none";
           wrapper.style.display = "";
           loadSidebarAndLectures(pw);
-          loadLecture("introduction", pw);
+
+          // if user landed on e.g. index.html#foo, load that; otherwise default
+          const first = location.hash.slice(1) || "introduction";
+          loadLecture(first, pw);
         }
 
         unlockBtn.onclick = async () => {
@@ -206,7 +210,10 @@
           const welcome = document.createElement("div");
           welcome.className = "sidebar-intro";
           welcome.textContent = texts.welcomeMessage;
-          welcome.onclick = () => loadLecture("introduction", currentPassword);
+          // ← set hash to default; our hashchange listener will load it
+          welcome.onclick = () => {
+            location.hash = "#introduction";
+          };
           sidebar.appendChild(welcome);
 
           let manifest;
@@ -216,7 +223,7 @@
             manifest = [];
           }
 
-          manifest = manifest.filter(item => item.id !== "introduction");
+          manifest = manifest.filter((item) => item.id !== "introduction");
 
           if (!manifest.length) {
             sidebar.appendChild(
@@ -228,18 +235,25 @@
             return;
           }
 
-          // sort alphabetically by title or id
           manifest.sort((a, b) =>
             (a.title || a.id).localeCompare(b.title || b.id)
           );
           manifest.forEach((item) => {
             const a = document.createElement("a");
-            a.href = "#";
+            a.href = `#${item.id}`; // ← set hash
             a.textContent = item.title || item.id;
-            a.onclick = () => loadLecture(item.id, pw);
+            // no need for onclick; hashchange will fire
             sidebar.appendChild(a);
           });
         }
+
+        // listen for hash changes (back/forward or link click)
+        window.addEventListener("hashchange", () => {
+          const id = location.hash.slice(1);
+          if (id && currentPassword) {
+            loadLecture(id, currentPassword);
+          }
+        });
 
         async function loadLecture(id, pw) {
           try {
