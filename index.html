@@ -12,12 +12,9 @@
       rel="stylesheet"
     />
   </head>
-  <body
-    data-owner="Professor Meschede"
-    data-welcome="👋 Welcome to your encrypted lectures!"
-  >
+  <body>
     <div id="sidebar-toggle" aria-label="Open sidebar" tabindex="0">
-      <!-- Hamburger icon as SVG -->
+      <!-- Hamburger icon -->
       <svg width="32" height="32" viewBox="0 0 32 32">
         <rect y="7" width="24" height="3" rx="1.5" fill="#667eea" />
         <rect y="14" width="24" height="3" rx="1.5" fill="#667eea" />
@@ -30,11 +27,11 @@
       <main id="content">
         <div id="pw-prompt" class="prompt">
           <div class="intro">
-            <p>🔒 Welcome! Please enter the password to unlock the lectures.</p>
+            <p id="prompt-intro"></p>
           </div>
           <div id="pw-error" class="pw-error" style="display: none"></div>
-          <input type="password" id="pw" placeholder="Enter password" />
-          <button id="unlock">Unlock</button>
+          <input type="password" id="pw" />
+          <button id="unlock"></button>
         </div>
         <div id="lecture-wrapper" style="display: none; padding: 1rem">
           Please unlock lectures.
@@ -43,10 +40,25 @@
     </div>
 
     <script>
+      // ==== TEXT CONFIGURATION ====
+      const texts = {
+        welcomeMessage: "👋 Welcome to your encrypted lectures!",
+        promptIntro:
+          "🔒 Welcome! Please enter the password to unlock the lectures.",
+        promptPlaceholder: "Enter password",
+        unlockButton: "Unlock",
+        pwErrorIncorrect: "❌ Incorrect password. Please try again.",
+        sidebarNoteLocked:
+          "🔒 Links to lectures will appear here once you unlock the page.",
+        sidebarNoteNoLectures: "🔐 Unlock to see available lectures.",
+        logoutButton: "Log out",
+      };
+
       console.log("[startup] script loaded");
 
+      let currentPassword = null;
+
       async function deriveKey(pw, salt) {
-        console.log("[deriveKey] pw:", pw, "salt:", new Uint8Array(salt));
         const mat = await crypto.subtle.importKey(
           "raw",
           new TextEncoder().encode(pw),
@@ -55,12 +67,7 @@
           ["deriveKey"]
         );
         return crypto.subtle.deriveKey(
-          {
-            name: "PBKDF2",
-            salt,
-            iterations: 250000,
-            hash: "SHA-256",
-          },
+          { name: "PBKDF2", salt, iterations: 250000, hash: "SHA-256" },
           mat,
           { name: "AES-GCM", length: 256 },
           false,
@@ -69,40 +76,41 @@
       }
 
       async function decryptBlob(blob, pw) {
-        console.log("[decryptBlob] start");
         const buf = await blob.arrayBuffer();
         const arr = new Uint8Array(buf);
         const salt = arr.slice(0, 16),
           iv = arr.slice(16, 28),
           ct = arr.slice(28);
-        console.log(
-          "[decryptBlob] salt, iv, ct lengths:",
-          salt.length,
-          iv.length,
-          ct.length
-        );
         const key = await deriveKey(pw, salt);
         const pt = await crypto.subtle.decrypt(
           { name: "AES-GCM", iv },
           key,
           ct
         );
-        const text = new TextDecoder().decode(pt);
-        console.log("[decryptBlob] success, plaintext length:", text.length);
-        return text;
+        return new TextDecoder().decode(pt);
       }
 
       window.addEventListener("DOMContentLoaded", async () => {
-        console.log("[DOMContentLoaded] start");
-        // Sidebar toggle logic
+        // === ELEMENT REFERENCES ===
         const sidebarToggle = document.getElementById("sidebar-toggle");
         const sidebar = document.getElementById("sidebar");
         const sidebarBackdrop = document.getElementById("sidebar-backdrop");
+        const promptEl = document.getElementById("pw-prompt");
+        const wrapper = document.getElementById("lecture-wrapper");
+        const pwInput = document.getElementById("pw");
+        const unlockBtn = document.getElementById("unlock");
+        const errEl = document.getElementById("pw-error");
+        const promptIntroEl = document.getElementById("prompt-intro");
 
+        // === INITIAL TEXT SETUP ===
+        promptIntroEl.textContent = texts.promptIntro;
+        pwInput.placeholder = texts.promptPlaceholder;
+        unlockBtn.textContent = texts.unlockButton;
+
+        // === SIDEBAR TOGGLE ===
         function openSidebar() {
           sidebar.classList.add("open");
           sidebarBackdrop.classList.add("open");
-          // Prevent body scroll when sidebar is open
           document.body.style.overflow = "hidden";
         }
         function closeSidebar() {
@@ -110,177 +118,138 @@
           sidebarBackdrop.classList.remove("open");
           document.body.style.overflow = "";
         }
-
         sidebarToggle.addEventListener("click", openSidebar);
         sidebarToggle.addEventListener("keydown", (e) => {
           if (e.key === "Enter" || e.key === " ") openSidebar();
         });
         sidebarBackdrop.addEventListener("click", closeSidebar);
-
-        // Optional: close sidebar when a link is clicked (on mobile)
         sidebar.addEventListener("click", (e) => {
-          if (window.innerWidth <= 768 && e.target.tagName === "A") {
+          if (window.innerWidth <= 768 && e.target.tagName === "A")
             closeSidebar();
-          }
         });
-
-        // Optional: close sidebar on resize if desktop
         window.addEventListener("resize", () => {
           if (window.innerWidth > 768) closeSidebar();
         });
 
-        // customization vars
-        const owner = document.body.dataset.owner;
-        const welcomeMsg = document.body.dataset.welcome;
-
-        const promptEl = document.getElementById("pw-prompt");
-        const wrapper = document.getElementById("lecture-wrapper");
-        const pwInput = document.getElementById("pw");
-        const unlockBtn = document.getElementById("unlock");
-
+        // === PASSWORD PROMPT HANDLING ===
         function showPwError(msg) {
-          const errEl = document.getElementById("pw-error");
           errEl.textContent = msg;
           errEl.style.display = "block";
-          errEl.classList.remove("hide");
-          // Hide after 3 seconds
           setTimeout(() => {
             errEl.classList.add("hide");
             setTimeout(() => {
               errEl.style.display = "none";
+              errEl.classList.remove("hide");
             }, 500);
           }, 3000);
         }
-
         pwInput.addEventListener("input", () => {
-          const errEl = document.getElementById("pw-error");
           errEl.style.display = "none";
-          errEl.classList.remove("hide");
         });
 
         async function tryLoad() {
-          console.log("[tryLoad] checking stored pw...");
-          const pw = localStorage.getItem("lecturePW");
-          console.log("[tryLoad] got pw from storage:", pw ? "***" : null);
-          if (!pw) {
-            console.log("[tryLoad] no pw, showing prompt");
+          const stored = localStorage.getItem("lecturePW");
+          if (!stored) {
             showPrompt();
             return;
           }
           try {
-            console.log("[tryLoad] fetching manifest.json");
             const manifest = await fetch("manifest.json").then((r) => r.json());
-            console.log("[tryLoad] manifest:", manifest);
             const blob = await fetch(`lectures/${manifest[0].id}.enc`).then(
               (r) => r.blob()
             );
-            console.log("[tryLoad] fetched blob for", manifest[0].id);
-            await decryptBlob(blob, pw);
-            console.log("[tryLoad] pw OK, unlocking");
-            onUnlock(pw);
-          } catch (err) {
-            console.error("[tryLoad] error:", err);
+            await decryptBlob(blob, stored);
+            onUnlock(stored);
+          } catch {
             localStorage.removeItem("lecturePW");
             showPrompt();
-            showPwError("❌ Incorrect password. Please try again.");
+            showPwError(texts.pwErrorIncorrect);
           }
         }
 
         function showPrompt() {
-          console.log("[showPrompt] display prompt");
-          // sidebar placeholder
-          sidebar.innerHTML = `
-          <div class="sidebar-note">
-            🔒 Links to lectures will appear here once you unlock the page.
-          </div>`;
+          sidebar.innerHTML = `<div class="sidebar-note">${texts.sidebarNoteLocked}</div>`;
           promptEl.style.display = "flex";
           wrapper.style.display = "none";
         }
 
         function onUnlock(pw) {
-          console.log("[onUnlock] hiding prompt, showing wrapper");
+          currentPassword = pw;
           promptEl.style.display = "none";
           wrapper.style.display = "";
           loadSidebarAndLectures(pw);
-          loadLecture("introduction", pw); // auto-load intro page
+          loadLecture("introduction", pw);
         }
 
         unlockBtn.onclick = async () => {
-          console.log("[unlockBtn.onclick] clicked, pw=", pwInput.value);
-          localStorage.setItem("lecturePW", pwInput.value);
+          const pw = pwInput.value;
+          localStorage.setItem("lecturePW", pw);
           await tryLoad();
         };
-
-        pwInput.addEventListener("keydown", async (e) => {
-          if (e.key === "Enter") {
-            unlockBtn.click();
-          }
+        pwInput.addEventListener("keydown", (e) => {
+          if (e.key === "Enter") unlockBtn.click();
         });
 
+        // === SIDEBAR & LECTURE LOADING ===
         async function loadSidebarAndLectures(pw) {
-          console.log("[loadSidebarAndLectures] start");
           sidebar.innerHTML = "";
-
-          // logout button
-          const logoutBtn = document.createElement("button");
-          logoutBtn.textContent = "Log out";
-          logoutBtn.className = "sidebar-logout";
-          logoutBtn.onclick = () => {
+          // logout
+          const btn = document.createElement("button");
+          btn.textContent = texts.logoutButton;
+          btn.className = "sidebar-logout";
+          btn.onclick = () => {
             localStorage.removeItem("lecturePW");
             location.reload();
           };
-          sidebar.appendChild(logoutBtn);
-
-          // personalized greeting
+          sidebar.appendChild(btn);
+          // welcome & click-to-intro
           const welcome = document.createElement("div");
           welcome.className = "sidebar-intro";
-          welcome.textContent = `${welcomeMsg} (by ${owner})`;
+          welcome.textContent = texts.welcomeMessage;
+          welcome.onclick = () => loadLecture("introduction", currentPassword);
           sidebar.appendChild(welcome);
-          console.log("[loadSidebarAndLectures] added personalized welcome");
 
+          let manifest;
           try {
-            const manifest = await fetch("manifest.json").then((r) => r.json());
-            console.log("[loadSidebarAndLectures] manifest:", manifest);
-
-            if (!manifest.length) {
-              console.log("[loadSidebarAndLectures] no lectures in manifest");
-              const note = document.createElement("div");
-              note.className = "sidebar-note";
-              note.textContent = "🔐 Unlock to see available lectures.";
-              sidebar.appendChild(note);
-              return;
-            }
-
-            manifest.forEach((item) => {
-              console.log("[loadSidebarAndLectures] adding link for", item.id);
-              const a = document.createElement("a");
-              a.href = "#";
-              a.textContent = item.title || item.id;
-              a.onclick = () => {
-                console.log("[lecture link clicked]", item.id);
-                loadLecture(item.id, pw);
-              };
-              sidebar.appendChild(a);
-            });
-          } catch (err) {
-            console.error(
-              "[loadSidebarAndLectures] error fetching manifest:",
-              err
-            );
+            manifest = await fetch("manifest.json").then((r) => r.json());
+          } catch {
+            manifest = [];
           }
+
+          manifest = manifest.filter(item => item.id !== "introduction");
+
+          if (!manifest.length) {
+            sidebar.appendChild(
+              Object.assign(document.createElement("div"), {
+                className: "sidebar-note",
+                textContent: texts.sidebarNoteNoLectures,
+              })
+            );
+            return;
+          }
+
+          // sort alphabetically by title or id
+          manifest.sort((a, b) =>
+            (a.title || a.id).localeCompare(b.title || b.id)
+          );
+          manifest.forEach((item) => {
+            const a = document.createElement("a");
+            a.href = "#";
+            a.textContent = item.title || item.id;
+            a.onclick = () => loadLecture(item.id, pw);
+            sidebar.appendChild(a);
+          });
         }
 
         async function loadLecture(id, pw) {
-          console.log("[loadLecture] loading", id);
           try {
             const blob = await fetch(`lectures/${id}.enc`).then((r) =>
               r.blob()
             );
             const html = await decryptBlob(blob, pw);
             document.getElementById("lecture-wrapper").innerHTML = html;
-            console.log("[loadLecture] rendered lecture", id);
           } catch (err) {
-            console.error("[loadLecture] failed to load lecture", id, err);
+            console.error("Failed loading lecture", id, err);
           }
         }
 
