@@ -133,11 +133,17 @@
 
 [Aufzeichnung](https://youtu.be/gFaBCUJqgOw)
 
+[Folien Vorlesung 9,](https://uni-bonn.sciebo.de/s/zQNYqtzHxxpmRix)
+         [(kompakt)](https://uni-bonn.sciebo.de/s/ApokR8kPLXXewMC)
+         
 ### Vorlesung 10  Verschränkung, Quantencomputing und mehr
 
 <img src="/dateien/24/P4G24Icon3-10.jpg" alt="P4G Icon" width="110">
 
 [Aufzeichnung](https://youtu.be/sq_NV5RAEuo)
+
+[Folien Vorlesung 10,](https://uni-bonn.sciebo.de/s/8SCiHxgTSBk2E9Y)
+         [(kompakt)](https://uni-bonn.sciebo.de/s/TACmX9rXfeNgsoW)
 
 
 
