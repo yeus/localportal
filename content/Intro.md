@@ -19,9 +19,9 @@ Das Smartphone als eigenes Physiklabor [phyphox](https://phyphox.org/de/home-de/
 ## Ausgewählte allgemeine Materialien
 
 ### Physik und Mathematik
-+ In aller Kürze aus der 1. Vorlesung 2023: [Was ist Physik](https://uni-bonn.sciebo.de/s/rDpRYSpajDctMs6)
-+ H. M. Enzensberger zur Mathematik [Die Zugbrücke](https://uni-bonn.sciebo.de/s/rMZwwKjLarjfd9w)
-+ E. Eigner zur Mathematik [The unreasonable effectiveness of mathematics](https://uni-bonn.sciebo.de/s/6jzBMtaaZSNj72j)
++ In aller Kürze aus der 1. Vorlesung 2023: [Was ist Physik](https://uni-bonn.sciebo.de/s/rDpRYSpajDctMs6) (2023)
++ H. M. Enzensberger zur Mathematik [Die Zugbrücke](https://uni-bonn.sciebo.de/s/rMZwwKjLarjfd9w) (1998)
++ E. Wigner zur Mathematik [The unreasonable effectiveness of mathematics](https://uni-bonn.sciebo.de/s/6jzBMtaaZSNj72j) (1960)
 + E. Wigner (dt. Übersetzung) [DIE KAUM BEGREIFLICHE WIRKSAMKEIT DER MATHEMATIK](https://uni-bonn.sciebo.de/s/TGHkxXbcCLMHa7t)
 
   
