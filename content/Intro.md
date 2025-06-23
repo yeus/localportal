@@ -1,8 +1,10 @@
 # Vorbemerkungen
 
-Dieses Archiv enthält die Aufzeichnungen der Vorlesungen *Physik für Großeltern* ab dem
-Winter 2022. Weiterhin sind die verwendeten Folien (auch in kompakter Form) sowei ausgewählte
-Materiaien zum jeweiligen Thema verfügbar.
+Dieses Archiv enthält 
+
++ die Aufzeichnungen der Vorlesungen *Physik für Großeltern* ab dem Winter 2022.
++ Die in der Vorlesung verwendeten Folien (auch in kompakter Form)
++ Ausgewählte Webseiten, Videoclips und andere Materiaien zum jeweiligen Thema
   
 ## Empfehlenswerte Webseiten mit Physik-Inhalten
 
