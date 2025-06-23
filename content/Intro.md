@@ -14,6 +14,6 @@ Zu aktuellen und alltäglichen physikalischen Fragen [Welt der Physik](https://w
 
 Schrift zum Stand der Physik 2025 [Physik Erkenntnisse und Perspektiven](https://physik-erkenntnisse-perspektiven.de/)
 
-Das Smartphone als eigenes Physiklabor [physfox](https://phyphox.org/de/home-de/)
+Das Smartphone als eigenes Physiklabor [phyphox](https://phyphox.org/de/home-de/)
 
 ## Ausgewählte allgemeine Materialien
