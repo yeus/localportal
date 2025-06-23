@@ -129,9 +129,13 @@
 
 ### Vorlesung 9  Überlagerungen in der Quantenwelt
 
+<img src="/dateien/24/P4G24Icon3-9.jpg" alt="P4G Icon" width="110">
+
 [Aufzeichnung](https://youtu.be/gFaBCUJqgOw)
 
 ### Vorlesung 10  Verschränkung, Quantencomputing und mehr
+
+<img src="/dateien/24/P4G24Icon3-10.jpg" alt="P4G Icon" width="110">
 
 [Aufzeichnung](https://youtu.be/sq_NV5RAEuo)
 
