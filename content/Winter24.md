@@ -120,7 +120,12 @@
 
 ### Vorlesung 8  Materiewellen und Diskretheit
 
+<img src="/dateien/24/P4G24Icon3-8.jpg" alt="P4G Icon" width="110">
+
 [Aufzeichnung](https://youtu.be/cFW75H2vWCU)
+
+[Folien Vorlesung 8,](https://uni-bonn.sciebo.de/s/dw6xkGLkit999Sf)
+         [(kompakt)](https://uni-bonn.sciebo.de/s/K3jL2enfecM5AGB)
 
 ### Vorlesung 9  Überlagerungen in der Quantenwelt
 
