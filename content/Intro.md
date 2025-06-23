@@ -8,8 +8,10 @@ Materiaien zum jeweiligen Thema verfügbar.
 
 Gut gemachte und detaillierte Informationsseiten [LEIFI-Physik](https://www.leifiphysik.de/)
 
-Zu aktuellen und alltäglichen physiklaischen Fragen [Welt der Physik](https://www.weltderphysik.de/)
+Zu aktuellen und alltäglichen physikalischen Fragen [Welt der Physik](https://www.weltderphysik.de/)
 
-phyfox
+Schrift zum Stand der Physik 2025 [Physik Erkenntnisse und Perspektiven](https://physik-erkenntnisse-perspektiven.de/)
+
+Das Smartphone als eigenes Physiklabor [physfox](https://phyphox.org/de/home-de/)
 
 ## Ausgewählte allgemeine Materialien
