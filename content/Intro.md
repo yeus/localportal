@@ -16,7 +16,7 @@ Schrift zum Stand der Physik 2025 [Physik Erkenntnisse und Perspektiven](https:/
 
 Das Smartphone als eigenes Physiklabor [phyphox](https://phyphox.org/de/home-de/)
 
-Kurzinformationen zu Physik-Themen [physikkonkret](https://www.dpg-physik.de/veroeffentlichungen/publikationen/physikkonkret)
+Kompaktinformationen zu Physik-Themen [physikkonkret](https://www.dpg-physik.de/veroeffentlichungen/publikationen/physikkonkret)
 
 ## Ausgewählte allgemeine Materialien
 
