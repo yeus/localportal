@@ -169,7 +169,7 @@
 #### <ins>Artikel:</ins>
 + Verschränkung:
   + [physikkonkret](https://uni-bonn.sciebo.de/s/49eQdp74kL7FpPi)
-  + [Schlüssel zur Quantenwelt](https://uni-bonn.sciebo.de/s/RdpLyWqLwx5Q2Em)
+  + [Schlüssel zur Quantenwelt](https://uni-bonn.sciebo.de/s/RdpLyWqLwx5Q2Em) (Physik in unserer Zeit 2010)
   + [vom Spuk zum Werkzeug](https://uni-bonn.sciebo.de/s/TnYc5HdprpPbe54) (Physik in unserer Zeit 2022)
 + Quantencomputing:
   + [Realisierungen](https://uni-bonn.sciebo.de/s/oKF5kHkze7CYgCB) (Physik Journal 2023)
