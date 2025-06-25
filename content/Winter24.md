@@ -145,9 +145,9 @@
 
 #### <ins>Artikel:</ins>
 + Quantenüberlagerungen und Illusionen [Explaining Quanta with optical illusions](https://uni-bonn.sciebo.de/s/a7sGdSckzJSRZFq) (auf Englisch)
-+ ZUr Supraleitung:
-++ Thema 1
-** Thema 2
++ Zur Supraleitung:
+         Thema 1
+         Thema 2
          
 ### Vorlesung 10  Verschränkung, Quantencomputing und mehr
 
