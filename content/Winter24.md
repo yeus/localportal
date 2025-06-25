@@ -140,6 +140,9 @@
 
 [Folien Vorlesung 9,](https://uni-bonn.sciebo.de/s/zQNYqtzHxxpmRix)
          [(kompakt)](https://uni-bonn.sciebo.de/s/ApokR8kPLXXewMC)
+
+#### <ins>Artikel:</ins>
++ Quantenüberlagerungen und Illusionen[Explaining Quanta with optical illusions](https://uni-bonn.sciebo.de/s/a7sGdSckzJSRZFq) (auf Englisch)
          
 ### Vorlesung 10  Verschränkung, Quantencomputing und mehr
 
