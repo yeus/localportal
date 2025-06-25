@@ -128,8 +128,8 @@
          [(kompakt)](https://uni-bonn.sciebo.de/s/K3jL2enfecM5AGB)
 
 #### <ins>Artikel:</ins>
-+ Quantenmechanik und Legendenbildung [*h* wie Hilfsgröße ... ?] (https://uni-bonn.sciebo.de/s/RyWWeJiK945WAZe) (Physik Journal 2025)
-+ Heisenberg und Helgoland [Ein Sonnenaufgang auf Helgoland?] (https://uni-bonn.sciebo.de/s/j3HBsEJm9DJG29y) (Physik Journal 2025)
++ Quantenmechanik und Legendenbildung [*h* wie Hilfsgröße ... ?](https://uni-bonn.sciebo.de/s/RyWWeJiK945WAZe) (Physik Journal 2025)
++ Heisenberg und Helgoland [Ein Sonnenaufgang auf Helgoland?](https://uni-bonn.sciebo.de/s/j3HBsEJm9DJG29y) (Physik Journal 2025)
          
 
 ### Vorlesung 9  Überlagerungen in der Quantenwelt
