@@ -127,6 +127,11 @@
 [Folien Vorlesung 8,](https://uni-bonn.sciebo.de/s/dw6xkGLkit999Sf)
          [(kompakt)](https://uni-bonn.sciebo.de/s/K3jL2enfecM5AGB)
 
+#### <ins>Artikel:</ins>
++ [Quantenmechanik und Legendenbildung](https://uni-bonn.sciebo.de/s/RyWWeJiK945WAZe)
++ [Heisenberg und Helgoland](https://uni-bonn.sciebo.de/s/j3HBsEJm9DJG29y)
+         
+
 ### Vorlesung 9  Überlagerungen in der Quantenwelt
 
 <img src="/dateien/24/P4G24Icon3-9.jpg" alt="P4G Icon" width="110">
