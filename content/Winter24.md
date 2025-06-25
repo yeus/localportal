@@ -146,8 +146,10 @@
 #### <ins>Artikel:</ins>
 + Quantenüberlagerungen und Illusionen [Explaining Quanta with optical illusions](https://uni-bonn.sciebo.de/s/a7sGdSckzJSRZFq) (auf Englisch)
 + Zur Supraleitung:
-  + Thema 1
-  + Thema 2
+  + Entdeckung der Hochtemperatur-Supraleitung 1987 [The Woodstock of Physics](https://uni-bonn.sciebo.de/s/wiJztfFMFb2wLzQ)
+  + Moderne Supraleiter [Supraleitung bei Raumtemperatur](https://uni-bonn.sciebo.de/s/QzDkzm3XwBDE8dg) (Physik in unserer Zeit 2015)
+  + Hochstrom-Leiter [Ohne Widerstand in die Anwendung](https://uni-bonn.sciebo.de/s/qHQqsndbEpdG5rF) (Physik in unserer Zeit 2021)
+  + Supraleiter und Quanteninterferenz [Makroskoische Quanteneffekte](https://uni-bonn.sciebo.de/s/CScg5rNzRBnqpYZ) (Physik in unserer Zeit 1987)
          
 ### Vorlesung 10  Verschränkung, Quantencomputing und mehr
 
