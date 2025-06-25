@@ -151,6 +151,7 @@
   + Moderne Supraleiter [Supraleitung bei Raumtemperatur](https://uni-bonn.sciebo.de/s/QzDkzm3XwBDE8dg) (Physik in unserer Zeit 2015)
   + Hochstrom-Leiter [Ohne Widerstand in die Anwendung](https://uni-bonn.sciebo.de/s/qHQqsndbEpdG5rF) (Physik in unserer Zeit 2021)
   + Supraleiter und Quanteninterferenz [Makroskopische Quanteneffekte](https://uni-bonn.sciebo.de/s/CScg5rNzRBnqpYZ) (Physik in unserer Zeit 1987)
+  + Wo steht das *h* bei der Supraleitung? [Paarweise im Fluss](https://uni-bonn.sciebo.de/s/cjKn4iGc6D9wnzB) (Physik Journal 2011)
          
 ### Vorlesung 10  Verschränkung, Quantencomputing und mehr
 
