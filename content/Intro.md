@@ -24,4 +24,7 @@ Das Smartphone als eigenes Physiklabor [phyphox](https://phyphox.org/de/home-de/
 + E. Wigner zur Mathematik [The unreasonable effectiveness of mathematics](https://uni-bonn.sciebo.de/s/6jzBMtaaZSNj72j) (1960)
 + E. Wigner (dt. Übersetzung) [DIE KAUM BEGREIFLICHE WIRKSAMKEIT DER MATHEMATIK](https://uni-bonn.sciebo.de/s/TGHkxXbcCLMHa7t)
 
+### Physik und Geschichte
++ Geschichte der Quantenphysik: [Quantum History Wall](https://www.quantum-history.de/) (auf Englisch)
+
   
