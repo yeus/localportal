@@ -128,11 +128,12 @@
          [(kompakt)](https://uni-bonn.sciebo.de/s/K3jL2enfecM5AGB)
 
 #### <ins>Artikel:</ins>
-+ Aufbruch in den Mikrokoskmos [Die Entwicklung der Quantenmechenik ...](https://uni-bonn.sciebo.de/s/qyg2ryzSNenWgkm) (Physik Journal 2025)
-+ Quantenmechanik und Legendenbildung [*h* wie Hilfsgröße ... ?](https://uni-bonn.sciebo.de/s/RyWWeJiK945WAZe) (Physik Journal 2025)
-+ Heisenberg und Helgoland [Ein Sonnenaufgang auf Helgoland?](https://uni-bonn.sciebo.de/s/j3HBsEJm9DJG29y) (Physik Journal 2025)
++ Zur geschichtlichen Enwticklung der Quantenmechanik:
+  + [Die Entwicklung der Quantenmechenik ...](https://uni-bonn.sciebo.de/s/qyg2ryzSNenWgkm) (Physik Journal 2025)
+  + [*h* wie Hilfsgröße ... ?](https://uni-bonn.sciebo.de/s/RyWWeJiK945WAZe) (Physik Journal 2025)
+  + [Ein Sonnenaufgang auf Helgoland?](https://uni-bonn.sciebo.de/s/j3HBsEJm9DJG29y) (Physik Journal 2025)
 + Zufall und Quantenwelt [Zufällige Begegenung](https://uni-bonn.sciebo.de/s/NwacwEKGzgcdmao) (Kultur und Technik 2024)
-         
+       
 
 ### Vorlesung 9  Überlagerungen in der Quantenwelt
 
@@ -149,7 +150,7 @@
   + Entdeckung der Hochtemperatur-Supraleitung 1987 [The Woodstock of Physics](https://uni-bonn.sciebo.de/s/wiJztfFMFb2wLzQ)
   + Moderne Supraleiter [Supraleitung bei Raumtemperatur](https://uni-bonn.sciebo.de/s/QzDkzm3XwBDE8dg) (Physik in unserer Zeit 2015)
   + Hochstrom-Leiter [Ohne Widerstand in die Anwendung](https://uni-bonn.sciebo.de/s/qHQqsndbEpdG5rF) (Physik in unserer Zeit 2021)
-  + Supraleiter und Quanteninterferenz [Makroskoische Quanteneffekte](https://uni-bonn.sciebo.de/s/CScg5rNzRBnqpYZ) (Physik in unserer Zeit 1987)
+  + Supraleiter und Quanteninterferenz [Makroskopische Quanteneffekte](https://uni-bonn.sciebo.de/s/CScg5rNzRBnqpYZ) (Physik in unserer Zeit 1987)
          
 ### Vorlesung 10  Verschränkung, Quantencomputing und mehr
 
