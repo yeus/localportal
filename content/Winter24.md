@@ -163,6 +163,13 @@
 [Folien Vorlesung 10,](https://uni-bonn.sciebo.de/s/8SCiHxgTSBk2E9Y)
          [(kompakt)](https://uni-bonn.sciebo.de/s/TACmX9rXfeNgsoW)
 
+#### <ins>Webseiten:</ins>
++ auf LEIFI-Physik: [Das Grangier-Roger-Aspect-Experiment](https://www.leifiphysik.de/quantenphysik/quantenobjekt-photon/versuche/versuche-von-grangier-roger-und-aspect?utm_source=chatgpt.com)
+
+#### <ins>Artikel:</ins>
++ Verschränkung kompakt [physikkonkret](https://uni-bonn.sciebo.de/s/49eQdp74kL7FpPi)
++ 
+
 
 
 
