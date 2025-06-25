@@ -87,7 +87,7 @@
          [(kompakt)](https://uni-bonn.sciebo.de/s/EQd3aZPe6Q39t7x)
 
 #### <ins>Artikel:</ins>
-+ [Der realistische Bohr](https://uni-bonn.sciebo.de/s/RySFpNm7bTPkypT) (Physik Jorjunal 2013)
++ [Der realistische Bohr](https://uni-bonn.sciebo.de/s/RySFpNm7bTPkypT) (Physik Journal 2013)
 + [H - Das Atom der Erkenntnis](https://uni-bonn.sciebo.de/s/8Ay8G2kTLwxZqWt) (Physik Journal 2022)
 + [Hybridisierung](https://uni-bonn.sciebo.de/s/FgXZgwqJe9Zb9ef) (Spektrum - Lexikon der Chemie)
 + [Erinnerungen an Hans Geiger](https://uni-bonn.sciebo.de/s/ScPYzJ63E8YYK6R) (Physikalische Blätter 1982)
