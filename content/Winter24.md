@@ -128,8 +128,8 @@
          [(kompakt)](https://uni-bonn.sciebo.de/s/K3jL2enfecM5AGB)
 
 #### <ins>Artikel:</ins>
-+ [Quantenmechanik und Legendenbildung](https://uni-bonn.sciebo.de/s/RyWWeJiK945WAZe)
-+ [Heisenberg und Helgoland](https://uni-bonn.sciebo.de/s/j3HBsEJm9DJG29y)
++ Quantenmechanik und Legendenbildung [*h* wie Hilfsgröße ... ?] (https://uni-bonn.sciebo.de/s/RyWWeJiK945WAZe) (Physik Journal 2025)
++ Heisenberg und Helgoland [Ein Sonnenaufgang auf Helgoland?] (https://uni-bonn.sciebo.de/s/j3HBsEJm9DJG29y) (Physik Journal 2025)
          
 
 ### Vorlesung 9  Überlagerungen in der Quantenwelt
@@ -142,7 +142,7 @@
          [(kompakt)](https://uni-bonn.sciebo.de/s/ApokR8kPLXXewMC)
 
 #### <ins>Artikel:</ins>
-+ Quantenüberlagerungen und Illusionen[Explaining Quanta with optical illusions](https://uni-bonn.sciebo.de/s/a7sGdSckzJSRZFq) (auf Englisch)
++ Quantenüberlagerungen und Illusionen [Explaining Quanta with optical illusions](https://uni-bonn.sciebo.de/s/a7sGdSckzJSRZFq) (auf Englisch)
          
 ### Vorlesung 10  Verschränkung, Quantencomputing und mehr
 
