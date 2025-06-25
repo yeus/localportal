@@ -128,6 +128,7 @@
          [(kompakt)](https://uni-bonn.sciebo.de/s/K3jL2enfecM5AGB)
 
 #### <ins>Artikel:</ins>
++ Aufbruch in den Mikrokoskmos [Die Entwicklung der Quantenmechenik ...](https://uni-bonn.sciebo.de/s/qyg2ryzSNenWgkm)
 + Quantenmechanik und Legendenbildung [*h* wie Hilfsgröße ... ?](https://uni-bonn.sciebo.de/s/RyWWeJiK945WAZe) (Physik Journal 2025)
 + Heisenberg und Helgoland [Ein Sonnenaufgang auf Helgoland?](https://uni-bonn.sciebo.de/s/j3HBsEJm9DJG29y) (Physik Journal 2025)
 + Zufall und Quantenwelt [Zufällige Begegenung](https://uni-bonn.sciebo.de/s/NwacwEKGzgcdmao) (Kultur und Technik 2024)
