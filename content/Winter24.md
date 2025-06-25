@@ -129,7 +129,7 @@
 
 #### <ins>Artikel:</ins>
 + Zur geschichtlichen Enwticklung der Quantenmechanik:
-  + [Die Entwicklung der Quantenmechenik ...](https://uni-bonn.sciebo.de/s/qyg2ryzSNenWgkm) (Physik Journal 2025)
+  + [Die Entwicklung der Quantenmechanik ...](https://uni-bonn.sciebo.de/s/qyg2ryzSNenWgkm) (Physik Journal 2025)
   + [*h* wie Hilfsgröße ... ?](https://uni-bonn.sciebo.de/s/RyWWeJiK945WAZe) (Physik Journal 2025)
   + [Ein Sonnenaufgang auf Helgoland?](https://uni-bonn.sciebo.de/s/j3HBsEJm9DJG29y) (Physik Journal 2025)
 + Zufall und Quantenwelt [Zufällige Begegenung](https://uni-bonn.sciebo.de/s/NwacwEKGzgcdmao) (Kultur und Technik 2024)
