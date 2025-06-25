@@ -167,8 +167,15 @@
 + auf LEIFI-Physik: [Das Grangier-Roger-Aspect-Experiment](https://www.leifiphysik.de/quantenphysik/quantenobjekt-photon/versuche/versuche-von-grangier-roger-und-aspect?utm_source=chatgpt.com)
 
 #### <ins>Artikel:</ins>
-+ Verschränkung kompakt [physikkonkret](https://uni-bonn.sciebo.de/s/49eQdp74kL7FpPi)
-+ 
++ Verschränkung:
+  + [physikkonkret](https://uni-bonn.sciebo.de/s/49eQdp74kL7FpPi)
+  + [vom Spuk zum Werkzeug](https://uni-bonn.sciebo.de/s/TnYc5HdprpPbe54) (Physik in unserer Zeit 2022)
++ Quantencomputing:
+  + [Realisierungen](https://uni-bonn.sciebo.de/s/oKF5kHkze7CYgCB) (Physik Journal 2023)
+  + [Algorithmik](https://uni-bonn.sciebo.de/s/jToPQNCPGypqLng) (Physi Journal 2023)
+  + [Quantencomputing aktuell]() (FAZ 2025)
++ Quanteninternet [Der Weg zum Quanteninternet](https://uni-bonn.sciebo.de/s/DZAj75FZAwdf59G) (Physik in unserer Zeit)
+
 
 
 
