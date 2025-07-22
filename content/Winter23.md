@@ -18,6 +18,6 @@
 + [Ergänzung 02: Atwoods Fallmaschine](https://uni-bonn.sciebo.de/s/RbTFcbwZXRw3YEm)
   
 #### <ins>Weblinks:</ins>
-+ [Simulation einer Brachistochrone](https://www.youtube.com/watch?v=ndTRkwpxIlU)(in englischer Sprache, mit frdl. Erlabnis, eng morph)
++ [Simulation einer Brachistochrone](https://www.youtube.com/watch?v=ndTRkwpxIlU) (in englischer Sprache, mit frdl. Erlabnis, eng morph)
 
 
