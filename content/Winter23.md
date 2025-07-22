@@ -2,4 +2,6 @@
 
 ### [Vorlesungsplan Winter 2023](https://uni-bonn.sciebo.de/s/pgdmHfJRGyqGnWD)
 
-## Block 1: Elektrizität
+## Block 1: Mechanik: Vom Freien Fall zum Schwarzen Loch
+
+
