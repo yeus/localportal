@@ -15,7 +15,7 @@
 
 
 #### <ins>Artikel:</ins>
-+ [Ergänzung 01: Weg-Zeit_gestze und Freier Fall](https://uni-bonn.sciebo.de/s/SbAkf5PcFtR76Qk)
++ [Ergänzung 01: Weg-Zeit-Gesetze und Freier Fall](https://uni-bonn.sciebo.de/s/SbAkf5PcFtR76Qk)
 + [Ergänzung 02: Atwoods Fallmaschine](https://uni-bonn.sciebo.de/s/RbTFcbwZXRw3YEm)
   
 
