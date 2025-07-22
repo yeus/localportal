@@ -6,7 +6,7 @@
 
 ### Vorlesung 1  Freier Fall
 
-<img src="/dateien/23/P4G24Icon1-1.jpg" alt="P4G Icon" width="100">
+<img src="/dateien/23/P4G23Icon1-1.jpg" alt="P4G Icon" width="100">
 
 [Aufzeichnung](https://youtu.be/FV_QXjUucX4)   
 
