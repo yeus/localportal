@@ -8,7 +8,7 @@
 
 <img src="/dateien/23/P4G23Icon1-1.jpg" alt="P4G Icon" width="100">
 
-[Aufzeichnung](https://youtu.be/FV_QXjUucX4)   
+[Aufzeichnung](https://youtu.be/_KM3gSG9GbM)
 
 [Folien Vorlesung 1,](https://uni-bonn.sciebo.de/s/Ni8Kzzor6dcEWG3) 
          [(kompakt)](https://uni-bonn.sciebo.de/s/jGPjzk3BjjjPyCq)
