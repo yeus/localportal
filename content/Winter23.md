@@ -8,10 +8,10 @@
 
 <img src="/dateien/23/P4G23Icon1-1.jpg" alt="P4G Icon" width="100">
 
-[Aufzeichnung](https://youtu.be/_KM3gSG9GbM)
+[Aufzeichnung 26.10.2023](https://youtu.be/_KM3gSG9GbM)
 
-[Folien Vorlesung 1,](https://uni-bonn.sciebo.de/s/Ni8Kzzor6dcEWG3) 
-         [(kompakt)](https://uni-bonn.sciebo.de/s/jGPjzk3BjjjPyCq)
+[Folien Vorlesung 1,](https://uni-bonn.sciebo.de/s/m8w72oreLnAS9iZ)
+         [(kompakt)](https://uni-bonn.sciebo.de/s/7NbPbsqWDC8FHWo)
 
 #### <ins>Webseiten:</ins>
 + LEIFI:\
