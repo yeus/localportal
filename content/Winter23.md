@@ -30,7 +30,7 @@
          [(kompakt)](https://https://uni-bonn.sciebo.de/s/oRe7GTAxDSQnqCa)
 
 #### <ins>Artikel zum Thema:</ins>
-+ Gezeiten
+Gezeiten
 + [Gezeiten](https://uni-bonn.sciebo.de/s/2RiWWooYjwNkF8B) Spektrum Lexikon der Physik
 + [Eine kurze Geschichte der Gezeiten Ebbe und Flut](https://uni-bonn.sciebo.de/s/jE5Mk2t2K63Mspq) Physik in unserer Zeit 2011
 + [Die Abbremsung der Erdrotation](https://uni-bonn.sciebo.de/s/3s25qct5XNYonxY) Physik in unserer Zeit 1989
