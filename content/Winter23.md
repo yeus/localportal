@@ -31,12 +31,12 @@
 
 #### <ins>Artikel zum Thema:</ins>
 + Gezeiten
-+ [Gezeiten]() Spektrum Lexikon der Physik
-+ Eine kurze Geschichte der gezeiten Ebbe und Flut]() Physik in unserer Zeit 2011
-+ [Die Abbremsung der Erdrotation]() Physik in unserer Zeit 1989
-+ [Ebbe und Flut auf den Kontinenten]() Physik in unserer Zeit 2020
-+ [Bei Flut sinkt der Wasserspiegel im Brunnen]() Physik in unserer Zeit 2017
++ [Gezeiten](https://uni-bonn.sciebo.de/s/2RiWWooYjwNkF8B) Spektrum Lexikon der Physik
++ [Eine kurze Geschichte der Gezeiten Ebbe und Flut](https://uni-bonn.sciebo.de/s/jE5Mk2t2K63Mspq) Physik in unserer Zeit 2011
++ [Die Abbremsung der Erdrotation](https://uni-bonn.sciebo.de/s/3s25qct5XNYonxY) Physik in unserer Zeit 1989
++ [Ebbe und Flut auf den Kontinenten](https://uni-bonn.sciebo.de/s/nnZHqRo2sa7WqKN) Physik in unserer Zeit 2020
++ [Bei Flut sinkt der Wasserspiegel im Brunnen](https://uni-bonn.sciebo.de/s/coNHwBe32gPFdBL) Physik in unserer Zeit 2017
 
 + Planetenbewegung
-+ [Erathosthens Messung des Erdumfangs]() aus Die Top Ten der schönsten Experimete der Physik (rororo)
++ [Erathosthens Messung des Erdumfangs](https://uni-bonn.sciebo.de/s/xRrmBpDGEswiAYm) aus Die Top Ten der schönsten Experimete der Physik (rororo)
 
