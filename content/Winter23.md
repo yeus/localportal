@@ -37,6 +37,6 @@ Gezeiten
 + [Ebbe und Flut auf den Kontinenten](https://uni-bonn.sciebo.de/s/nnZHqRo2sa7WqKN) Physik in unserer Zeit 2020
 + [Bei Flut sinkt der Wasserspiegel im Brunnen](https://uni-bonn.sciebo.de/s/coNHwBe32gPFdBL) Physik in unserer Zeit 2017
 
-+ Planetenbewegung
+Planetenbewegung
 + [Erathosthens Messung des Erdumfangs](https://uni-bonn.sciebo.de/s/xRrmBpDGEswiAYm) aus Die Top Ten der schönsten Experimete der Physik (rororo)
 
