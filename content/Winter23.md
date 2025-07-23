@@ -30,5 +30,13 @@
          [(kompakt)](https://https://uni-bonn.sciebo.de/s/oRe7GTAxDSQnqCa)
 
 #### <ins>Artikel zum Thema:</ins>
-+ [Ergänzung 01: Weg-Zeit-Gesetze und Freier Fall](https://uni-bonn.sciebo.de/s/SbAkf5PcFtR76Qk)
-+ [Ergänzung 02: Atwoods Fallmaschine](https://uni-bonn.sciebo.de/s/RbTFcbwZXRw3YEm)
++ Gezeiten
++ [Gezeiten]() Spektrum Lexikon der Physik
++ Eine kurze Geschichte der gezeiten Ebbe und Flut]() Physik in unserer Zeit 2011
++ [Die Abbremsung der Erdrotation]() Physik in unserer Zeit 1989
++ [Ebbe und Flut auf den Kontinenten]() Physik in unserer Zeit 2020
++ [Bei Flut sinkt der Wasserspiegel im Brunnen]() Physik in unserer Zeit 2017
+
++ Planetenbewegung
++ [Erathosthens Messung des Erdumfangs]() aus Die Top Ten der schönsten Experimete der Physik (rororo)
+
