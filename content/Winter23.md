@@ -29,3 +29,6 @@
 [Folien Vorlesung 1,](https://uni-bonn.sciebo.de/s/pYr6BSsp5BXCz4E)
          [(kompakt)](https://https://uni-bonn.sciebo.de/s/oRe7GTAxDSQnqCa)
 
+#### <ins>Artikel zum Thema:</ins>
++ [Ergänzung 01: Weg-Zeit-Gesetze und Freier Fall](https://uni-bonn.sciebo.de/s/SbAkf5PcFtR76Qk)
++ [Ergänzung 02: Atwoods Fallmaschine](https://uni-bonn.sciebo.de/s/RbTFcbwZXRw3YEm)
