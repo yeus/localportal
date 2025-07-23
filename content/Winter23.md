@@ -22,4 +22,10 @@
 
 ### Vorlesung 2  Planetenbewegung
 
+<img src="/dateien/23/P4G23Icon1-2.jpg" alt="P4G Icon" width="100">
+
+[Aufzeichnung 02.11.2023](https://youtu.be/f959EQE4RW8)
+
+[Folien Vorlesung 1,](https://uni-bonn.sciebo.de/s/pYr6BSsp5BXCz4E)
+         [(kompakt)](https://https://uni-bonn.sciebo.de/s/oRe7GTAxDSQnqCa)
 
