@@ -18,9 +18,7 @@
 #### <ins>Weblinks:</ins>
 + [Simulation einer Brachistochrone](https://www.youtube.com/watch?v=ndTRkwpxIlU) (in englischer Sprache, mit frdl. Erlaubnis, eng morph)
 
-### Vorlesung 2  Planetenbewegung
-
-<img src="/dateien/23/P4G23Icon1-2.jpg" alt="P4G Icon" width="100">
+### <img src="/dateien/23/P4G23Icon1-2.jpg" alt="P4G Icon" width="100"> Vorlesung 2  Planetenbewegung
 
 [Aufzeichnung 02.11.2023](https://youtu.be/f959EQE4RW8)
 
