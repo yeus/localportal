@@ -22,7 +22,7 @@
 
 ### Vorlesung 2  Planetenbewegung
 
-<img src="/dateien/23/P4G23Icon1-3.png" alt="P4G Icon" width="100">
+<img src="/dateien/23/P4G23Icon1-2.jpg" alt="P4G Icon" width="100">
 
 [Aufzeichnung 02.11.2023](https://youtu.be/f959EQE4RW8)
 
@@ -42,7 +42,7 @@ Planetenbewegung
 
 ### Vorlesung 3  Von Exoplaneten zu Schwarzen Löchern
 
-<img src="/dateien/23/P4G23Icon1-2.jpg" alt="P4G Icon" width="100">
+<img src="/dateien/23/P4G23Icon1-3.png" alt="P4G Icon" width="100">
 
 [Aufzeichnung 09.11.2023](https://https://youtu.be/O6vQZ9ym094)
 
