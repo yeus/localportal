@@ -36,9 +36,7 @@ Planetenbewegung
 + [Erathosthens Messung des Erdumfangs](https://uni-bonn.sciebo.de/s/xRrmBpDGEswiAYm) aus Die Top Ten der schönsten Experimete der Physik (rororo)
 + [Die Abbremsung der Erdrotation](https://uni-bonn.sciebo.de/s/3s25qct5XNYonxY) Physik in unserer Zeit 1989
 
-### Vorlesung 3  Von Exoplaneten zu Schwarzen Löchern
-
-<img src="/dateien/23/P4G23Icon1-3.png" alt="P4G Icon" width="100">
+### <img src="/dateien/23/P4G23Icon1-3.png" alt="P4G Icon" width="100">  Vorlesung 3  Von Exoplaneten zu Schwarzen Löchern
 
 [Aufzeichnung 09.11.2023](https://https://youtu.be/O6vQZ9ym094)
 
