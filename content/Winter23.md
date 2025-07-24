@@ -44,5 +44,12 @@ Planetenbewegung
          [(kompakt)](https://uni-bonn.sciebo.de/s/GmR75rt2EEg4opR)
 
 #### <ins>Artikel zum Thema:</ins>
+Exoplaneten
++ [Auf der Suche nach Planeten um andere Sonnen](https://uni-bonn.sciebo.de/s/SoacaHrdL9a6neT) Physik in unserer Zeit 2006
++ [Die Stellung der Erde im Kosmos] (https://uni-bonn.sciebo.de/s/LSS2nKiRwBiTkdr) Physik in unserer Zeit 2019
++ [Allein im All?] (https://uni-bonn.sciebo.de/s/xzwrTZLLHEeXAmy) Physik in unserer Zeit 2019
+
+Raumkrümmung und Schwarze Löcher
++ 
 
 
