@@ -26,17 +26,29 @@
 
 [Aufzeichnung 02.11.2023](https://youtu.be/f959EQE4RW8)
 
-[Folien Vorlesung 1,](https://uni-bonn.sciebo.de/s/pYr6BSsp5BXCz4E)
+[Folien Vorlesung 2,](https://uni-bonn.sciebo.de/s/pYr6BSsp5BXCz4E)
          [(kompakt)](https://https://uni-bonn.sciebo.de/s/oRe7GTAxDSQnqCa)
 
 #### <ins>Artikel zum Thema:</ins>
 Gezeiten
 + [Gezeiten](https://uni-bonn.sciebo.de/s/2RiWWooYjwNkF8B) Spektrum Lexikon der Physik
 + [Eine kurze Geschichte der Gezeiten Ebbe und Flut](https://uni-bonn.sciebo.de/s/jE5Mk2t2K63Mspq) Physik in unserer Zeit 2011
-+ [Die Abbremsung der Erdrotation](https://uni-bonn.sciebo.de/s/3s25qct5XNYonxY) Physik in unserer Zeit 1989
 + [Ebbe und Flut auf den Kontinenten](https://uni-bonn.sciebo.de/s/nnZHqRo2sa7WqKN) Physik in unserer Zeit 2020
 + [Bei Flut sinkt der Wasserspiegel im Brunnen](https://uni-bonn.sciebo.de/s/coNHwBe32gPFdBL) Physik in unserer Zeit 2017
 
 Planetenbewegung
 + [Erathosthens Messung des Erdumfangs](https://uni-bonn.sciebo.de/s/xRrmBpDGEswiAYm) aus Die Top Ten der schönsten Experimete der Physik (rororo)
++ [Die Abbremsung der Erdrotation](https://uni-bonn.sciebo.de/s/3s25qct5XNYonxY) Physik in unserer Zeit 1989
+
+### Vorlesung 3  Von Exoplaneten zu Schwarzen Löchern
+
+<img src="/dateien/23/P4G23Icon1-2.jpg" alt="P4G Icon" width="100">
+
+[Aufzeichnung 09.11.2023](https://https://youtu.be/O6vQZ9ym094)
+
+[Folien Vorlesung 3,](https://uni-bonn.sciebo.de/s/pYr6BSsp5BXCz4)
+         [(kompakt)](https://uni-bonn.sciebo.de/s/GmR75rt2EEg4opR)
+
+#### <ins>Artikel zum Thema:</ins>
+
 
