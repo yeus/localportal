@@ -50,6 +50,11 @@ Exoplaneten
 + [Allein im All?](https://uni-bonn.sciebo.de/s/xzwrTZLLHEeXAmy) Physik in unserer Zeit 2019
 
 Raumkrümmung und Schwarze Löcher
-+ 
++ [Einstein und Eddington](https://uni-bonn.sciebo.de/s/RH2xzHtGpbafZRT) FAZ 2019
++ [Schwarze Löcher in Galaxienzentren](https://uni-bonn.sciebo.de/s/A2s9ZPyzBAoAF5y) Physik in unserer Zeit 2017
++ [Die Singularität eines Schwarzen Loches](https://uni-bonn.sciebo.de/s/jc8gEsnEt6LiX8Y) Physik in unserer Zeit 2017
++ [Kosmische Uhren ticken anders](https://uni-bonn.sciebo.de/s/Xc89Ra7Cg5AFcFF) Physik in unserr Zeit 2015
+
+  
 
 
