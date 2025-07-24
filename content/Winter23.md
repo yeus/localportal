@@ -4,7 +4,7 @@
 
 ## Block 1: Mechanik: Vom Freien Fall zum Schwarzen Loch
 
-<img src="/dateien/23/P4G23Icon1-1.jpg" alt="P4G Icon" width="100">  ### Vorlesung 1  Freier Fall
+### <img src="/dateien/23/P4G23Icon1-1.jpg" alt="P4G Icon" width="100"> Vorlesung 1  Freier Fall
 
 [Aufzeichnung 26.10.2023](https://youtu.be/_KM3gSG9GbM)
 
