@@ -83,5 +83,12 @@ Raumkrümmung und Schwarze Löcher
 [Folien Vorlesung 5,](https://uni-bonn.sciebo.de/s/dDT7yrPfgRSBBt2)
          [(kompakt)](https://uni-bonn.sciebo.de/s/ocmxBKsmMsGMKFc)
 
-#### <ins>Artikel zum Thema</ins>  
+#### <ins>Artikel zum Thema</ins>
++ Aufbau der Materie
+  + [Der Aufbau der Materie, V. Weisskopf](https://uni-bonn.sciebo.de/s/Tjdow5rKG7P68i7) Physik in unserer Zeit 1971
+  + [Pauli und das Ausschließungsprinzip](https://uni-bonn.sciebo.de/s/T5kg5Sqoa7L2MDT) Physik in unserer Zeit 1999
+  + [Das Periodensystem der Elemente und Lothar Meyer](https://uni-bonn.sciebo.de/s/RjLTFWc5g9Y2FQj) CHemie in unserer Zeit 2019
+  + [Die Geburt der modernen Atomtheorie](https://uni-bonn.sciebo.de/s/8n6sd6is7ppn5tR) Physik in unserer Zeit 2019
++ Zur Quantentechnologie
+  + []
 
