@@ -18,7 +18,7 @@
 #### <ins>Weblinks:</ins>
 + [Simulation einer Brachistochrone](https://www.youtube.com/watch?v=ndTRkwpxIlU) (in englischer Sprache, mit frdl. Erlaubnis, eng morph)
 
-### <img src="/dateien/23/P4G23Icon1-2.jpg" alt="P4G Icon" width="280"> Vorlesung 2  Planetenbewegung
+### <img src="/dateien/23/P4G23Icon1-2.jpg" alt="P4G Icon" width="100"> Vorlesung 2  Planetenbewegung
 
 [Aufzeichnung 02.11.2023](https://youtu.be/f959EQE4RW8)
 
@@ -57,7 +57,7 @@ Raumkrümmung und Schwarze Löcher
 
 ## Block 2: Quantenwelten
 
-### <img src="/dateien/23/P4G23Icon2-4.png" alt="P4G Icon" width="100">  Vorlesung 4  Nanowelten
+### <img src="/dateien/23/P4G23Icon2-4.png" alt="P4G Icon" width="180">  Vorlesung 4  Nanowelten
 
 [Aufzeichnung 16.11.2023](https://youtu.be/LTqUiNiHXBQ)
 
