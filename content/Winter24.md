@@ -47,9 +47,7 @@
 
 ## Block 2: Was die Welt zusammenhält -- Aufbau der Materie
 
-### Vorlesung 4 In den Mikrokosmos schauen
-
-<img src="/dateien/24/P4G24Icon2-4.jpg" alt="P4G Icon" width="110">
+### <img src="/dateien/24/P4G24Icon2-4.jpg" alt="P4G Icon" width="110">  Vorlesung 4 In den Mikrokosmos schauen
 
 [Aufzeichnung](https://youtu.be/35Yq57dSXxY)
 
@@ -71,9 +69,7 @@
 + [Rutherfords Erbe](https://uni-bonn.sciebo.de/s/HxMsYf4L4GopNjx) (Physik Jorunal 2011)]
 
   
-### Vorlesung 5 Periodensystem, Kerne, Teilchen
-
-<img src="/dateien/24/P4G24Icon2-5.jpg" alt="P4G Icon" width="110">
+### <img src="/dateien/24/P4G24Icon2-5.jpg" alt="P4G Icon" width="110">  Vorlesung 5 Periodensystem, Kerne, Teilchen
 
 [Aufzeichnung](https://youtu.be/tLoZ87GPKNg)   
 
@@ -91,9 +87,7 @@
 + [Experimente mit der Antiwelt](https://uni-bonn.sciebo.de/s/wzXxt8GW8xTq9wR) (Physik Journal 2024)
 
          
-### Vorlesung 6 Was die Welt im innersten zusammenhält?
-
-<img src="/dateien/24/P4G24Icon2-6.jpg" alt="P4G Icon" width="110">
+### <img src="/dateien/24/P4G24Icon2-6.jpg" alt="P4G Icon" width="110">  Vorlesung 6 Was die Welt im innersten zusammenhält?
 
 [Aufzeichnung](https://youtu.be/G6IEMBUtcLY)   
 
