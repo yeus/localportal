@@ -59,10 +59,10 @@ Raumkrümmung und Schwarze Löcher
 
 ### <img src="/dateien/23/P4G23Icon2-4.png" alt="P4G Icon" width="100">  Vorlesung 4  Nanowelten
 
-[Aufzeichnung 16.11.2023](https://youtu.be/O6vQZ9ym094)
+[Aufzeichnung 16.11.2023](https://youtu.be/LTqUiNiHXBQ)
 
-[Folien Vorlesung 3,]()
-         [(kompakt)]()
+[Folien Vorlesung 3,](https://uni-bonn.sciebo.de/s/X6zJXL8D8GSLNPa)
+         [(kompakt)](https://uni-bonn.sciebo.de/s/RZGyFDoG7c9CmPc)
 
 #### <ins>Artikel zum Thema:</ins>
 
