@@ -5,9 +5,7 @@
 
 ## Block 1: Elektrizität
 
-### Vorlesung 1  Ladungen
-
-<img src="/dateien/24/P4G24Icon1-1.jpg" alt="P4G Icon" width="100">
+### <img src="/dateien/24/P4G24Icon1-1.jpg" alt="P4G Icon" width="100"> Vorlesung 1  Ladungen
 
 [Aufzeichnung](https://youtu.be/FV_QXjUucX4)   
 
@@ -24,9 +22,7 @@
 + [Georg Simon Ohm in Köln](https://uni-bonn.sciebo.de/s/ASwne7qwoKj8BHd)
 + [Elektromobilität](https://uni-bonn.sciebo.de/s/22KxCPydFQXar48) (Physik Journal 2009)
 
-### Vorlesung 2 Elektrizität und Magnetismus
-
-<img src="/dateien/24/P4G24Icon1-2.jpg" alt="P4G Icon" width="100">
+### <img src="/dateien/24/P4G24Icon1-2.jpg" alt="P4G Icon" width="100">  Vorlesung 2 Elektrizität und Magnetismus
 
 [Aufzeichnung](https://youtu.be/cMsUGmbA19o)   
 
@@ -38,9 +34,7 @@
 + [Wandel der Stromnetze](https://uni-bonn.sciebo.de/s/cga5QzdYP6z9Td8) (Physik Journal 2014)
 + [Batterien wie Sand am Meer](https://uni-bonn.sciebo.de/s/Gtx5baBeZjk8n39) (Physik Journal 2024)
 
-### Vorlesung 3 Elektromagnetische Materialien und Wellen
-
-<img src="/dateien/24/P4G24Icon1-3.jpg" alt="P4G Icon" width="140">
+### <img src="/dateien/24/P4G24Icon1-3.jpg" alt="P4G Icon" width="140"> Vorlesung 3 Elektromagnetische Materialien und Wellen
 
 !! Die Aufzeichnung ist leider schief gegangen. Gepant: Videoclip zum Hertzschen Versuch zur Übertragung von elektromagnetiscxhen Wellen.
 
