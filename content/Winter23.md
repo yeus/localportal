@@ -61,7 +61,7 @@ Raumkrümmung und Schwarze Löcher
 
 [Aufzeichnung 16.11.2023](https://youtu.be/LTqUiNiHXBQ)
 
-[Folien Vorlesung 3,](https://uni-bonn.sciebo.de/s/X6zJXL8D8GSLNPa)
+[Folien Vorlesung 4,](https://uni-bonn.sciebo.de/s/X6zJXL8D8GSLNPa)
          [(kompakt)](https://uni-bonn.sciebo.de/s/RZGyFDoG7c9CmPc)
 
 #### <ins>Artikel zum Thema</ins>
@@ -76,5 +76,12 @@ Raumkrümmung und Schwarze Löcher
   + [Photonen hören](https://uni-bonn.sciebo.de/s/TaAAgwkMkyATcN7)
   + [Doppelspalt-Experiment](https://uni-bonn.sciebo.de/s/wTGWJZMeELddbYH)
 
-  
+### <img src="/dateien/23/P4G23Icon2-4.png" alt="P4G Icon" width="180">  Vorlesung 5 Superposition
+
+[Aufzeichnung 23.11.2023](https://youtu.be/TcyFyrfFfF0)
+
+[Folien Vorlesung 5,](https://uni-bonn.sciebo.de/s/dDT7yrPfgRSBBt2)
+         [(kompakt)](https://uni-bonn.sciebo.de/s/ocmxBKsmMsGMKFc)
+
+#### <ins>Artikel zum Thema</ins>  
 
