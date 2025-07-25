@@ -106,9 +106,7 @@
 
 ## Block 3 Quantenwelten -- 100 Jahre sind erst der Anfang
 
-### Vorlesung 8  Materiewellen und Diskretheit
-
-<img src="/dateien/24/P4G24Icon3-8.jpg" alt="P4G Icon" width="110">
+### <img src="/dateien/24/P4G24Icon3-8.jpg" alt="P4G Icon" width="110">  Vorlesung 8  Materiewellen und Diskretheit
 
 [Aufzeichnung](https://youtu.be/cFW75H2vWCU)
 
@@ -123,9 +121,7 @@
 + Zufall und Quantenwelt [Zufällige Begegenung](https://uni-bonn.sciebo.de/s/NwacwEKGzgcdmao) (Kultur und Technik 2024)
        
 
-### Vorlesung 9  Überlagerungen in der Quantenwelt
-
-<img src="/dateien/24/P4G24Icon3-9.jpg" alt="P4G Icon" width="110">
+### <img src="/dateien/24/P4G24Icon3-9.jpg" alt="P4G Icon" width="110">  Vorlesung 9  Überlagerungen in der Quantenwelt
 
 [Aufzeichnung](https://youtu.be/gFaBCUJqgOw)
 
@@ -142,9 +138,7 @@
   + Supraleiter und Quanteninterferenz [Makroskopische Quanteneffekte](https://uni-bonn.sciebo.de/s/CScg5rNzRBnqpYZ) (Physik in unserer Zeit 1987)
   + Wo steht das *h* bei der Supraleitung? [Paarweise im Fluss](https://uni-bonn.sciebo.de/s/cjKn4iGc6D9wnzB) (Physik Journal 2011)
          
-### Vorlesung 10  Verschränkung, Quantencomputing und mehr
-
-<img src="/dateien/24/P4G24Icon3-10.jpg" alt="P4G Icon" width="110">
+### <img src="/dateien/24/P4G24Icon3-10.jpg" alt="P4G Icon" width="110">   Vorlesung 10  Verschränkung, Quantencomputing und mehr
 
 [Aufzeichnung](https://youtu.be/sq_NV5RAEuo)
 
