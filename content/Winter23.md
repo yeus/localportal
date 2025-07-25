@@ -38,7 +38,7 @@ Planetenbewegung
 
 ### <img src="/dateien/23/P4G23Icon1-3.png" alt="P4G Icon" width="100">  Vorlesung 3  Von Exoplaneten und Schwarzen Löchern
 
-[Aufzeichnung 09.11.2023](https://https://youtu.be/O6vQZ9ym094)
+[Aufzeichnung 09.11.2023](https://youtu.be/O6vQZ9ym094)
 
 [Folien Vorlesung 3,](https://uni-bonn.sciebo.de/s/pYr6BSsp5BXCz4)
          [(kompakt)](https://uni-bonn.sciebo.de/s/GmR75rt2EEg4opR)
