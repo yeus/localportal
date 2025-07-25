@@ -157,7 +157,8 @@
   + [Realisierungen](https://uni-bonn.sciebo.de/s/oKF5kHkze7CYgCB) (Physik Journal 2023)
   + [Algorithmik](https://uni-bonn.sciebo.de/s/jToPQNCPGypqLng) (Physik Journal 2023)
   + [Quantencomputing aktuell]() (FAZ 2025)
-+ Quanteninternet [Der Weg zum Quanteninternet](https://uni-bonn.sciebo.de/s/DZAj75FZAwdf59G) (Physik in unserer Zeit 2023)
++ Quanteninternet
+  + [Der Weg zum Quanteninternet](https://uni-bonn.sciebo.de/s/DZAj75FZAwdf59G) (Physik in unserer Zeit 2023)
 
 
 
