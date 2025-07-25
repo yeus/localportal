@@ -57,6 +57,13 @@ Raumkrümmung und Schwarze Löcher
 
 ## Block 2: Quantenwelten
 
+### <img src="/dateien/23/P4G23Icon2-4.png" alt="P4G Icon" width="100">  Vorlesung 4  Nanowelten
 
+[Aufzeichnung 16.11.2023](https://youtu.be/O6vQZ9ym094)
+
+[Folien Vorlesung 3,]()
+         [(kompakt)]()
+
+#### <ins>Artikel zum Thema:</ins>
 
 
