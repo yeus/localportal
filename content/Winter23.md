@@ -90,5 +90,9 @@ Raumkrümmung und Schwarze Löcher
   + [Das Periodensystem der Elemente und Lothar Meyer](https://uni-bonn.sciebo.de/s/RjLTFWc5g9Y2FQj) CHemie in unserer Zeit 2019
   + [Die Geburt der modernen Atomtheorie](https://uni-bonn.sciebo.de/s/8n6sd6is7ppn5tR) Physik in unserer Zeit 2019
 + Zur Quantentechnologie
-  + []
+  + [Einzelne Ionen](https://uni-bonn.sciebo.de/s/ixbLB5KzxxXKo9Q) Physik in unserer Zeit 1987
+  + [Der Weg zum Quanteninternet](https://uni-bonn.sciebo.de/s/7gXDPG9ApfqAZfp) Physik in unserer Zeit 2023
+  + [Was tun, wenn der Quantencomputer heutige Schlüssel knacken kann?](https://uni-bonn.sciebo.de/s/kb8FxtoZ6bP2954) NZZ 2023
+
+ 
 
