@@ -64,10 +64,17 @@ Raumkrümmung und Schwarze Löcher
 [Folien Vorlesung 3,](https://uni-bonn.sciebo.de/s/X6zJXL8D8GSLNPa)
          [(kompakt)](https://uni-bonn.sciebo.de/s/RZGyFDoG7c9CmPc)
 
-#### <ins>Artikel zum Thema:</ins>
+#### <ins>Artikel zum Thema</ins>
 * [Werner Heisenberg zum 100.sten Geburtstag](https://uni-bonn.sciebo.de/s/peBmRDWjAq7k5mk) Physik in unserer Zeit 2001
 * [Quantendots, Nobelpreis für Chemie 2023](https://uni-bonn.sciebo.de/s/zQm6JA4HimXEYnm) Nobelpreis-STiftung (in englischer Sprache)
 * [Rosalind Franklin, die stille Heldin der DNA-Doppelhelix](https://uni-bonn.sciebo.de/s/q2GoMXwkJCmj2Gk) Bayer Global zum Welt-DNA-Tag
+
+#### Videoclips zum Thema
++ [Max Planck, Selbstdarstellung 1942](https://www.youtube.com/watch?v=5mwHXBn6mcM)
++ [Powers of Ten](https://uni-bonn.sciebo.de/s/rdKXiew7P7Fki3W) mit deutscher Übersetzung, IBM 1979
++ Experimentelle Illustrationen
+  + [Photonen hören](https://uni-bonn.sciebo.de/s/TaAAgwkMkyATcN7)
+  + [Doppelspalt-Experiment](https://uni-bonn.sciebo.de/s/wTGWJZMeELddbYH)
 
   
 
