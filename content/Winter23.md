@@ -76,7 +76,7 @@ Raumkrümmung und Schwarze Löcher
   + [Photonen hören](https://uni-bonn.sciebo.de/s/TaAAgwkMkyATcN7)
   + [Doppelspalt-Experiment](https://uni-bonn.sciebo.de/s/wTGWJZMeELddbYH)
 
-### <img src="/dateien/23/P4G23Icon2-4.png" alt="P4G Icon" width="180">  Vorlesung 5 Superposition
+### <img src="/dateien/23/P4G23Icon2-5.png" alt="P4G Icon" width="100">  Vorlesung 5 Superposition
 
 [Aufzeichnung 23.11.2023](https://youtu.be/TcyFyrfFfF0)
 
