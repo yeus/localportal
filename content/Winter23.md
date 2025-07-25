@@ -66,7 +66,7 @@ Raumkrümmung und Schwarze Löcher
 
 #### <ins>Artikel zum Thema</ins>
 * [Werner Heisenberg zum 100.sten Geburtstag](https://uni-bonn.sciebo.de/s/peBmRDWjAq7k5mk) Physik in unserer Zeit 2001
-* [Quantendots, Nobelpreis für Chemie 2023](https://uni-bonn.sciebo.de/s/zQm6JA4HimXEYnm) Nobelpreis-STiftung (in englischer Sprache)
+* [Quantendots, Nobelpreis für Chemie 2023](https://uni-bonn.sciebo.de/s/zQm6JA4HimXEYnm) Nobelpreis-Stiftung (in englischer Sprache)
 * [Rosalind Franklin, die stille Heldin der DNA-Doppelhelix](https://uni-bonn.sciebo.de/s/q2GoMXwkJCmj2Gk) Bayer Global zum Welt-DNA-Tag
 
 #### Videoclips zum Thema
