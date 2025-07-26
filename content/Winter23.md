@@ -102,6 +102,16 @@ Raumkrümmung und Schwarze Löcher
 [Folien Vorlesung 6,](https://uni-bonn.sciebo.de/s/WXHEbgz8aZJfw6d)
          [(kompakt)](https://uni-bonn.sciebo.de/s/cacH4Z6BD2fXiSC)
 
+#### <ins>Artikel zum Thema</ins>
++ Quantencomputing
+  + [Quantencomputer bauen](https://uni-bonn.sciebo.de/s/8j2nPdRMzKS4MSB) PhysikJournal 2023
+  + [Quantenrechnen](https://uni-bonn.sciebo.de/s/k5c3n6jQYmrWeMZ) PhysikJournal 2023
+  + [Optischer Quantencomputer](https://uni-bonn.sciebo.de/s/gLfrii5SeMFdN2z) PhysikJournal 2023
+  + [Algorithmen](https://uni-bonn.sciebo.de/s/iiCGRfx6WQzPTwF) PhysikJournal 2023
++ Andere Anwendungen
+  + [Magnet-Resonanz-Tomographie (MRT](https://uni-bonn.sciebo.de/s/eLqTgzorneKp9cS) Physik in unserer Zeit 2010
+
+
 
 
 
