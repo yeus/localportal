@@ -109,7 +109,7 @@ Raumkrümmung und Schwarze Löcher
   + [Optischer Quantencomputer](https://uni-bonn.sciebo.de/s/gLfrii5SeMFdN2z) PhysikJournal 2023
   + [Algorithmen](https://uni-bonn.sciebo.de/s/iiCGRfx6WQzPTwF) PhysikJournal 2023
 + Andere Anwendungen
-  + [Magnet-Resonanz-Tomographie (MRT](https://uni-bonn.sciebo.de/s/eLqTgzorneKp9cS) Physik in unserer Zeit 2010
+  + [Magnet-Resonanz-Tomographie (MRT)](https://uni-bonn.sciebo.de/s/eLqTgzorneKp9cS) Physik in unserer Zeit 2010
 
 
 
