@@ -95,7 +95,7 @@ Raumkrümmung und Schwarze Löcher
   + [Der Weg zum Quanteninternet](https://uni-bonn.sciebo.de/s/7gXDPG9ApfqAZfp) Physik in unserer Zeit 2023
   + [Was tun, wenn der Quantencomputer heutige Schlüssel knacken kann?](https://uni-bonn.sciebo.de/s/kb8FxtoZ6bP2954) NZZ 2023
 
- ### <img src="/dateien/23/P4G23Icon2-5.png" alt="P4G Icon" width="100">  Vorlesung 5 Superposition
+ ### <img src="/dateien/23/P4G23Icon2-6.png" alt="P4G Icon" width="100">  Vorlesung 6 Superposition
 
 [Aufzeichnung 30.11.2023](https://youtu.be/d5FK7AxA5ow)
 
