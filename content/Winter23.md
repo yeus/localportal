@@ -89,10 +89,19 @@ Raumkrümmung und Schwarze Löcher
   + [Pauli und das Ausschließungsprinzip](https://uni-bonn.sciebo.de/s/T5kg5Sqoa7L2MDT) Physik in unserer Zeit 1999
   + [Das Periodensystem der Elemente und Lothar Meyer](https://uni-bonn.sciebo.de/s/RjLTFWc5g9Y2FQj) CHemie in unserer Zeit 2019
   + [Die Geburt der modernen Atomtheorie](https://uni-bonn.sciebo.de/s/8n6sd6is7ppn5tR) Physik in unserer Zeit 2019
+  + [Physikonkret: 100 jahre Stern-Gerlach-Experiment](https://uni-bonn.sciebo.de/s/bcSsFj5bMFg6nrG) Deutsche Physikalische Gesellschaft 2002
 + Zur Quantentechnologie
   + [Einzelne Ionen](https://uni-bonn.sciebo.de/s/ixbLB5KzxxXKo9Q) Physik in unserer Zeit 1987
   + [Der Weg zum Quanteninternet](https://uni-bonn.sciebo.de/s/7gXDPG9ApfqAZfp) Physik in unserer Zeit 2023
   + [Was tun, wenn der Quantencomputer heutige Schlüssel knacken kann?](https://uni-bonn.sciebo.de/s/kb8FxtoZ6bP2954) NZZ 2023
 
- 
+ ### <img src="/dateien/23/P4G23Icon2-5.png" alt="P4G Icon" width="100">  Vorlesung 5 Superposition
+
+[Aufzeichnung 30.11.2023](https://youtu.be/d5FK7AxA5ow)
+
+[Folien Vorlesung 5,](https://uni-bonn.sciebo.de/s/dDT7yrPfgRSBBt2)
+         [(kompakt)](https://uni-bonn.sciebo.de/s/ocmxBKsmMsGMKFc)
+
+
+
 
