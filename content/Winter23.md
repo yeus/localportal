@@ -99,8 +99,8 @@ Raumkrümmung und Schwarze Löcher
 
 [Aufzeichnung 30.11.2023](https://youtu.be/d5FK7AxA5ow)
 
-[Folien Vorlesung 5,](https://uni-bonn.sciebo.de/s/dDT7yrPfgRSBBt2)
-         [(kompakt)](https://uni-bonn.sciebo.de/s/ocmxBKsmMsGMKFc)
+[Folien Vorlesung 6,](https://uni-bonn.sciebo.de/s/WXHEbgz8aZJfw6d)
+         [(kompakt)](https://uni-bonn.sciebo.de/s/cacH4Z6BD2fXiSC)
 
 
 
