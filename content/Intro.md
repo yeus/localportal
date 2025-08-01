@@ -30,9 +30,9 @@ Kompaktinformationen zu Physik-Themen [physikkonkret](https://www.dpg-physik.de/
 + Geschichte der Quantenphysik: [Quantum History Wall](https://www.quantum-history.de/) (auf Englisch)
 
 ## Berichte über P4G in den Medien
-+ Das ["Ur-Plakat"][https://uni-bonn.sciebo.de/s/cZ2q8xas56dRXT8] von P4G 2022
-+ WDR Lokalzeit vom [27.10.2022][https://uni-bonn.sciebo.de/s/QXSPb8cnF5aNXtY]
-+ WDR Lokalzeit vom [15.12.2023][https://uni-bonn.sciebo.de/s/KpWKc2gEYxqKxnk]
++ Das ["Ur-Plakat"](https://uni-bonn.sciebo.de/s/cZ2q8xas56dRXT8) von P4G 2022
++ WDR Lokalzeit vom [27.10.2022](https://uni-bonn.sciebo.de/s/QXSPb8cnF5aNXtY)
++ WDR Lokalzeit vom [15.12.2023](https://uni-bonn.sciebo.de/s/KpWKc2gEYxqKxnk)
 + [Generalanzeiger Bonn](https://uni-bonn.sciebo.de/s/RfjaTiySCJyje2D) vom 25.10.2023
 
   
