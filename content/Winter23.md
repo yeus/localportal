@@ -111,7 +111,7 @@ Raumkrümmung und Schwarze Löcher
 + Andere Anwendungen
   + [Magnet-Resonanz-Tomographie (MRT)](https://uni-bonn.sciebo.de/s/eLqTgzorneKp9cS) Physik in unserer Zeit 2010
 
- ### <img src="/dateien/23/P4G23Icon7.jpg" alt="P4G Icon" width="100">  Vorlesung 7 Weihnachtslicht
+ ### <img src="/dateien/23/P4G23Icon7.jpg" alt="P4G Icon" width="150">  Vorlesung 7 Weihnachtslicht
 
 [Aufzeichnung 07.12.2023](https://youtu.be/tJZ-a7-DwBw)
 
