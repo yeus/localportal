@@ -29,4 +29,7 @@ Kompaktinformationen zu Physik-Themen [physikkonkret](https://www.dpg-physik.de/
 ### Physik und Geschichte
 + Geschichte der Quantenphysik: [Quantum History Wall](https://www.quantum-history.de/) (auf Englisch)
 
+## Berichte über P4G in den Medien
++ WDR Lokalzeit vom 
+
   
