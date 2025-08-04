@@ -129,7 +129,7 @@ Raumkrümmung und Schwarze Löcher
 
 [Aufzeichnung 11.01.2024](https://youtu.be/qh6rfzrlIjg)
 
-[Folien Vorlesung 4,](https://uni-bonn.sciebo.de/s/XJYJkqHE9Bwzpns)
+[Folien Vorlesung 8,](https://uni-bonn.sciebo.de/s/XJYJkqHE9Bwzpns)
          [(kompakt)](https://uni-bonn.sciebo.de/s/DPTtE8K3bQDriRB)
 
 
