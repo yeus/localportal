@@ -125,7 +125,7 @@ Raumkrümmung und Schwarze Löcher
 
 ## Block 3: Wärme, Energie und Klima
 
-### <img src="/dateien/23/P4G23Icon2-4.png" alt="P4G Icon" width="180">  Vorlesung 8  Was ist Wärme?
+### <img src="/dateien/23/P4G23Icon3-8.png" alt="P4G Icon" width="180">  Vorlesung 8  Was ist Wärme?
 
 [Aufzeichnung 11.01.2024](https://youtu.be/qh6rfzrlIjg)
 
