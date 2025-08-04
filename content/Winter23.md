@@ -132,6 +132,8 @@ Raumkrümmung und Schwarze Löcher
 [Folien Vorlesung 8,](https://uni-bonn.sciebo.de/s/XJYJkqHE9Bwzpns)
          [(kompakt)](https://uni-bonn.sciebo.de/s/DPTtE8K3bQDriRB)
 
+#### <ins>Artikel zum Thema</ins>
++ [Wärmebildkameras](https://uni-bonn.sciebo.de/s/946nbWBeRC3sLBm)
 
 
 
