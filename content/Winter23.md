@@ -33,7 +33,7 @@ Gezeiten
 + [Bei Flut sinkt der Wasserspiegel im Brunnen](https://uni-bonn.sciebo.de/s/coNHwBe32gPFdBL) Physik in unserer Zeit 2017
 
 Planetenbewegung
-+ [Erathosthens Messung des Erdumfangs](https://uni-bonn.sciebo.de/s/xRrmBpDGEswiAYm) aus Die Top Ten der schönsten Experimete der Physik (rororo)
++ [Erathosthens Messung des Erdumfangs](https://uni-bonn.sciebo.de/s/xRrmBpDGEswiAYm) aus Die Top Ten der schönsten Experimente der Physik (rororo)
 + [Die Abbremsung der Erdrotation](https://uni-bonn.sciebo.de/s/3s25qct5XNYonxY) Physik in unserer Zeit 1989
 
 ### <img src="/dateien/23/P4G23Icon1-3.png" alt="P4G Icon" width="100">  Vorlesung 3  Von Exoplaneten und Schwarzen Löchern
@@ -111,7 +111,9 @@ Raumkrümmung und Schwarze Löcher
 + Andere Anwendungen
   + [Magnet-Resonanz-Tomographie (MRT)](https://uni-bonn.sciebo.de/s/eLqTgzorneKp9cS) Physik in unserer Zeit 2010
 
- ### <img src="/dateien/23/P4G23Icon7.jpg" alt="P4G Icon" width="150">  Vorlesung 7 Weihnachtslicht
+## Weihnachtsvorlesung (Nr. 7)
+
+### <img src="/dateien/23/P4G23Icon7.jpg" alt="P4G Icon" width="150"> Weihnachtslicht
 
 [Aufzeichnung 07.12.2023](https://youtu.be/tJZ-a7-DwBw)
 
