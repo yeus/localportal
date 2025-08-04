@@ -123,4 +123,16 @@ Raumkrümmung und Schwarze Löcher
 #### <ins>Artikel zum Thema</ins>
 + [Physikonkret: Attosekundenphysik](https://uni-bonn.sciebo.de/s/Ck2Z95wYdcXtNdR)
 
+## Block 3: Wärme, Energie und Klima
+
+### <img src="/dateien/23/P4G23Icon2-4.png" alt="P4G Icon" width="180">  Vorlesung 8  Was ist Wärme?
+
+[Aufzeichnung 11.01.2024](https://youtu.be/qh6rfzrlIjg)
+
+[Folien Vorlesung 4,](https://uni-bonn.sciebo.de/s/XJYJkqHE9Bwzpns)
+         [(kompakt)](https://uni-bonn.sciebo.de/s/DPTtE8K3bQDriRB)
+
+
+
+
 
