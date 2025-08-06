@@ -146,6 +146,17 @@ Raumkrümmung und Schwarze Löcher
 + [Beiträge zur Welternährung](https://uni-bonn.sciebo.de/s/EYfRXpYJiYFbBm6)
 + [Porträt Fritz Haber](https://uni-bonn.sciebo.de/s/5i2TeoL9jr4Ty3E)
 
+### <img src="/dateien/23/P4G23Icon3-10.png" alt="P4G Icon" width="100">  Vorlesung 10  Atmosphäre und menschlicher Einfluss
+
+[Aufzeichnung 25.01.2024](https://youtu.be/is6F4kDcmTA)
+
+[Folien Vorlesung 10,](https://uni-bonn.sciebo.de/s/Ckt4zZQs4TYZZ7J)
+         [(kompakt)](https://uni-bonn.sciebo.de/s/BoPycKxaHYKN9jt)
+
+#### <ins>Artikel zum Thema</ins>
++ []()
++ []()
+
 
 
 
