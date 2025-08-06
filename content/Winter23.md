@@ -139,10 +139,13 @@ Raumkrümmung und Schwarze Löcher
 
 [Aufzeichnung 18.01.2024](https://youtu.be/Zw-VXDRSQpU)
 
-[Folien Vorlesung 9,]()
-         [(kompakt)]()
+[Folien Vorlesung 9,](https://uni-bonn.sciebo.de/s/3kZQEJjxnPNC3RN)
+         [(kompakt)](https://uni-bonn.sciebo.de/s/pZaYL5N7TR46swn)
 
-#### <ins>Artikel zum Thema</ins>
-+ []()
+#### <ins>Artikel zum Ausflug Haber-Bosch-Verfahren</ins>
++ [Beiträge zur Welternährung](https://uni-bonn.sciebo.de/s/EYfRXpYJiYFbBm6)
++ [Porträt Fritz Haber](https://uni-bonn.sciebo.de/s/5i2TeoL9jr4Ty3E)
+
+
 
 
