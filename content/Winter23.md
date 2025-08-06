@@ -135,6 +135,14 @@ Raumkrümmung und Schwarze Löcher
 #### <ins>Artikel zum Thema</ins>
 + [Wärmebildkameras](https://uni-bonn.sciebo.de/s/946nbWBeRC3sLBm)
 
+### <img src="/dateien/23/P4G23Icon3-9.png" alt="P4G Icon" width="100">  Vorlesung 9  Wärmeprozesse und Maschinen
 
+[Aufzeichnung 18.01.2024]()
+
+[Folien Vorlesung 9,]()
+         [(kompakt)]()
+
+#### <ins>Artikel zum Thema</ins>
++ []()
 
 
