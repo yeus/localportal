@@ -154,8 +154,16 @@ Raumkrümmung und Schwarze Löcher
          [(kompakt)](https://uni-bonn.sciebo.de/s/BoPycKxaHYKN9jt)
 
 #### <ins>Artikel zum Thema</ins>
-+ []()
-+ []()
++ Klimafragen
+  + [Sonne oder Treibhauseffekt?](https://uni-bonn.sciebo.de/s/G6zoYcBGDwXNmDA) Physik in unserer Zeit 2020
+  + [Temperaturvariabilit#t der letzten 2000 Jahre](https://uni-bonn.sciebo.de/s/9M45rSSynYSNX28) Physik in unserer Zeit 2014
+  + [Das Klima der jüngeren Vergangenheit](https://uni-bonn.sciebo.de/s/AdXZsZimBtXDLxi) Physik in unserer Zeit 2007
+  + [Isotopenthermometer im Eis](https://uni-bonn.sciebo.de/s/eKKBp3g2kb9YjcB) Physik in unserer Zeit 2001
+  + [Der CO2-Haushalt der Erde](https://uni-bonn.sciebo.de/s/eKKBp3g2kb9YjcB) Physik in unserer Zeit 2020
++ Konsequenzen
+  + [Zum IPCC-Bericht 2022](https://uni-bonn.sciebo.de/s/b4swjHPTJWwG2ZN)
+  + [Windenergiepotenzial in D](https://uni-bonn.sciebo.de/s/rjjs7SepoAjtJ6n)
+
 
 
 
