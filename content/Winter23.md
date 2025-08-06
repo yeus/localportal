@@ -146,7 +146,7 @@ Raumkrümmung und Schwarze Löcher
 + Ausflug Haber-Bosch-Verfahren
   + [Beiträge zur Welternährung](https://uni-bonn.sciebo.de/s/EYfRXpYJiYFbBm6)
   + [Porträt Fritz Haber](https://uni-bonn.sciebo.de/s/5i2TeoL9jr4Ty3E)
-+ Rudolf Clausius zum thema Nachhaltigkeit 1885
++ Rudolf Clausius zur Nachhaltigkeit 1885
   + [Über die Energievorräthe der Natur](https://uni-bonn.sciebo.de/s/4wNHCm3WpGnQa7f)
 
 
