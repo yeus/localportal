@@ -142,9 +142,14 @@ Raumkrümmung und Schwarze Löcher
 [Folien Vorlesung 9,](https://uni-bonn.sciebo.de/s/3kZQEJjxnPNC3RN)
          [(kompakt)](https://uni-bonn.sciebo.de/s/pZaYL5N7TR46swn)
 
-#### <ins>Artikel zum Ausflug Haber-Bosch-Verfahren</ins>
-+ [Beiträge zur Welternährung](https://uni-bonn.sciebo.de/s/EYfRXpYJiYFbBm6)
-+ [Porträt Fritz Haber](https://uni-bonn.sciebo.de/s/5i2TeoL9jr4Ty3E)
+#### <ins>Artikel zum Thema</ins>
++ Ausflug Haber-Bosch-Verfahren
+  + [Beiträge zur Welternährung](https://uni-bonn.sciebo.de/s/EYfRXpYJiYFbBm6)
+  + [Porträt Fritz Haber](https://uni-bonn.sciebo.de/s/5i2TeoL9jr4Ty3E)
++ Rudolf Clausius zum thema Nachhaltigkeit 1885
+  + [Über die Energievorräthe der Natur](https://uni-bonn.sciebo.de/s/4wNHCm3WpGnQa7f)
+
+
 
 ### <img src="/dateien/23/P4G23Icon3-10.png" alt="P4G Icon" width="100">  Vorlesung 10  Atmosphäre und menschlicher Einfluss
 
