@@ -137,7 +137,7 @@ Raumkrümmung und Schwarze Löcher
 
 ### <img src="/dateien/23/P4G23Icon3-9.png" alt="P4G Icon" width="100">  Vorlesung 9  Wärmeprozesse und Maschinen
 
-[Aufzeichnung 18.01.2024]()
+[Aufzeichnung 18.01.2024](https://youtu.be/Zw-VXDRSQpU)
 
 [Folien Vorlesung 9,]()
          [(kompakt)]()
