@@ -18,6 +18,8 @@ Das Smartphone als eigenes Physiklabor [phyphox](https://phyphox.org/de/home-de/
 
 Kompaktinformationen zu Physik-Themen [physikkonkret](https://www.dpg-physik.de/veroeffentlichungen/publikationen/physikkonkret)
 
+Anregende Physik- und Mathefragen (englischsprachig) [Veritasium Youtube-Kanal](https://www.youtube.com/veritasium)
+
 ## Ausgewählte allgemeine Materialien
 
 ### Physik und Mathematik
