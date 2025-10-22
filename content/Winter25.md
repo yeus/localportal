@@ -7,7 +7,7 @@
 [Aufzeichnung](??)   
 
 #### <ins>Webseiten:</ins>
-+ Schwarmverhalten:\
++ Schwarmverhalten und Selbstorganisation:\
          -  [Starenschwarm](https://www.youtube.com/watch?v=jfoykcmi29E)\
          -  [Phantomstau (auf Englisch)](https://www.youtube.com/watch?v=Rryu85BtALM)
 
