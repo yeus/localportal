@@ -2,7 +2,7 @@
 
 ## Block 1: Komplexität, Große Moleküle, Zellen
 
-### Vorlesung 1  Was ist ein Freiheitsgrad? Vom Einfachen zum Komplexen
+### <img src="/dateien/24/P4G24Icon1-1.jpg" alt="P4G Icon" width="100"> Vorlesung 1  Was ist ein Freiheitsgrad? Vom Einfachen zum Komplexen
 
 [Aufzeichnung](https://youtu.be/hZrzmDdn0i0)
 
