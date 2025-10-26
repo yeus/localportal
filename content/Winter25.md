@@ -5,6 +5,8 @@
 ### <img src="/dateien/25/P4G25 IconV01.jpg" alt="P4G Icon" width="100"> Vorlesung 1  Was ist ein Freiheitsgrad? Vom Einfachen zum Komplexen
 
 [Aufzeichnung](https://youtu.be/hZrzmDdn0i0)
+[Folien Vorlesung 1,](https://uni-bonn.sciebo.de/s/wNfJ9DeQJR9rQEC) 
+         [(kompakt)](https://uni-bonn.sciebo.de/s/NJKELgAZ454kHxL)
 
 #### <ins>Webseiten:</ins>
 + Schwarmverhalten und Selbstorganisation:\
