@@ -16,8 +16,9 @@
 #### <ins>Artikel:</ins>
 + Komplexität in der Physik:\
          - [P. W. Anderson: More is different](https://uni-bonn.sciebo.de/s/KnTQ4agxWGydAQb)\
-         - [P. W. Anderson: Mehr ist anders (dt. Übersetzung)](https://uni-bonn.sciebo.de/s/2gqn2jWgendSnCa)\\
-+ Dünen
+         - [P. W. Anderson: Mehr ist anders (dt. Übersetzung)](https://uni-bonn.sciebo.de/s/2gqn2jWgendSnCa)
+         - [Komplexe Welt](https://uni-bonn.sciebo.de/s/cDkjawARagJSb6t) (Auszug aus Physik Erkenntnisse Persektiven 2025)
++ Dünen:
 + Verkehrsdynamik:\
          - [Die Rückkehr des Staus](https://uni-bonn.sciebo.de/s/SBaoLTFtrcYgjP3) (Physik Journal 2008)\
          - [Menschen sicher leiten und evakuieren](https://uni-bonn.sciebo.de/s/9cmBySgBNAEJzRf) (Physik in unserer Zeit 2021)
