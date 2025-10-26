@@ -4,7 +4,7 @@
 
 ### Vorlesung 1  Was ist ein Freiheitsgrad? Vom Einfachen zum Komplexen
 
-[Aufzeichnung](??)   
+[Aufzeichnung](https://youtu.be/hZrzmDdn0i0)
 
 #### <ins>Webseiten:</ins>
 + Schwarmverhalten und Selbstorganisation:\
