@@ -12,7 +12,8 @@
          -  [Phantomstau (auf Englisch)](https://www.youtube.com/watch?v=Rryu85BtALM)
 
 #### <ins>Artikel:</ins>
-+ [P. W. Anderson: More is different](https://uni-bonn.sciebo.de/s/KnTQ4agxWGydAQb)
-+ [P. W. Anderson: Mehr ist anders (dt. Übersetzung)](https://uni-bonn.sciebo.de/s/2gqn2jWgendSnCa)
++ Komplexität in der Physik:\
+         - [P. W. Anderson: More is different](https://uni-bonn.sciebo.de/s/KnTQ4agxWGydAQb)
+         - [P. W. Anderson: Mehr ist anders (dt. Übersetzung)](https://uni-bonn.sciebo.de/s/2gqn2jWgendSnCa)
 
   
