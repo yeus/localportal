@@ -13,7 +13,10 @@
 
 #### <ins>Artikel:</ins>
 + Komplexität in der Physik:\
-         - [P. W. Anderson: More is different](https://uni-bonn.sciebo.de/s/KnTQ4agxWGydAQb)
-         - [P. W. Anderson: Mehr ist anders (dt. Übersetzung)](https://uni-bonn.sciebo.de/s/2gqn2jWgendSnCa)
+         - [P. W. Anderson: More is different](https://uni-bonn.sciebo.de/s/KnTQ4agxWGydAQb)\
+         - [P. W. Anderson: Mehr ist anders (dt. Übersetzung)](https://uni-bonn.sciebo.de/s/2gqn2jWgendSnCa)\\
++ Dünen
++ Verkehrsdynamik
++ 
 
   
