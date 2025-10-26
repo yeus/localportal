@@ -8,8 +8,8 @@
 
 #### <ins>Webseiten:</ins>
 + Schwarmverhalten und Selbstorganisation:\
-         -  [Starenschwarm](https://www.youtube.com/watch?v=jfoykcmi29E)\
-         -  [Phantomstau (auf Englisch)](https://www.youtube.com/watch?v=Rryu85BtALM)
+         -  [Starenschwarm](https://www.youtube.com/watch?v=jfoykcmi29E) (youtube)\
+         -  [Phantomstau (auf Englisch)](https://www.youtube.com/watch?v=Rryu85BtALM) (youtube)
 + Dünen:\
          -  [Wunder aus Sand und Physik](https://www.faz.net/aktuell/wissen/duenen-wunder-aus-sand-und-physik-15767702.html) (FAZ 4.9.2018)\
 
