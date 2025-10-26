@@ -11,7 +11,7 @@
          -  [Starenschwarm](https://www.youtube.com/watch?v=jfoykcmi29E)\
          -  [Phantomstau (auf Englisch)](https://www.youtube.com/watch?v=Rryu85BtALM)\\
 + Dünen:\
-+        -  [Wunder aus Sand und Physik, FAZ 4.9.2018](https://www.faz.net/aktuell/wissen/duenen-wunder-aus-sand-und-physik-15767702.html)
++        -  [Wunder aus Sand und Physik FAZ 4.9.2018](https://www.faz.net/aktuell/wissen/duenen-wunder-aus-sand-und-physik-15767702.html)
 
 #### <ins>Artikel:</ins>
 + Komplexität in der Physik:\
