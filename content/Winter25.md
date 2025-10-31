@@ -36,7 +36,7 @@ Aufzeichnung: ist leider schief gegangen!
 
 #### <ins>Artikel:</ins>
 + Hämoglobin:\
-           - [M. Perutz, Rontgenanalyse des Hamoglobins](https://uni-bonn.sciebo.de/s/52djJ9rBcgesB8A) Nobelpreisvortrag 1962, Angew. Chemie 75, 589 (1963)\
+           - [M. Perutz, Rontgenanalyse des Hämoglobins](https://uni-bonn.sciebo.de/s/52djJ9rBcgesB8A) Nobelpreisvortrag 1962, Angew. Chemie 75, 589 (1963)\
            - [Das Vermächtnis von M. Perutz](https://uni-bonn.sciebo.de/s/FoMBM3YsXHLCrB8) Angew. Chemie 114, 3287 (2002)
 + Doppelhelix:\
   
