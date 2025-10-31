@@ -27,5 +27,11 @@
          - [Die Rückkehr des Staus](https://uni-bonn.sciebo.de/s/SBaoLTFtrcYgjP3) (Physik Journal 2008)\
          - [Menschen sicher leiten und evakuieren](https://uni-bonn.sciebo.de/s/9cmBySgBNAEJzRf) (Physik in unserer Zeit 2021)
 
+### <img src="/dateien/25/P4G25 IconV02.jpg" alt="P4G Icon" width="100"> Vorlesung 1  Große Moleküle und weiche Materie
+
+Aufzeichnung: ist leider schief gegangen!
+
+[Folien Vorlesung 1,](https://uni-bonn.sciebo.de/s/Biyosb2rox6WgHA) 
+         [(kompakt)](https://uni-bonn.sciebo.de/s/NzNSWWwJiGkWYjC)
 
   
