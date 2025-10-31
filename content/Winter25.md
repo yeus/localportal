@@ -39,4 +39,8 @@ Aufzeichnung: ist leider schief gegangen!
            - [M. Perutz, Röntgenanalyse des Hämoglobins](https://uni-bonn.sciebo.de/s/52djJ9rBcgesB8A) Nobelpreisvortrag 1962, Angew. Chemie 75, 589 (1963)\
            - [Das Vermächtnis von M. Perutz](https://uni-bonn.sciebo.de/s/FoMBM3YsXHLCrB8) Angew. Chemie 114, 3287 (2002)
 + Doppelhelix:\
+           - [Originalarbeit zum Modell der Doppelhelix](https://uni-bonn.sciebo.de/s/nttxpwbT6WQbNxJ) Nature 171, 737 (1953)\
+           - [Originalarbeit Röntgenbild DNS](https://uni-bonn.sciebo.de/s/JEYPcT5Y7eK6Kmy) Nature 171, 740 (1953)\
+           - [Zur Rolle vpn Rosalind Franklin](https://uni-bonn.sciebo.de/s/XoQdwWToi25msXt) Physics Today S. 42 (2003)
+  
   
