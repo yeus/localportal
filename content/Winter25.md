@@ -34,4 +34,9 @@ Aufzeichnung: ist leider schief gegangen!
 [Folien Vorlesung 2,](https://uni-bonn.sciebo.de/s/Biyosb2rox6WgHA) 
          [(kompakt)](https://uni-bonn.sciebo.de/s/NzNSWWwJiGkWYjC)
 
+#### <ins>Artikel:</ins>
++ Hämoglobin:\
+           - [M. Perutz, Rontgenanalyse des Hamoglobins](https://uni-bonn.sciebo.de/s/52djJ9rBcgesB8A) Nobelpreisvrotrag 1962, Angew. Chemie 75, 589 (1963)
+           - [Das Vermächtnis von M. Perutz](https://uni-bonn.sciebo.de/s/FoMBM3YsXHLCrB8) Angew. Chemie 114, 3287 (2002)
++ Doppelhelix:\
   
