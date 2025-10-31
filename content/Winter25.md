@@ -41,6 +41,6 @@ Aufzeichnung: ist leider schief gegangen!
 + Doppelhelix:\
            - [Originalarbeit zum Modell der Doppelhelix](https://uni-bonn.sciebo.de/s/nttxpwbT6WQbNxJ) Nature 171, 737 (1953)\
            - [Originalarbeit Röntgenbild DNS](https://uni-bonn.sciebo.de/s/JEYPcT5Y7eK6Kmy) Nature 171, 740 (1953)\
-           - [Zur Rolle vpn Rosalind Franklin](https://uni-bonn.sciebo.de/s/XoQdwWToi25msXt) Physics Today S. 42 (2003)
+           - [Zur Rolle von Rosalind Franklin](https://uni-bonn.sciebo.de/s/XoQdwWToi25msXt) Physics Today S. 42 (2003) (auf Englisch)
   
   
