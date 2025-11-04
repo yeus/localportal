@@ -37,7 +37,8 @@ Aufzeichnung: ist leider schief gegangen!
 #### <ins>Artikel:</ins>
 + Kryo-Elektronenmikroskopie:\
            - [Single-Particle Reconstruction of Biological Molecules – Story in a Sample](https://uni-bonn.sciebo.de/s/dbjAYEFaFcmMBMk) Nobelpreisvortrag Joachim Frank (2017)\
-           - [From electron crystallography to single particle cryoEM](https://uni-bonn.sciebo.de/s/Bmdqf5Gx7HsW836) Nobelpreisvortrag Richard Henderson (2017)
+           - [From electron crystallography to single particle cryoEM](https://uni-bonn.sciebo.de/s/Bmdqf5Gx7HsW836) Nobelpreisvortrag Richard Henderson (2017)\
+           - [Schnappschuesse von Biomolekülen](https://uni-bonn.sciebo.de/s/PPT9SR3ficsa5ne) Physik in unserer Zeit (2023)
 + Fullerene und Graphen:\
            - [Fullerene und Fullerite: neue Forrnen des Kohlenstoffs](https://uni-bonn.sciebo.de/s/8mE2iqrQEc6iSkk) W. Krätschmer, Physikalische Blätter 1992\
            - [Graphen – das ultimativ flache Wundermaterial](https://uni-bonn.sciebo.de/s/NiXZTFxZXPYL2dd) Physik in unserer Zeit, Nobelpreis 2010\
