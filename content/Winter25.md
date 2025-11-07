@@ -53,7 +53,7 @@ Aufzeichnung: ist leider schief gegangen!
   
 ### <img src="/dateien/25/P4G25 IconV03.jpg" alt="P4G Icon" width="100"> Vorlesung 3  Die erstaunlichen physikalischen Eigenschaften der Zelle
 
-[Aufzeichnun](https://youtu.be/Iyu_v_aQD_M)
+[Aufzeichnung](https://youtu.be/Iyu_v_aQD_M)
 
 [Folien Vorlesung 3,]()
          [(kompakt)]()
