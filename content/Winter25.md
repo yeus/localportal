@@ -55,6 +55,10 @@ Aufzeichnung: ist leider schief gegangen!
 
 [Aufzeichnung](https://youtu.be/Iyu_v_aQD_M)
 
-[Folien Vorlesung 3,]()
-         [(kompakt)]()
+[Folien Vorlesung 3,](https://uni-bonn.sciebo.de/s/gPBHq3dZpj8PZ8N)\
+         [(kompakt)](https://uni-bonn.sciebo.de/s/33QxEjWQHjBJQAd)
+
+#### <ins>Artikel:</ins>
++ Weiche Materie:\
+           - [Weiche Materie: vom hässlichen Entlein zum schönen Schwan](https://uni-bonn.sciebo.de/s/yCBzSD3xBiXHjJx) H. Löwen\
 
