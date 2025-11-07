@@ -51,4 +51,10 @@ Aufzeichnung: ist leider schief gegangen!
            - [Originalarbeit Röntgenbild DNS](https://uni-bonn.sciebo.de/s/JEYPcT5Y7eK6Kmy) Nature 171, 740 (1953)\
            - [Zur Rolle von Rosalind Franklin](https://uni-bonn.sciebo.de/s/XoQdwWToi25msXt) Physics Today S. 42 (2003) (auf Englisch)
   
-  
+  ### <img src="/dateien/25/P4G25 IconV03.jpg" alt="P4G Icon" width="100"> Vorlesung 2  Die erstaunlichen physikalischen Eigenschaften der Zelle
+
+[Aufzeichnun](https://youtu.be/Iyu_v_aQD_M)
+
+[Folien Vorlesung 3,]()
+         [(kompakt)]()
+
