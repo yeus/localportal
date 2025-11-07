@@ -55,7 +55,7 @@ Aufzeichnung: ist leider schief gegangen!
 
 [Aufzeichnung](https://youtu.be/Iyu_v_aQD_M)
 
-[Folien Vorlesung 3,](https://uni-bonn.sciebo.de/s/gPBHq3dZpj8PZ8N)\
+[Folien Vorlesung 3,](https://uni-bonn.sciebo.de/s/gPBHq3dZpj8PZ8N)
          [(kompakt)](https://uni-bonn.sciebo.de/s/33QxEjWQHjBJQAd)
 
 #### <ins>Artikel:</ins>
