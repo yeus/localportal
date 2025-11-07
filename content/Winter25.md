@@ -62,5 +62,13 @@ Aufzeichnung: ist leider schief gegangen!
 + Weiche Materie:\
            - [Weiche Materie: vom hässlichen Entlein zum schönen Schwan](https://uni-bonn.sciebo.de/s/yCBzSD3xBiXHjJx) H. Löwen\
            - [Eine Welt zwischen Fest und Flüssig](https://uni-bonn.sciebo.de/s/CFpAb73PGBWdEyt) Physik in unserer Zeit (2003)
-+ 
++ Physik der Zelle:\
+           - [Physik des Lebens](https://uni-bonn.sciebo.de/s/3XqLWMDXBxTHw8T) aus Physik Erkenntnisse Perspektiven (2025)
++ Fluoreszenzmikroskopie:\
+           - [Grundlagen der Fluoreszenz und Fluoreszenzmikroskopie](https://uni-bonn.sciebo.de/s/rwCY6PY9aq3Kmz5) Firmenschrift, Zeiss (2019)\
+           - [The discovery of aequorin and green fluorescent protein](https://uni-bonn.sciebo.de/s/GqSDPHE5M5QeMSJ) O. Shimomura, J. Microsc. 217 3 (2005)\
+           - [Nanoskopie mit fokussiertem Licht](https://uni-bonn.sciebo.de/s/q825tYtg5AWwcQb) S. Hell, Physik Journal (2007)
++ Molekularmotoren:\
+           - [Motoren in der Zelle](https://uni-bonn.sciebo.de/s/XksJc8wE5R6Z4c2) Biologie in unserer Zeit (2002)\
+           - [Under the Hood of Molecular Motor Proteins](https://uni-bonn.sciebo.de/s/BTDDxs8gG2oxfTr) Science 288, 88 (2000)
 
