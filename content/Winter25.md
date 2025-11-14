@@ -72,3 +72,12 @@ Aufzeichnung: ist leider schief gegangen!
            - [Motoren in der Zelle](https://uni-bonn.sciebo.de/s/XksJc8wE5R6Z4c2) Biologie in unserer Zeit (2002)\
            - [Under the Hood of Molecular Motor Proteins](https://uni-bonn.sciebo.de/s/BTDDxs8gG2oxfTr) Science 288, 88 (2000)
 
+## Block 2: Physik des Lichts
+
+### <img src="/dateien/25/P4G25 IconV04.jpg" alt="P4G Icon" width="100"> Vorlesung 1  Straheln und Weellen im Alltag
+
+[Aufzeichnung](https://youtu.be/v-x94R2aDX8)
+
+[Folien Vorlesung 1,]() 
+         [(kompakt)]()
+
