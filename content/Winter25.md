@@ -74,7 +74,7 @@ Aufzeichnung: ist leider schief gegangen!
 
 ## Block 2: Physik des Lichts
 
-### <img src="/dateien/25/P4G25 IconV04.jpg" alt="P4G Icon" width="100"> Vorlesung 1  Straheln und Weellen im Alltag
+### <img src="/dateien/25/P4G25 IconV04.jpg" alt="P4G Icon" width="100"> Vorlesung 1  Strahlen und Wellen im Alltag
 
 [Aufzeichnung](https://youtu.be/v-x94R2aDX8)
 
