@@ -78,6 +78,10 @@ Aufzeichnung: ist leider schief gegangen!
 
 [Aufzeichnung](https://youtu.be/v-x94R2aDX8)
 
-[Folien Vorlesung 1,]() 
-         [(kompakt)]()
+[Folien Vorlesung 4,](https://uni-bonn.sciebo.de/s/nLzSDxCwXFqmtdW) 
+         [(kompakt)](https://uni-bonn.sciebo.de/s/HnDFfDgQjG2YK8p)
+
+#### <ins>Artikel:</ins>
+- [Über die kameras von Smartphones](https://uni-bonn.sciebo.de/s/kjxwG3MKT9jA7sX) Brückner et la., Physik in unserer Zeit (2020)
+
 
