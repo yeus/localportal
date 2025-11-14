@@ -82,6 +82,6 @@ Aufzeichnung: ist leider schief gegangen!
          [(kompakt)](https://uni-bonn.sciebo.de/s/HnDFfDgQjG2YK8p)
 
 #### <ins>Artikel:</ins>
-- [Über die kameras von Smartphones](https://uni-bonn.sciebo.de/s/kjxwG3MKT9jA7sX) Brückner et la., Physik in unserer Zeit (2020)
+- [Über die Kameras von Smartphones](https://uni-bonn.sciebo.de/s/kjxwG3MKT9jA7sX) Brückner et la., Physik in unserer Zeit (2020)
 
 
