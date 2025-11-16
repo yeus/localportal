@@ -85,4 +85,13 @@ Aufzeichnung: ist leider schief gegangen!
 #### <ins>Artikel:</ins>
 - [Über die Kameras von Smartphones](https://uni-bonn.sciebo.de/s/kjxwG3MKT9jA7sX) Brückner et la., Physik in unserer Zeit (2020)
 
+### <img src="/dateien/25/P4G25 IconV04.jpg" alt="" width="100"> Vorlesung 5  Laserlicht
+
+[Aufzeichnung]()
+
+[Folien Vorlesung 5,]() 
+         [(kompakt)]()
+
+#### <ins>Artikel:</ins>
+
 
