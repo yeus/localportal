@@ -93,12 +93,12 @@ Aufzeichnung: ist leider schief gegangen!
          [(kompakt)](https://uni-bonn.sciebo.de/s/FtzBjFXbLCG7dpx)
 
 #### <ins>Artikel:</ins>
-+ Geschichte des Lasers
++ Geschichte des Lasers\
            - [Als das leuchtende Zeitalter begann](https://uni-bonn.sciebo.de/s/C2eneKNcTi3mNTZ) FAZ 2020 Lindinger\
            - [Eine faszinierende Lichtquelle](https://uni-bonn.sciebo.de/s/zDCr6rfeQmXi2JF) Physik Journal 2010 Welling\
            - [Erste Laser in Ost und West](https://uni-bonn.sciebo.de/s/L4gfWGcyt3L39CN) Physik Journal 2010 Röß\
            - [A Short History of Laser Development](https://uni-bonn.sciebo.de/s/fiM8JtfZrMpYTjr) Optical Engineering 2010
-+ Laserentwicklungen
++ Laserentwicklungen\
            - [Scheiben und Fasern](https://uni-bonn.sciebo.de/s/rqNkn5kLi6y5Mcr) Physik Journal 2010\
            - [Lasershows](https://uni-bonn.sciebo.de/s/w8N4dTMp89Rwt76) Physik Journal 2010
   
