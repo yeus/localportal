@@ -87,7 +87,7 @@ Aufzeichnung: ist leider schief gegangen!
 
 ### <img src="/dateien/25/P4G25 IconV05.png" alt="P4G Icon" width="100"> Vorlesung 5  Laserlicht
 
-[Aufzeichnung]()
+[Aufzeichnung](https://youtu.be/X09wCPgMJw8)
 
 [Folien Vorlesung 5,]() 
          [(kompakt)]()
