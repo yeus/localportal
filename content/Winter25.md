@@ -89,8 +89,8 @@ Aufzeichnung: ist leider schief gegangen!
 
 [Aufzeichnung](https://youtu.be/X09wCPgMJw8)
 
-[Folien Vorlesung 5,]() 
-         [(kompakt)]()
+[Folien Vorlesung 5,](https://uni-bonn.sciebo.de/s/x9iNg9rJ34s4xYj) 
+         [(kompakt)](https://uni-bonn.sciebo.de/s/FtzBjFXbLCG7dpx)
 
 #### <ins>Artikel:</ins>
 
