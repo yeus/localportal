@@ -6,4 +6,4 @@ nach Sachgebieten.
 ## Mechanik
 
 +  [Brachistochronen - wer rollt am schnellsten?](https://uni-bonn.sciebo.de/s/tsX5yr6pTP4gkxd)\
-   [Erläuterung](https://uni-bonn.sciebo.de/s/fzgq7beXaWxmnCR)   [Simulation Fa. Engmorph (Youtube)](https://www.youtube.com/watch?v=ndTRkwpxIlU)
+   [Erläuterung](https://uni-bonn.sciebo.de/s/fzgq7beXaWxmnCR);   [Simulation Fa. Engmorph (Youtube)](https://www.youtube.com/watch?v=ndTRkwpxIlU)
