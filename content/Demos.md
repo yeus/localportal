@@ -10,6 +10,6 @@ nach Sachgebieten.
 
 ## Optik
 
-+  [Auge und Lupe](https://uni-bonn.sciebo.de/s/DY7BFcokWqTBksF)\
-+  [Beugung am Spalt](https://uni-bonn.sciebo.de/s/2dBHRkfjiAqqaBM)\
++  [Auge und Lupe](https://uni-bonn.sciebo.de/s/DY7BFcokWqTBksF)
++  [Beugung am Spalt](https://uni-bonn.sciebo.de/s/2dBHRkfjiAqqaBM)
 +  
