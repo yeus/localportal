@@ -113,7 +113,7 @@ Aufzeichnung: ist leider schief gegangen!
          [(kompakt)](https://uni-bonn.sciebo.de/s/LKsgcqaa63seAT6)
 
 #### <ins>Interessante Links:</ins>
-+ [Unterseekabel weltweit](https://www.submarinecablemap.com/)\
++ [Unterseekabel weltweit](https://www.submarinecablemap.com/)
 + [Preußische Telegraphenstrecke (historisch)](https://www.optischertelegraph4.de/stationen/)
 
 
