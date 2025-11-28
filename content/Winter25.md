@@ -105,7 +105,7 @@ Aufzeichnung: ist leider schief gegangen!
 #### <ins>Videos:</ins>
 - [Interview mit Charles Townes, 2010](https://uni-bonn.sciebo.de/s/tswKdyxMf4Ckgnr)
 
-### <img src="/dateien/25/P4G25 IconV06.jpg" alt="P4G Icon" width="100"> Vorlesung 5  Photonik: Technologie des 21. Jahrhunderts
+### <img src="/dateien/25/P4G25 IconV06.jpg" alt="P4G Icon" width="100"> Vorlesung 6  Photonik: Technologie des 21. Jahrhunderts
 
 [Aufzeichnung](https://youtu.be/HZKgJYfpzBo)
 
