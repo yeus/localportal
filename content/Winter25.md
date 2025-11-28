@@ -112,6 +112,8 @@ Aufzeichnung: ist leider schief gegangen!
 [Folien Vorlesung 5,](https://uni-bonn.sciebo.de/s/w8FkYFKygrPdsRR) 
          [(kompakt)](https://uni-bonn.sciebo.de/s/LKsgcqaa63seAT6)
 
-
+#### <ins>Interessante Links:</ins>
++ [Unterseekabel weltweit](https://www.submarinecablemap.com/)\
++ [Preußische Telegraphenstrecke (historisch)](https://www.optischertelegraph4.de/stationen/)
 
 
