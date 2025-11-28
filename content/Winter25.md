@@ -109,7 +109,7 @@ Aufzeichnung: ist leider schief gegangen!
 
 [Aufzeichnung](https://youtu.be/HZKgJYfpzBo)
 
-[Folien Vorlesung 5,](https://uni-bonn.sciebo.de/s/w8FkYFKygrPdsRR) 
+[Folien Vorlesung 6,](https://uni-bonn.sciebo.de/s/w8FkYFKygrPdsRR) 
          [(kompakt)](https://uni-bonn.sciebo.de/s/LKsgcqaa63seAT6)
 
 #### <ins>Interessante Links:</ins>
