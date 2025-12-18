@@ -119,3 +119,6 @@ Aufzeichnung: ist leider schief gegangen!
 #### <ins>Videos:</ins>
 - [Art Schawlow's Laserdemonstration](https://uni-bonn.sciebo.de/s/HEHY3C8Ao9od83s)
 
+### <img src="/dateien/25/P4G25 IconV07.jpg" alt="P4G Icon" width="100"> Vorlesung 7  Weihnachtsvorlesung 2025
+
+
