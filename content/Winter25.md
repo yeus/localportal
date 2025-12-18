@@ -121,4 +121,13 @@ Aufzeichnung: ist leider schief gegangen!
 
 ### <img src="/dateien/25/P4G25 IconV07.jpg" alt="P4G Icon" width="100"> Vorlesung 7  Weihnachtsvorlesung 2025
 
+### Beiträge von Teilnehmern
+
+#### I:  Woher bekommt die Pflanze ihr Manna (C. Lankers)
+
+
+
+
+
+
 
