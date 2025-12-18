@@ -123,7 +123,18 @@ Aufzeichnung: ist leider schief gegangen!
 
 ### Beiträge von Teilnehmern
 
-#### I:  Woher bekommt die Pflanze ihr Manna (C. Lankers)
+#### I:  Wie kommt die Pflanze an ihr Manna? (C. Lankers)
++ [Aufzeichnung](https://uni-bonn.sciebo.de/s/j8wxqGcF36628sm)
++ [Vortragsfolien](https://uni-bonn.sciebo.de/s/K4tKZmC35oZmHTB)
+
+#### II:  Quantennatur der Erregungsübertragung (D. Hodick)
++ [Aufzeichnung](https://uni-bonn.sciebo.de/s/Sx4xHoBrN4CfFrj)
++ [Vortragsfolien](https://uni-bonn.sciebo.de/s/kS6wK9Pp2RjAE2D)
+
+
+
+
+
 
 
 
