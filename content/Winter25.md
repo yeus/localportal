@@ -131,6 +131,18 @@ Aufzeichnung: ist leider schief gegangen!
 + [Aufzeichnung](https://uni-bonn.sciebo.de/s/Sx4xHoBrN4CfFrj)
 + [Vortragsfolien](https://uni-bonn.sciebo.de/s/kS6wK9Pp2RjAE2D)
 
+#### III:  Quarks (K. Wirths)
++ [Aufzeichnung](https://uni-bonn.sciebo.de/s/6aGinNFYZdRYonz)
++ [Vortragsfolien](https://uni-bonn.sciebo.de/s/DWjESzSRmMrR5xp)
+
+#### IV:   (B. Stein)
++ [Aufzeichnung](https://uni-bonn.sciebo.de/s/oE3TbgEDK42T3oS)
++ [Vortragstext](https://uni-bonn.sciebo.de/s/eXKKXEfzY8mWdms)
+
+  
+
+
+
 
 
 
