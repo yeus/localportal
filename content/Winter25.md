@@ -139,7 +139,7 @@ Aufzeichnung: ist leider schief gegangen!
 + [Aufzeichnung](https://uni-bonn.sciebo.de/s/oE3TbgEDK42T3oS)
 + [Vortragstext](https://uni-bonn.sciebo.de/s/eXKKXEfzY8mWdms)
 
-  
+### <img src="/dateien/25/P4G25 IconV08.jpg" alt="P4G Icon" width="100"> Vorlesung 8  Grundfragen: Physik und Symmetrie
 
 
 
