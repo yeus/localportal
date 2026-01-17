@@ -141,7 +141,14 @@ Aufzeichnung: ist leider schief gegangen!
 
 ### <img src="/dateien/25/P4G25 IconV08.jpg" alt="P4G Icon" width="100"> Vorlesung 8  Grundfragen: Physik und Symmetrie
 
+[Aufzeichnung](https://uni-bonn.sciebo.de/s/jHjtzqd42b3PzGN)
 
+[Folien Vorlesung 6,](https://uni-bonn.sciebo.de/s/mYYj8Nx5DcGE2Ar) 
+         [(kompakt)](https://uni-bonn.sciebo.de/s/dgRLX82EW3QqXRq)
+
+#### <ins>Interessante Links:</ins>
++ [Unterseekabel weltweit](https://www.submarinecablemap.com/)
++ [Preußische Telegraphenstrecke (historisch)](https://www.optischertelegraph4.de/stationen/)
 
 
 
