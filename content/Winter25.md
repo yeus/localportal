@@ -147,7 +147,7 @@ Aufzeichnung: ist leider schief gegangen!
          [(kompakt)](https://uni-bonn.sciebo.de/s/dgRLX82EW3QqXRq)
 
 #### <ins>Interessante Links:</ins>
-+ [Über Schneeflocken] (in engl. Sprache))(https://www.snowcrystals.com/) Autor: Ken Libbrecht, Caltech
++ [Über Schneeflocken (in engl. Sprache)](https://www.snowcrystals.com/) Autor: Ken Libbrecht, Caltech
 + [Kapitel zur Symmetrie auf "Mathematischer Spielplatz"](https://de.mathigon.org/)
 
 
