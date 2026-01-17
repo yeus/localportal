@@ -147,8 +147,8 @@ Aufzeichnung: ist leider schief gegangen!
          [(kompakt)](https://uni-bonn.sciebo.de/s/dgRLX82EW3QqXRq)
 
 #### <ins>Interessante Links:</ins>
-+ [Unterseekabel weltweit](https://www.submarinecablemap.com/)
-+ [Preußische Telegraphenstrecke (historisch)](https://www.optischertelegraph4.de/stationen/)
++ [Über Schneeflocken] (in engl. Sprache)(https://www.snowcrystals.com/) Autor: Ken Libbrecht, Caltech
++ [Kapitel zur Symmetrie auf "Mathematischer Spielplatz"](https://de.mathigon.org/)
 
 
 
