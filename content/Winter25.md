@@ -150,7 +150,7 @@ Aufzeichnung: ist leider schief gegangen!
 + [Über Schneeflocken (in engl. Sprache)](https://www.snowcrystals.com/) Autor: Ken Libbrecht, Caltech
 + [Kapitel zur Symmetrie auf "Mathematischer Spielplatz"](https://de.mathigon.org/)
 
-### <img src="/dateien/25/P4G25 IconV09.jpg" alt="P4G Icon" width="100"> Vorlesung 8  Grundfragen: Physik und Information
+### <img src="/dateien/25/P4G25 IconV09.jpg" alt="P4G Icon" width="100"> Vorlesung 9  Grundfragen: Physik und Information
 
 [Aufzeichnung](https://uni-bonn.sciebo.de/s/AJ8dkZTWTRkK4zK)
 
