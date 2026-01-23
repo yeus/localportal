@@ -152,7 +152,7 @@ Aufzeichnung: ist leider schief gegangen!
 
 ### <img src="/dateien/25/P4G25 IconV09.jpg" alt="P4G Icon" width="100"> Vorlesung 8  Grundfragen: Physik und Information
 
-[Aufzeichnung]()
+[Aufzeichnung](https://uni-bonn.sciebo.de/s/AJ8dkZTWTRkK4zK)
 
 [Folien Vorlesung 9,](https://uni-bonn.sciebo.de/s/wq42RXZtkGGEnM3) 
          [(kompakt)](https://uni-bonn.sciebo.de/s/FaLaf8wy27WTWmS)
