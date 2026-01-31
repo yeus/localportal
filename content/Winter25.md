@@ -161,7 +161,7 @@ Aufzeichnung: ist leider schief gegangen!
 
 ### <img src="/dateien/25/P4G25 IconV10.jpg" alt="P4G Icon" width="100"> Vorlesung 10  Grundfragen (?) der Physik
 
-[Aufzeichnung]()
+[Aufzeichnung](https://uni-bonn.sciebo.de/s/Qx3i8Z7pDNAmJ8t)
 
 [Folien Vorlesung 9,](https://uni-bonn.sciebo.de/s/GTego75EPZGAfme) 
          [(kompakt)](https://uni-bonn.sciebo.de/s/HSYJcaLbkrPy4Zm)
