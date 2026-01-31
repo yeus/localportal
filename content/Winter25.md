@@ -163,7 +163,7 @@ Aufzeichnung: ist leider schief gegangen!
 
 [Aufzeichnung](https://uni-bonn.sciebo.de/s/Qx3i8Z7pDNAmJ8t)
 
-[Folien Vorlesung 9,](https://uni-bonn.sciebo.de/s/GTego75EPZGAfme) 
+[Folien Vorlesung 10,](https://uni-bonn.sciebo.de/s/GTego75EPZGAfme) 
          [(kompakt)](https://uni-bonn.sciebo.de/s/HSYJcaLbkrPy4Zm)
 
 #### <ins>Interessante Links:</ins>
