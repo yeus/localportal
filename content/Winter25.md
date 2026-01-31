@@ -168,6 +168,7 @@ Aufzeichnung: ist leider schief gegangen!
 
 #### <ins>Artikel:</ins>
 + [The search for magnetic monopoles](https://uni-bonn.sciebo.de/s/CXKWKdP46pXYCfX) Physics Today 2016
++ [Das Geheimnis der Dunklen Materie](https://uni-bonn.sciebo.de/s/eWJbJLS2nK2A8ja) R. Lang, Physik Journal 13 (2014)
 
 #### <ins>Interessante Links:</ins>
 + [Galileis Gedankenexperiment zum Freien Fall](https://www.leifiphysik.de/mechanik/freier-fall-senkrechter-wurf/downloads/galileis-untersuchung-des-freien-falls-gedankenexperiment-animation) LEIFI Physik
