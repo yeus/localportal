@@ -8,13 +8,15 @@
   
 ## Empfehlenswerte Webseiten mit Physik-Inhalten
 
-Gut gemachte und detaillierte Informationsseiten [LEIFI-Physik](https://www.leifiphysik.de/)
+Gut gemachte und detaillierte Informationsseiten für Schüler [LEIFI-Physik](https://www.leifiphysik.de/)
 
 Zu aktuellen und alltäglichen physikalischen Fragen [Welt der Physik](https://www.weltderphysik.de/)
 
 Schrift zum Stand der Physik 2025 [Physik Erkenntnisse und Perspektiven](https://physik-erkenntnisse-perspektiven.de/)
 
 Das Smartphone als eigenes Physiklabor [phyphox](https://phyphox.org/de/home-de/)
+
+TIB AV Portal - umfangreiche Sammlung von Videos zu physikalischen Themen [TIB AV](https://av.tib.eu/search?q=Physik)
 
 Kompaktinformationen zu Physik-Themen [physikkonkret](https://www.dpg-physik.de/veroeffentlichungen/publikationen/physikkonkret)
 
