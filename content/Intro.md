@@ -22,6 +22,8 @@ Kompaktinformationen zu Physik-Themen [physikkonkret](https://www.dpg-physik.de/
 
 Anregende Physik- und Mathefragen (englischsprachig) [Veritasium Youtube-Kanal](https://www.youtube.com/veritasium)
 
+Youtube-Kanal von Harald Lesch [Das Weltall erklärt](https://www.youtube.com/playlist?list=PL7siVIUmPpIGO3M8L3PObihKk7ir3LncS)
+
 ## Ausgewählte allgemeine Materialien
 
 ### Physik und Mathematik
