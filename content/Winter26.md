@@ -1,6 +1,6 @@
 ## Vorschau Wintersemester 26/27
 
-### Hier als PDF [downloaden](https://raw.githubusercontent.com/meschede-bonn/profpage/edit/main/dateien/VPlan P4G26Vorschau.pdf)
+### Hier als PDF [downloaden](https://raw.githubusercontent.com/meschede-bonn/profpage/edit/main/dateien/VPlan P4G26-Vorschau.pdf)
 
 ### <img src="/dateien/26/VPLan P4G26-Vorschau.png" alt="P4G26 Vorschau" width="800">
 
