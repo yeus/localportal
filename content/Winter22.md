@@ -11,7 +11,7 @@ Keine Aufzeichnung vom 20.10.2022 verfügbar!
 
 ### <img src="/dateien/22/p4g22Icon1-2.jpg" alt="P4G Icon" width="180"> Vorlesung 2  Kräfte, Impulse, Planeten
 
-Keine Aufzeichnung vom 20.10.2022 verfügbar!
+[Aufzeichnung](https://uni-bonn.sciebo.de/s/2fFmg5ZcjdG4kdf)
 
 [Folien Vorlesung 2,](https://uni-bonn.sciebo.de/s/DkPgXZDrQTf7mez)
          [(kompakt)](https://uni-bonn.sciebo.de/s/4XDLrPZCfYT5gL6)
