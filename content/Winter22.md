@@ -13,7 +13,7 @@ Keine Aufzeichnung vom 20.10.2022 verfügbar!
 
 Keine Aufzeichnung vom 20.10.2022 verfügbar!
 
-[Folien Vorlesung 2,]()
-         [(kompakt)]()
+[Folien Vorlesung 2,](https://uni-bonn.sciebo.de/s/DkPgXZDrQTf7mez)
+         [(kompakt)](https://uni-bonn.sciebo.de/s/4XDLrPZCfYT5gL6)
 
 
