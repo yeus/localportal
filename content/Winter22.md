@@ -29,7 +29,7 @@
 
 [Aufzeichnung](https://uni-bonn.sciebo.de/s/ed2wXbqdBqHF2Ww)
 
-[Folien Vorlesung 3,](https://uni-bonn.sciebo.de/s/r8TQGfiXBqdFb3K)
+[Folien Vorlesung 4,](https://uni-bonn.sciebo.de/s/r8TQGfiXBqdFb3K)
          [(kompakt)](https://uni-bonn.sciebo.de/s/5TnaY7ZzLgWkgAt)
 
 
@@ -38,7 +38,7 @@
 
 [Aufzeichnung](https://uni-bonn.sciebo.de/s/SFJMRyCECnpnKAe)
 
-[Folien Vorlesung 3,](https://uni-bonn.sciebo.de/s/EdB5HkmQscwkspq)
+[Folien Vorlesung 5,](https://uni-bonn.sciebo.de/s/EdB5HkmQscwkspq)
          [(kompakt)](https://uni-bonn.sciebo.de/s/mjn9DWwKKoi3Zrn)
 
 
