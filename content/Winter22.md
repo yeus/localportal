@@ -1,5 +1,7 @@
 # **Archiv Winter 22-23**
 
+Hinweis: Dese Seite wird derzeit noch rekonstruiert!
+
 ### [Vorlesungsplan Winter 2022](https://uni-bonn.sciebo.de/s/k7bYYrnF8TPeAa3)
 
 ### <img src="/dateien/22/p4g22Icon1-1.png" alt="P4G Icon" width="180"> Vorlesung 1 20.10.22 Wie wir uns bewegen
