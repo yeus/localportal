@@ -18,4 +18,11 @@
 [Folien Vorlesung 2,](https://uni-bonn.sciebo.de/s/DkPgXZDrQTf7mez)
          [(kompakt)](https://uni-bonn.sciebo.de/s/4XDLrPZCfYT5gL6)
 
+### <img src="/dateien/22/p4g22Icon1-3.jpg" alt="P4G Icon" width="180"> Vorlesung 3  10.11.22 Nachtrag Planetenbewegung; Beginn Klima
+
+[Aufzeichnung](https://uni-bonn.sciebo.de/s/3RrD4PxNGjikSRT)
+
+[Folien Vorlesung 3,](https://uni-bonn.sciebo.de/s/CZENGgpo6EMB6mP)
+         [(kompakt)](https://uni-bonn.sciebo.de/s/BxQGcq9522i8Qm5)
+
 
