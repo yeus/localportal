@@ -32,3 +32,26 @@
 [Folien Vorlesung 3,](https://uni-bonn.sciebo.de/s/r8TQGfiXBqdFb3K)
          [(kompakt)](https://uni-bonn.sciebo.de/s/5TnaY7ZzLgWkgAt)
 
+### <img src="/dateien/22/p4g22Icon2-1.jpg" alt="P4G Icon" width="180"> Vorlesung 4  17.11.22 Klima Grundlagen
+
+[Aufzeichnung](https://uni-bonn.sciebo.de/s/ed2wXbqdBqHF2Ww)
+
+[Folien Vorlesung 3,](https://uni-bonn.sciebo.de/s/r8TQGfiXBqdFb3K)
+         [(kompakt)](https://uni-bonn.sciebo.de/s/5TnaY7ZzLgWkgAt)
+
+### <img src="/dateien/22/p4g22Icon2-1.jpg" alt="P4G Icon" width="180"> Vorlesung 4  17.11.22 Klima Grundlagen
+
+[Aufzeichnung](https://uni-bonn.sciebo.de/s/ed2wXbqdBqHF2Ww)
+
+[Folien Vorlesung 3,](https://uni-bonn.sciebo.de/s/r8TQGfiXBqdFb3K)
+         [(kompakt)](https://uni-bonn.sciebo.de/s/5TnaY7ZzLgWkgAt)
+
+### <img src="/dateien/22/p4g22Icon2-2.jpg" alt="P4G Icon" width="180"> Vorlesung 5  24.11.22 Klima Schwankungen
+
+[Aufzeichnung](https://uni-bonn.sciebo.de/s/SFJMRyCECnpnKAe)
+
+[Folien Vorlesung 3,](https://uni-bonn.sciebo.de/s/EdB5HkmQscwkspq)
+         [(kompakt)](https://uni-bonn.sciebo.de/s/mjn9DWwKKoi3Zrn)
+
+
+
