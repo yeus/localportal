@@ -1,6 +1,6 @@
 # **Archiv Winter 22-23**
 
-$\color{red}{Hinweis: Dese Seite wird derzeit noch rekonstruiert!}$
+$\color{red}{Hinweis: Diese~Seite~wird~derzeit~noch~rekonstruiert!}$
 
 ### [Vorlesungsplan Winter 2022](https://uni-bonn.sciebo.de/s/k7bYYrnF8TPeAa3)
 
