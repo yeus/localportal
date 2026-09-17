@@ -1,9 +1,11 @@
 {
+  "type": "module",
   "scripts": {
     "build": "node build.js",
     "serve": "serve public",
     "watch": "chokidar 'content/**/*' index.html style.css -c 'yarn build'",
-    "dev": "yarn build && concurrently -k -n watch,serve -c yellow,cyan \"yarn watch\" \"yarn serve\""
+    "dev": "node dev.js",
+    "test": "node --test"
   },
   "devDependencies": {
     "chokidar-cli": "^3.0.0",

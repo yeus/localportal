@@ -34,16 +34,27 @@ allow it from the project root with `direnv allow`.
 ## Start the page locally
 
 There is no separate `yarn start` script currently. The recommended `yarn dev`
-command builds the page, starts a local server, and rebuilds automatically
-when `content/`, `index.html`, or `style.css` changes:
+command resolves a password, builds the page, starts a local server, and
+rebuilds automatically when `content/`, `index.html`, or `style.css` changes:
+
+```sh
+yarn dev
+```
+
+`yarn dev` does not require `LECTURE_PW`. If the variable is not set, it asks
+for a development password: press Enter to use the default, or wait a few
+seconds and it continues with the default automatically. To choose your own
+password, set the variable before starting:
 
 ```sh
 export LECTURE_PW='choose-a-development-password'
 yarn dev
 ```
 
-Then open the local URL printed by `serve` (normally
-`http://localhost:3000`). Keep the command running while editing files.
+The active unlock password is printed in the terminal right before the server
+starts. Open the local URL printed by `serve` (normally
+`http://localhost:3000`) and unlock the page with that password. Keep the
+command running while editing files.
 
 If `public/` has already been built and you only want to serve the existing
 output, use:
@@ -108,8 +119,8 @@ removes that stored password.
 
 ## Troubleshooting
 
-- `LECTURE_PW is not set`: set the variable before running `yarn build` or
-  `yarn dev`.
+- `LECTURE_PW is not set`: set the variable before running `yarn build`.
+  `yarn dev` does not need it and prompts for a password instead.
 - The page shows old lectures: rebuild with the current password, then reload
   the page.
 - The page does not unlock: use the same password that was used to create the
@@ -151,7 +162,8 @@ or the Netlify build.
 | Command | Purpose |
 | --- | --- |
 | `yarn install` | Install dependencies |
-| `yarn dev` | Build, serve, and rebuild on source changes |
+| `yarn dev` | Resolve the password, build, serve, and rebuild on source changes |
+| `yarn test` | Run the unit tests for the dev password prompt |
 | `yarn build` | Create the deployable `public/` directory |
 | `yarn serve` | Serve the existing `public/` directory |
 | `yarn watch` | Rebuild when source files change; does not start a server |
