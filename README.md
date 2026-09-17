@@ -41,10 +41,13 @@ rebuilds automatically when `content/`, `index.html`, or `style.css` changes:
 yarn dev
 ```
 
-`yarn dev` does not require `LECTURE_PW`. If the variable is not set, it asks
-for a development password: press Enter to use the default, or wait a few
-seconds and it continues with the default automatically. To choose your own
-password, set the variable before starting:
+`yarn dev` does not require `LECTURE_PW`. If the variable is not set, the
+command creates a random development password on first use and saves it in the
+gitignored `.dev-password` file, so later runs reuse the same password. Before
+building, it asks for the password: press Enter to accept the saved one, type
+another one to replace it, or wait a few seconds and it continues with the
+saved password automatically. To use a password without touching the file, set
+the variable before starting:
 
 ```sh
 export LECTURE_PW='choose-a-development-password'
@@ -120,7 +123,9 @@ removes that stored password.
 ## Troubleshooting
 
 - `LECTURE_PW is not set`: set the variable before running `yarn build`.
-  `yarn dev` does not need it and prompts for a password instead.
+  `yarn dev` does not need it and uses `.dev-password` instead.
+- The dev password changed: delete `.dev-password` to generate a new one, or
+  set `LECTURE_PW` to bypass the file.
 - The page shows old lectures: rebuild with the current password, then reload
   the page.
 - The page does not unlock: use the same password that was used to create the

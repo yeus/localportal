@@ -1,11 +1,65 @@
 // dev.js
 import { spawn } from "child_process";
+import { randomBytes } from "crypto";
+import { promises as fs } from "fs";
 import { createInterface } from "readline";
-import { pathToFileURL } from "url";
+import { fileURLToPath, pathToFileURL } from "url";
 
-export const DEFAULT_DEV_PASSWORD = "profpage-dev";
-
+const DEV_PASSWORD_FILE_NAME = ".dev-password";
+const DEV_PASSWORD_FILE = fileURLToPath(
+  new URL(DEV_PASSWORD_FILE_NAME, import.meta.url)
+);
 const PASSWORD_TIMEOUT_MS = 5000;
+
+function generateDevPassword() {
+  return randomBytes(12).toString("base64url");
+}
+
+export async function readStoredDevPassword(filePath) {
+  try {
+    const value = (await fs.readFile(filePath, "utf8")).trim();
+    return value || null;
+  } catch (error) {
+    if (error.code !== "ENOENT") {
+      console.warn(`[DEV] Could not read ${filePath}: ${error.message}`);
+    }
+    return null;
+  }
+}
+
+export async function storeDevPassword(filePath, password) {
+  try {
+    await fs.writeFile(filePath, `${password}\n`, { mode: 0o600 });
+    await fs.chmod(filePath, 0o600);
+  } catch (error) {
+    console.warn(`[DEV] Could not save ${filePath}: ${error.message}`);
+  }
+}
+
+export async function resolveDevPassword({
+  envPassword,
+  isInteractive,
+  readStored,
+  storePassword,
+  generate,
+  ask,
+}) {
+  if (envPassword) return envPassword;
+
+  const stored = await readStored();
+  const devPassword = stored ?? generate();
+  if (!stored) {
+    await storePassword(devPassword);
+  }
+
+  if (!isInteractive) return devPassword;
+
+  const answer = (await ask(devPassword)).trim();
+  if (!answer || answer === devPassword) return devPassword;
+
+  await storePassword(answer);
+  return answer;
+}
 
 function askForPassword({ input, output, defaultValue, timeoutMs }) {
   const seconds = Math.round(timeoutMs / 1000);
@@ -30,19 +84,6 @@ function askForPassword({ input, output, defaultValue, timeoutMs }) {
     rl.question(question, (answer) => finish(answer));
     rl.on("close", () => finish(""));
   });
-}
-
-export async function resolveDevPassword({
-  envPassword,
-  defaultValue = DEFAULT_DEV_PASSWORD,
-  isInteractive,
-  ask,
-}) {
-  if (envPassword) return envPassword;
-  if (!isInteractive) return defaultValue;
-
-  const answer = await ask(defaultValue);
-  return answer.trim() || defaultValue;
 }
 
 function run(command, args, env) {
@@ -70,19 +111,27 @@ function run(command, args, env) {
   });
 }
 
-function printUnlockReminder(password) {
+function printUnlockReminder({ password, storedInFile }) {
   console.log("");
   console.log("  -------------------------------------");
   console.log(`  Local unlock password: ${password}`);
+  if (storedInFile) {
+    console.log(`  Stored in ${DEV_PASSWORD_FILE_NAME} (gitignored)`);
+  }
   console.log("  Override with: LECTURE_PW=... yarn dev");
   console.log("  -------------------------------------");
   console.log("");
 }
 
 async function main() {
+  const envPassword = process.env.LECTURE_PW;
+
   const password = await resolveDevPassword({
-    envPassword: process.env.LECTURE_PW,
+    envPassword,
     isInteractive: Boolean(process.stdin.isTTY),
+    readStored: () => readStoredDevPassword(DEV_PASSWORD_FILE),
+    storePassword: (value) => storeDevPassword(DEV_PASSWORD_FILE, value),
+    generate: generateDevPassword,
     ask: (defaultValue) =>
       askForPassword({
         input: process.stdin,
@@ -99,7 +148,7 @@ async function main() {
     process.exit(buildCode);
   }
 
-  printUnlockReminder(password);
+  printUnlockReminder({ password, storedInFile: !envPassword });
 
   const serveCode = await run(
     "yarn",

@@ -1,3 +1,4 @@
 .direnv
 node_modules
 public
+.dev-password
