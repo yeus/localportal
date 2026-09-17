@@ -42,16 +42,16 @@
     <script>
       // ==== TEXT CONFIGURATION ====
       const texts = {
-        welcomeMessage: "👋 Welcome to your encrypted lectures!",
+        welcomeMessage: "👋 Willkommen beim Archiv von Physik für Großeltern!!",
         promptIntro:
-          "🔒 Welcome! Please enter the password to unlock the lectures.",
-        promptPlaceholder: "Enter password",
-        unlockButton: "Unlock",
-        pwErrorIncorrect: "❌ Incorrect password. Please try again.",
+          "🔒 Willkommen! Bitte geben Sie das Passwort für das P4G-Archiv ein.",
+        promptPlaceholder: "Passwort eingeben...",
+        unlockButton: "Entsperren",
+        pwErrorIncorrect: "❌ Falsches Passwort. Bitte versuchen Sie es erneut.",
         sidebarNoteLocked:
-          "🔒 Links to lectures will appear here once you unlock the page.",
-        sidebarNoteNoLectures: "🔐 Unlock to see available lectures.",
-        logoutButton: "Log out",
+          "🔒 Links zu Vorlesungen erscheinen hier, sobald Sie die Seite entsperrt haben.",
+        sidebarNoteNoLectures: "🔐 Entsperren, um verfügbare Vorlesungen zu sehen.",
+        logoutButton: "Abmelden",
       };
 
       console.log("[startup] script loaded");
@@ -181,7 +181,7 @@
           loadSidebarAndLectures(pw);
 
           // if user landed on e.g. index.html#foo, load that; otherwise default
-          const first = location.hash.slice(1) || "introduction";
+          const first = location.hash.slice(1) || "Intro";
           loadLecture(first, pw);
         }
 
@@ -212,7 +212,7 @@
           welcome.textContent = texts.welcomeMessage;
           // ← set hash to default; our hashchange listener will load it
           welcome.onclick = () => {
-            location.hash = "#introduction";
+            location.hash = "#Intro";
           };
           sidebar.appendChild(welcome);
 
@@ -223,7 +223,7 @@
             manifest = [];
           }
 
-          manifest = manifest.filter((item) => item.id !== "introduction");
+          manifest = manifest.filter(item => item.id !== "Intro");
 
           if (!manifest.length) {
             sidebar.appendChild(
