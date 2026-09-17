@@ -97,16 +97,75 @@ Create or edit a Markdown file in `content/`. For example:
 Lecture notes go here.
 ```
 
-The filename becomes the lecture ID and URL fragment. A file named
-`week-1.md` is opened with `#week-1`. The first level-one heading becomes the
-sidebar title; if there is no level-one heading, the filename is used instead.
-
 You do not need to edit `manifest.json` or anything under `public/` manually.
 Run `yarn dev` while working, or run `LECTURE_PW='...' yarn build` before
 deploying.
 
 The optional `dateien/` directory is copied into `public/dateien/`, so static
 course files can be referenced from lecture HTML when needed.
+
+### Titles and file names
+
+- The filename without `.md` is the **lecture ID**. A file named `week-1.md`
+  is opened with `#week-1` and encrypted to `public/lectures/week-1.enc`.
+- The sidebar title comes from the **first level-one heading** (`# ...`) in
+  the file.
+- If there is no level-one heading, the filename is used as the title with
+  hyphens replaced by spaces (`week-1.md` becomes `week 1`).
+
+The sidebar link shows the title, not the filename. Renaming a file changes the
+URL fragment and the encrypted file name, but not the sidebar label or order
+as long as the file has a level-one heading.
+
+### Sidebar order
+
+The sidebar is sorted alphabetically by title in the browser. The order is
+controlled by the heading text, not by the filename, the file's modification
+time, or the order of files on disk. Sorting uses the browser's default locale,
+so titles with umlauts, accents, or mixed case can sort differently in
+different browsers.
+
+To change the order, change the heading text, for example by prefixing titles
+with a number or a term name. There is no separate order field.
+
+The special ID `introduction` is removed from the sorted list and used for the
+fixed welcome link at the top of the sidebar. Renaming `introduction.md` breaks
+that link; its title does not appear in the list.
+
+The generated `manifest.json` keeps the filesystem order and is not the sidebar
+order. The browser sorts the list after loading it, and the build uses the
+first manifest entry when checking a saved password on page load.
+
+### Heading formatting
+
+The title is the first line that matches `#` followed by whitespace, anywhere
+in the file:
+
+- `# Title` becomes the title. `## Title` (level two) and `#Title` (no space)
+  do not match.
+- Only the first matching line is used, even when it is not the first line of
+  the file.
+- The text is used as written. Markdown formatting is not rendered in the
+  sidebar, so `**Archiv Winter 22-23**` is shown with the asterisks and is
+  sorted by that raw text.
+- A `# ...` line inside a fenced code block before the real heading is picked
+  up as the title.
+
+YAML front matter is not read. A block such as:
+
+```markdown
+---
+title: "Lecture 1"
+---
+```
+
+is rendered into the lecture page as a horizontal rule and a level-two heading,
+and does not set the sidebar title.
+
+### Lecture content
+
+Lecture bodies are converted with standard Markdown. Raw HTML such as
+`<iframe>` is passed through, so embedded videos work.
 
 ## Use the page as a visitor
 
